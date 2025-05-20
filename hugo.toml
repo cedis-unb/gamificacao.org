@@ -1,4 +1,123 @@
 baseURL = "https://gamificacao.org/"
 languageCode = "pt-br"
-title = "Gamificação.ORG"
+title = "Gamificação CEDIS"
 theme = "PaperMod"
+defaultContentLanguage = "pt"
+defaultContentLanguageInSubdir = false
+
+[params]
+  author = "Grupo de gamificação CEDIS"
+  description = "Site do grupo de gamificação do CEDIS UnB"
+
+[taxonomies]
+  tag = "tags"
+  author = "autores"
+
+[languages]
+  [languages.pt]
+    title = "Gamificação.ORG"
+    languageName = "Português"
+    weight = 1
+
+    [languages.pt.menu]
+      [[languages.pt.menu.main]]
+        identifier = "home"
+        name = "Página inicial"
+        url = "/"
+        weight = 1
+
+      [[languages.pt.menu.main]]
+        identifier = "sobre"
+        name = "Sobre"
+        url = "/sobre/"
+        weight = 2
+
+      [[languages.pt.menu.main]]
+        identifier = "pesquisa"
+        name = "Pesquisa"
+        url = "/pesquisa/"
+        weight = 3
+
+      [[languages.pt.menu.main]]
+        identifier = "publicacoes"
+        name = "Publicações"
+        url = "/publicacoes/"
+        weight = 4
+
+      [[languages.pt.menu.main]]
+        identifier = "eventos"
+        name = "Eventos"
+        url = "/eventos/"
+        weight = 5
+
+      [[languages.pt.menu.main]]
+        identifier = "noticias"
+        name = "Notícias"
+        url = "/noticias/"
+        weight = 6
+
+      [[languages.pt.menu.main]]
+        identifier = "recursos"
+        name = "Recursos"
+        url = "/recursos/"
+        weight = 7
+
+      [[languages.pt.menu.main]]
+        identifier = "contato"
+        name = "Contato"
+        url = "/contato/"
+        weight = 8
+
+  [languages.en]
+    title = "Gamification.ORG"
+    languageName = "English"
+    weight = 2
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/en/"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/en/about/"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        identifier = "research"
+        name = "Research"
+        url = "/en/research/"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        identifier = "publications"
+        name = "Publications"
+        url = "/en/publications/"
+        weight = 4
+
+      [[languages.en.menu.main]]
+        identifier = "events"
+        name = "Events"
+        url = "/en/events/"
+        weight = 5
+
+      [[languages.en.menu.main]]
+        identifier = "news"
+        name = "News"
+        url = "/en/news/"
+        weight = 6
+
+      [[languages.en.menu.main]]
+        identifier = "resources"
+        name = "Resources"
+        url = "/en/resources/"
+        weight = 7
+
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/en/contact/"
+        weight = 8

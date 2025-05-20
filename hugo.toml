@@ -1,0 +1,4 @@
+baseURL = "https://gamificacao.org/"
+languageCode = "pt-br"
+title = "Gamificação.ORG"
+theme = "PaperMod"

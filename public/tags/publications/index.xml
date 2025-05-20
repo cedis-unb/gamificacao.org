@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Publications on Gamificação ORG</title>
+    <link>http://localhost:1313/tags/publications/</link>
+    <description>Recent content in Publications on Gamificação ORG</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>pt</language>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Launch of article on heuristic evaluation</title>
+      <link>http://localhost:1313/en/news/heuristic-evaluation-article-launch/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/news/heuristic-evaluation-article-launch/</guid>
+      <description>&lt;p&gt;On April 10, 2025, the article &amp;ldquo;Gamified heuristic evaluation: methods and outcomes&amp;rdquo; was published in the &lt;em&gt;Journal of Applied Gamification&lt;/em&gt;. The study introduces a protocol for incorporating game elements into interface evaluation, focusing on user experience.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

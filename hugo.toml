@@ -6,8 +6,18 @@ defaultContentLanguage = "pt"
 defaultContentLanguageInSubdir = false
 
 [params]
-  author = "Grupo de gamificação CEDIS"
-  description = "Site do grupo de gamificação do CEDIS UnB"
+  author = "CEDIS"
+  description = "Grupo de gamificação do CEDIS/UnB"
+  customCSS = ["css/custom.css"]
+
+  [params.label]
+    # caminho relativo dentro de /static
+    icon       = "images/logo.png"
+    # altura em pixels (ajuste conforme preferir)
+    iconHeight = 40
+    # texto a ser exibido ao lado (vazio para não mostrar)
+    text       = ""
+
 
 [taxonomies]
   tag = "tags"
@@ -15,14 +25,14 @@ defaultContentLanguageInSubdir = false
 
 [languages]
   [languages.pt]
-    title = "Gamificação.ORG"
+    title = "Gamificação ORG"
     languageName = "Português"
     weight = 1
 
     [languages.pt.menu]
       [[languages.pt.menu.main]]
         identifier = "home"
-        name = "Página inicial"
+        name = "Início"
         url = "/"
         weight = 1
 
@@ -69,7 +79,7 @@ defaultContentLanguageInSubdir = false
         weight = 8
 
   [languages.en]
-    title = "Gamification.ORG"
+    title = "Gamification ORG"
     languageName = "English"
     weight = 2
 

@@ -21,8 +21,8 @@ highlightCurrentMenuArea = true
 layout = "fixed-fill-blur"
 
 [footer]
-showMenu = true
-showCopyright = true
+showMenu = "enable"
+showCopyright = false
 showThemeAttribution = false
 showAppearanceSwitcher = true
 showScrollToTop = true

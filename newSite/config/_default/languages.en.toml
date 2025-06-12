@@ -1,0 +1,15 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 2
+title = "Gamification ORG"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo.png"
+
+[params.author]
+name = "CEDIS"

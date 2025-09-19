@@ -8,6 +8,13 @@ pageRef = "about"
 identifier = "OmXIR5znfN"
 weight = 9_999
 
+[[main]]
+name = "Meetings"
+pre = "list"
+pageRef = "meetings"
+identifier = "meetings-en"
+weight = 9_999
+
 [[footer]]
 none = "none"
 

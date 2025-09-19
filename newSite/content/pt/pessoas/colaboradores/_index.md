@@ -3,6 +3,7 @@ title: "Colaboradores"
 description: "Colaboradores do grupo"
 slug: "colaboradores"
 translationKey: "people-collaborators"
+draft: true
 ---
 
 <h3 id="mestrado">Mestrado</h3>

@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "blowfish-tools": "^1.10.0"
+    "blowfish-tools": "^1.10.0",
+    "npm": "^11.6.0"
   }
 }

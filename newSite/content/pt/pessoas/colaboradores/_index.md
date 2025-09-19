@@ -5,6 +5,16 @@ slug: "colaboradores"
 translationKey: "people-collaborators"
 ---
 
+### Mestrado
+
+<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 mb-6">
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Bruno Marquete da Silva</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Bruno Mello Andrade</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Lucas Pereira Gomes Linard</div></div>
+</div>
+
+### Iniciação científica
+
 <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 mb-6">
   <a href="https://cedis.unb.br/pt/people/collaborators/mylena_faria/" class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900">
     <img src="https://cedis.unb.br/assets/images/featured/people_Mylena Faria.png" alt="Mylena Angélica Silva Farias" class="object-cover h-48 w-full">
@@ -18,49 +28,39 @@ translationKey: "people-collaborators"
     <img src="https://cedis.unb.br/assets/images/featured/people_Marcus Martins.png" alt="Marcus Vinicius Paiva Martins" class="object-cover h-48 w-full">
     <div class="p-4 text-center font-semibold">Marcus Vinicius Paiva Martins</div>
   </a>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Davi Rodrigues da Rocha</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Daniel Rodrigues da Rocha</div></div>
 </div>
-### Mestrado
-
-- [Bruno Marquete da Silva](https://cedis.unb.br/pt/areas/gamification/)  
-- [Bruno Mello Andrade](https://cedis.unb.br/pt/areas/gamification/)  
-- [Lucas Pereira Gomes Linard](https://cedis.unb.br/pt/areas/gamification/)  
-
-### Iniciação científica
-
-- [Mylena Angélica Silva Farias](https://cedis.unb.br/pt/people/collaborators/mylena_faria/)
-- [Juan Mangeira Alves](https://cedis.unb.br/pt/people/collaborators/juan_alves/)
-- [Marcus Vinicius Paiva Martins](https://cedis.unb.br/pt/people/collaborators/marcus_martins/)
-- Davi Rodrigues da Rocha
-- Daniel Rodrigues da Rocha
 
 ### TCC
 
-- A. SOUSA E SILVA
-- Ana Beatriz Norberto da Silva
-- Ana Cláudia Alves Mendes Araújo
-- Arthur Rocha Temporim de Lacerda
-- Ateldy Brasil Filho
-- Beatriz Vieira Nascimento
-- Brenno Oliveira Silva
-- Bruno Contessotto Bragança Pinheiro
-- Geovanna Maciel Avelino da Costa
-- Iago Ribeiro
-- João Vitor Lopes de Farias
-- João Vitor de Moura Rosa Silva
-- Leandro Alves Ferreira Santos
-- Luciano Ricardo da Silva Junior
-- Lucas Naves Cauê Oliveira
-- Ludimila da Bela Cruz
-- Luiz Henrique Fernandes Zamprogno
-- Paulo Markes Rodrigues de Oliveira Calado
-- Paulo Vitor Silva Abi Acl
-- Públio Pastrolin Cavalcante
-- Rafael Santos Teodosio
-- Tiago Ribeiro de Assunção
-- Victor Eduardo Araujo Ribeiro
-- Victor Yukio
-- Weiller Fernandes Pereira
-- Wilker Mesquita de Assunção
-- Érico Maximiano Bandeira
+<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">A. SOUSA E SILVA</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-f.svg" alt="Avatar feminino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Ana Beatriz Norberto da Silva</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-f.svg" alt="Avatar feminino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Ana Cláudia Alves Mendes Araújo</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Arthur Rocha Temporim de Lacerda</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Ateldy Brasil Filho</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-f.svg" alt="Avatar feminino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Beatriz Vieira Nascimento</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Brenno Oliveira Silva</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Bruno Contessotto Bragança Pinheiro</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-f.svg" alt="Avatar feminino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Geovanna Maciel Avelino da Costa</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Iago Ribeiro</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">João Vitor Lopes de Farias</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">João Vitor de Moura Rosa Silva</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Leandro Alves Ferreira Santos</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Luciano Ricardo da Silva Junior</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Lucas Naves Cauê Oliveira</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-f.svg" alt="Avatar feminino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Ludimila da Bela Cruz</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Luiz Henrique Fernandes Zamprogno</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Paulo Markes Rodrigues de Oliveira Calado</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Paulo Vitor Silva Abi Acl</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Públio Pastrolin Cavalcante</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Rafael Santos Teodosio</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Tiago Ribeiro de Assunção</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Victor Eduardo Araujo Ribeiro</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Victor Yukio</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Weiller Fernandes Pereira</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Wilker Mesquita de Assunção</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Érico Maximiano Bandeira</div></div>
+</div>
 
-Para atualizar esta lista, edite este arquivo.

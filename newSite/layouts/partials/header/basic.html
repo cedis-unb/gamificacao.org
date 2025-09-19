@@ -47,6 +47,25 @@
                 </p>
             </a>
 
+            <div class="relative">
+              <div class="cursor-pointer flex items-center nested-menu">
+                <span class="mr-1">{{ partial "icon.html" "graduation-cap" }}</span>
+                <p class="text-base font-medium">{{ if $isEN }}People{{ else }}Pessoas{{ end }}</p>
+              </div>
+              <div class="absolute menuhide">
+                <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+                  <div class="flex flex-col space-y-3">
+                    <a href="{{ (cond $isEN "/en/people/researchers/" "/pt/pessoas/pesquisadores/") }}" class="flex items-center">
+                      <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">{{ if $isEN }}Researchers{{ else }}Pesquisadores{{ end }}</p>
+                    </a>
+                    <a href="{{ (cond $isEN "/en/people/collaborators/" "/pt/pessoas/colaboradores/") }}" class="flex items-center">
+                      <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">{{ if $isEN }}Collaborators{{ else }}Colaboradores{{ end }}</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {{ partial "translations.html" . }}
 
             {{ if .Site.Params.enableSearch | default false }}
@@ -129,6 +148,21 @@
                         <a href="{{ $meetURL }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
                             <div class="mr-2">{{ partial "icon.html" "list" }}</div>
                             <p class="text-bg font-bg">{{ if $isEN }}Meetings{{ else }}Reuniões{{ end }}</p>
+                        </a>
+                    </li>
+                    <li class="mt-1">
+                        <p class="text-sm font-semibold text-gray-600 dark:text-gray-300">{{ if $isEN }}People{{ else }}Pessoas{{ end }}</p>
+                    </li>
+                    <li class="mt-1">
+                        <a href="{{ (cond $isEN "/en/people/researchers/" "/pt/pessoas/pesquisadores/") }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+                            <div class="mr-2">{{ partial "icon.html" "graduation-cap" }}</div>
+                            <p class="text-bg font-bg">{{ if $isEN }}Researchers{{ else }}Pesquisadores{{ end }}</p>
+                        </a>
+                    </li>
+                    <li class="mt-1">
+                        <a href="{{ (cond $isEN "/en/people/collaborators/" "/pt/pessoas/colaboradores/") }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+                            <div class="mr-2">{{ partial "icon.html" "star" }}</div>
+                            <p class="text-bg font-bg">{{ if $isEN }}Collaborators{{ else }}Colaboradores{{ end }}</p>
                         </a>
                     </li>
 

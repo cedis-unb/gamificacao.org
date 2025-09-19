@@ -2,6 +2,7 @@
 title: "Reuniões"
 description: "Linha do tempo das reuniões do grupo"
 slug: "reunioes"
+translationKey: "meetings"
 ---
 
 {{< timeline >}}
@@ -63,4 +64,3 @@ Integração, coordenação e próximos passos do projeto.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
-

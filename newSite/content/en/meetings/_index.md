@@ -2,6 +2,7 @@
 title: "Meetings"
 description: "Group meetings timeline"
 slug: "meetings"
+translationKey: "meetings"
 ---
 
 {{< timeline >}}
@@ -63,4 +64,3 @@ Integration, coordination, and next steps.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
-

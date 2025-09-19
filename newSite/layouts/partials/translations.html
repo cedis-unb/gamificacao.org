@@ -6,16 +6,23 @@
     <span class="ltr:mr-1 rtl:ml-1">
       {{ partial "icon.html" "language" }}
     </span>
-    <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="{{ .Title }}">
-      {{- i18n "global.language" | markdownify -}}
-    </div>
+    {{/* Direct toggle: link to translation if exists; else to other language home */}}
+    {{ $switch := (index .Translations 0) }}
+    {{ if not $switch }}
+      {{ $otherHome := index (where .Site.Home.AllTranslations "Lang" "!=" .Lang) 0 }}
+      {{ $switch = $otherHome }}
+    {{ end }}
+    {{ $label := (cond (ne $switch nil) (upper $switch.Lang) "EN") }}
+    <a href="{{ with $switch }}{{ .RelPermalink }}{{ end }}" class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="{{ .Title }}">
+      {{ $label }}
+    </a>
   </div>
   <div class="absolute menuhide">
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         {{ $page := . }}
-        {{ $home := site.Home }}
-        {{ range site.Languages }}
+        {{ $home := .Site.Home }}
+        {{ range .Site.Languages }}
           {{ $lang := . }}
           {{ $t := index (where $page.Translations "Lang" $lang.Lang) 0 }}
           {{ if not $t }}

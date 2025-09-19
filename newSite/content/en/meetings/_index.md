@@ -3,66 +3,91 @@ title: "Meetings"
 description: "Group meetings timeline"
 slug: "meetings"
 translationKey: "meetings"
+meetings:
+  - date: "2025-09-04"
+    title: "Meeting"
+    speaker: "Orchestra"
+    icon: "music"
+    badge: "Project"
+    desc: "Integration, coordination, and next steps."
+  - date: "2025-07-10"
+    title: "Meeting"
+    speaker: "Lucas · Porto Digital"
+    icon: "globe"
+    badge: "Partnership"
+    desc: "Innovation ecosystem and collaboration opportunities."
+  - date: "2025-06-22"
+    title: "Meeting"
+    speaker: "George · SuperR"
+    icon: "lightbulb"
+    badge: "Case"
+    desc: "Experience report and good practices."
+  - date: "2025-06-05"
+    title: "Meeting"
+    speaker: "Leda · IBICT"
+    icon: "graduation-cap"
+    badge: "Guest"
+    desc: "Discussion on information science and gamification."
+  - date: "2025-05-22"
+    title: "Meeting"
+    speaker: "BB"
+    icon: "star"
+    badge: "Presentation"
+    desc: "Knowledge sharing and Q&A."
+  - date: "2025-05-08"
+    title: "Meeting"
+    speaker: "Sergio"
+    icon: "wand-magic-sparkles"
+    badge: "Talk"
+    desc: "The future of Gamification: trends, opportunities, and challenges."
+  - date: "2025-04-03"
+    title: "Meeting"
+    speaker: "Denniel"
+    icon: "graduation-cap"
+    badge: "Thesis"
+    desc: "Presentation of results and discussions on the final project."
+  - date: "2025-03-06"
+    title: "Meeting"
+    speaker: "TBD"
+    icon: "list"
+    badge: "Agenda"
+    desc: "Progress checkpoint and next milestones."
+  - date: "2025-02-13"
+    title: "Meeting"
+    speaker: "TBD"
+    icon: "list"
+    badge: "Agenda"
+    desc: "Group updates and deliverables."
+  - date: "2025-01-30"
+    title: "Meeting"
+    speaker: "TBD"
+    icon: "list"
+    badge: "Agenda"
+    desc: "Planning and action follow-up."
+  - date: "2025-01-16"
+    title: "Meeting"
+    speaker: "TBD"
+    icon: "list"
+    badge: "Agenda"
+    desc: "Topics and agenda will be defined with the group."
+  - date: "2024-12-19"
+    title: "Meeting"
+    speaker: "Mylena & Cris"
+    icon: "heart"
+    desc: "Collaborative session focused on integration and next steps."
+  - date: "2024-12-05"
+    title: "Meeting"
+    speaker: "Bruno Andrade"
+    icon: "star"
+    desc: "Shared experiences and outlook for the semester."
+  - date: "2024-11-21"
+    title: "Cycle Opening"
+    speaker: "Sergio"
+    icon: "lightbulb"
+    badge: "Kickoff"
+    desc: "Official start of the meeting cycle and expectations alignment."
 ---
 
 > {{< icon "list" >}} Below are the group meetings. Newest first.
 
-{{< timeline >}}
-
-{{< timelineItem icon="music" header="2025-09-04 · Meeting" subheader="Orchestra" badge="Project" >}}
-Integration, coordination, and next steps.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="globe" header="2025-07-10 · Meeting" subheader="Lucas · Porto Digital" badge="Partnership" >}}
-Innovation ecosystem and collaboration opportunities.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="lightbulb" header="2025-06-22 · Meeting" subheader="George · SuperR" badge="Case" >}}
-Experience report and good practices.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="graduation-cap" header="2025-06-05 · Meeting" subheader="Leda · IBICT" badge="Guest" >}}
-Discussion on information science and gamification.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="2025-05-22 · Meeting" subheader="BB" badge="Presentation" >}}
-Knowledge sharing and Q&A.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="wand-magic-sparkles" header="2025-05-08 · Meeting" subheader="Sergio" badge="Talk" >}}
-The future of Gamification: trends, opportunities, and challenges.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="graduation-cap" header="2025-04-03 · Meeting" subheader="Denniel" badge="Thesis" >}}
-Presentation of results and discussions on the final project.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="list" header="2025-03-06 · Meeting" subheader="TBD" badge="Agenda" >}}
-Progress checkpoint and next milestones.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="list" header="2025-02-13 · Meeting" subheader="TBD" badge="Agenda" >}}
-Group updates and deliverables.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="list" header="2025-01-30 · Meeting" subheader="TBD" badge="Agenda" >}}
-Planning and action follow-up.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="list" header="2025-01-16 · Meeting" subheader="TBD" badge="Agenda" >}}
-Topics and agenda will be defined with the group.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="heart" header="2024-12-19 · Meeting" subheader="Mylena & Cris" >}}
-Collaborative session focused on integration and next steps.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="2024-12-05 · Meeting" subheader="Bruno Andrade" >}}
-Shared experiences and outlook for the semester.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="lightbulb" header="2024-11-21 · Cycle Opening" subheader="Sergio" badge="Kickoff" >}}
-Official start of the meeting cycle and expectations alignment.
-{{< /timelineItem >}}
-
-{{< /timeline >}}
+{{< meetings >}}

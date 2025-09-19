@@ -1,0 +1,98 @@
+{{- $items := .Page.Params.meetings -}}
+{{- if not $items -}}
+  {{- /* No meetings defined */ -}}
+  <p class="text-neutral-500">{{ if eq .Page.Lang "pt" }}Nenhuma reunião cadastrada.{{ else }}No meetings yet.{{ end }}</p>
+{{- else -}}
+  {{- /* Determine next upcoming date (first future date in ascending order) */ -}}
+  {{- $now := now -}}
+  {{- $asc := sort $items "date" "asc" -}}
+  {{- $nextDate := "" -}}
+  {{- range $asc -}}
+    {{- $d := time .date -}}
+    {{- if and (eq $nextDate "") (ge $d $now) -}}
+      {{- $nextDate = .date -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Collect unique years */ -}}
+  {{- $years := slice -}}
+  {{- range $items -}}
+    {{- $y := (printf "%d" (time .date).Year) -}}
+    {{- $years = $years | append $y -}}
+  {{- end -}}
+  {{- $years = uniq $years -}}
+  {{- $years = sort $years "value" "desc" -}}
+
+  <div class="flex flex-wrap gap-2 mb-6">
+    <button data-filter-year="all" class="px-3 py-1 rounded-full text-sm bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-700 dark:hover:bg-neutral-600">
+      {{ if eq .Page.Lang "pt" }}Todos{{ else }}All{{ end }}
+    </button>
+    {{- range $years -}}
+      <button data-filter-year="{{ . }}" class="px-3 py-1 rounded-full text-sm bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-700 dark:hover:bg-neutral-600">{{ . }}</button>
+    {{- end -}}
+  </div>
+
+  <ol class="border-l-2 border-primary-500 dark:border-primary-300 list-none">
+    {{- /* Render in reverse-chronological order */ -}}
+    {{- $desc := sort $items "date" "desc" -}}
+    {{- range $desc -}}
+      {{- $d := time .date -}}
+      {{- $year := printf "%d" $d.Year -}}
+      <li data-year="{{ $year }}">
+        <div class="flex flex-start">
+          <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+            {{- $icon := resources.Get (printf "icons/%s.svg" (.icon | default "list")) -}}
+            {{- if $icon -}}
+              <span class="relative inline-block align-text-bottom icon">{{ $icon.Content | safeHTML }}</span>
+            {{- end -}}
+          </div>
+          <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 break-words">
+            <div class="flex justify-between items-start gap-2 flex-wrap">
+              <h2 class="mt-0">
+                {{ .date }} · {{ .title }}
+              </h2>
+              <div class="flex gap-2">
+                {{- if .badge -}}
+                <span class="px-2 py-0.5 rounded-full text-xs bg-primary-100 text-primary-700 dark:bg-primary-300 dark:text-neutral-800">{{ .badge }}</span>
+                {{- end -}}
+                {{- if eq .date $nextDate -}}
+                <span class="px-2 py-0.5 rounded-full text-xs bg-amber-100 text-amber-800 dark:bg-amber-300 dark:text-neutral-900">
+                  {{ if eq $.Page.Lang "pt" }}Próximo{{ else }}Next{{ end }}
+                </span>
+                {{- end -}}
+              </div>
+            </div>
+            {{- if .speaker -}}
+            <h4 class="mt-0">{{ .speaker }}</h4>
+            {{- end -}}
+            {{- if .desc -}}
+            <div class="mb-6">{{ .desc }}</div>
+            {{- end -}}
+          </div>
+        </div>
+      </li>
+    {{- end -}}
+  </ol>
+
+  <script>
+  (function(){
+    var btns = document.querySelectorAll('[data-filter-year]');
+    var items = document.querySelectorAll('li[data-year]');
+    btns.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var y = this.getAttribute('data-filter-year');
+        items.forEach(function(li){
+          if (y === 'all' || li.getAttribute('data-year') === y) {
+            li.classList.remove('hidden');
+          } else {
+            li.classList.add('hidden');
+          }
+        });
+        btns.forEach(function(b){ b.classList.remove('ring-2','ring-primary-500'); });
+        this.classList.add('ring-2','ring-primary-500');
+      });
+    });
+  })();
+  </script>
+{{- end -}}
+

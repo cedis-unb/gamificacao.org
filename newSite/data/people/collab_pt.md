@@ -30,8 +30,9 @@ draft: true
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">A. SOUSA E SILVA</div></div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-f.svg" alt="Avatar feminino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Ana Beatriz Norberto da Silva</div></div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-f.svg" alt="Avatar feminino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Ana Cláudia Alves Mendes Araújo</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Arthur Rocha Temporim de Lacerda</div></div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900">
-    <img src="https://cedis.unb.br/assets/images/featured/people_Ricardo%20Ajax.png" alt="Arthur Rocha Temporim de Lacerda" loading="lazy" class="object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-40 w-full">
+    <img src="/img/avatar-m.svg" alt="Avatar masculino" loading="lazy" class="object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-40 w-full">
     <div class="p-4 text-center font-semibold min-h-14 flex items-center justify-center">Arthur Rocha Temporim de Lacerda</div>
   </div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Ateldy Brasil Filho</div></div>

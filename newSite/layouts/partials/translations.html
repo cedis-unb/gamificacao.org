@@ -1,0 +1,42 @@
+{{/* Custom override: always show language selector when multilingual.
+     Links to translated page if available, otherwise to that language's home. */}}
+{{ if hugo.IsMultilingual }}
+<div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    <span class="ltr:mr-1 rtl:ml-1">
+      {{ partial "icon.html" "language" }}
+    </span>
+    <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="{{ .Title }}">
+      {{- i18n "global.language" | markdownify -}}
+    </div>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        {{ $page := . }}
+        {{ $home := site.Home }}
+        {{ range site.Languages }}
+          {{ $lang := . }}
+          {{ $t := index (where $page.Translations "Lang" $lang.Lang) 0 }}
+          {{ if not $t }}
+            {{ $t = index (where $home.AllTranslations "Lang" $lang.Lang) 0 }}
+          {{ end }}
+          {{ if $t }}
+          <a href="{{ $t.RelPermalink }}" class="flex items-center">
+            <p class="text-sm font-sm text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="{{ $t.Title }}">
+              {{ $lang.Params.displayName | emojify }}
+            </p>
+          </a>
+          {{ else }}
+          <span class="flex items-center opacity-60">
+            <p class="text-sm font-sm text-gray-500" title="{{ $lang.LanguageName }}">
+              {{ $lang.Params.displayName | emojify }}
+            </p>
+          </span>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

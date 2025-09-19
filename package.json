@@ -1,7 +1,9 @@
 {
   "scripts": {
     "start": "hugo server -s newSite -D",
-    "build": "hugo -s newSite -D --gc"
+    "build": "hugo -s newSite -D --gc",
+    "clean": "rm -rf newSite/public newSite/.hugo_cache",
+    "build:clean": "npm run clean && npm run build"
   },
   "dependencies": {
     "blowfish-tools": "^1.10.0",

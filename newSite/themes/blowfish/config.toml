@@ -2,4 +2,5 @@
 [module.hugoVersion]
 extended = true
 min = "0.137.0"
-max = "0.147.5"
+# Raised max to support current Hugo version in this repo
+max = "0.147.6"

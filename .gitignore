@@ -1,0 +1,17 @@
+# Node
+node_modules/
+
+# Hugo build output
+public/
+newSite/public/
+
+# Hugo cache and generated resources
+newSite/.hugo_cache/
+newSite/resources/_gen/
+
+# Hugo lock
+.hugo_build.lock
+
+# OS noise
+.DS_Store
+Thumbs.db

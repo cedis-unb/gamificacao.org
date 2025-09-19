@@ -1,7 +1,24 @@
 <footer id="site-footer" class="py-6 print:hidden">
   <div class="flex items-center justify-between text-sm text-neutral-500 dark:text-neutral-400">
-    <div class="font-semibold">CEDIS</div>
-    <div class="font-semibold">UnB</div>
+    <div class="flex items-center">
+      {{ $cedis := resources.Get "logo CEDIS.svg" }}
+      {{ if $cedis }}
+        <a href="https://cedis.unb.br" class="inline-flex items-center" title="CEDIS" target="_blank" rel="noopener">
+          <img src="{{ $cedis.RelPermalink }}" alt="CEDIS" class="h-8 w-auto" />
+        </a>
+      {{ else }}
+        <a href="https://cedis.unb.br" class="font-semibold" target="_blank" rel="noopener">CEDIS</a>
+      {{ end }}
+    </div>
+    <div class="flex items-center">
+      {{ $unb := resources.Get "logo UnB.jpg" }}
+      {{ if $unb }}
+        <a href="https://unb.br" class="inline-flex items-center" title="UnB" target="_blank" rel="noopener">
+          <img src="{{ $unb.RelPermalink }}" alt="UnB" class="h-8 w-auto" />
+        </a>
+      {{ else }}
+        <a href="https://unb.br" class="font-semibold" target="_blank" rel="noopener">UnB</a>
+      {{ end }}
+    </div>
   </div>
 </footer>
-

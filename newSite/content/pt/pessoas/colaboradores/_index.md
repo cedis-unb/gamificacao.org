@@ -7,7 +7,7 @@ translationKey: "people-collaborators"
 
 ### Mestrado
 
-<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 mb-6">
+<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 mb-6">
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Bruno Marquete da Silva</div></div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Bruno Mello Andrade</div></div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Lucas Pereira Gomes Linard</div></div>
@@ -16,18 +16,9 @@ translationKey: "people-collaborators"
 ### Iniciação científica
 
 <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 mb-6">
-  <a href="https://cedis.unb.br/pt/people/collaborators/mylena_faria/" class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900">
-    <img src="https://cedis.unb.br/assets/images/featured/people_Mylena Faria.png" alt="Mylena Angélica Silva Farias" class="object-cover h-48 w-full">
-    <div class="p-4 text-center font-semibold">Mylena Angélica Silva Farias</div>
-  </a>
-  <a href="https://cedis.unb.br/pt/people/collaborators/juan_alves/" class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900">
-    <img src="https://cedis.unb.br/assets/images/featured/people_Juan Alves.png" alt="Juan Mangeira Alves" class="object-cover h-48 w-full">
-    <div class="p-4 text-center font-semibold">Juan Mangeira Alves</div>
-  </a>
-  <a href="https://cedis.unb.br/pt/people/collaborators/marcus_martins/" class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900">
-    <img src="https://cedis.unb.br/assets/images/featured/people_Marcus Martins.png" alt="Marcus Vinicius Paiva Martins" class="object-cover h-48 w-full">
-    <div class="p-4 text-center font-semibold">Marcus Vinicius Paiva Martins</div>
-  </a>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-f.svg" alt="Avatar feminino" loading="lazy" class="object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-48 w-full"><div class="p-4 text-center font-semibold">Mylena Angélica Silva Farias</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" loading="lazy" class="object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-48 w-full"><div class="p-4 text-center font-semibold">Juan Mangeira Alves</div></div>
+  <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" loading="lazy" class="object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-48 w-full"><div class="p-4 text-center font-semibold">Marcus Vinicius Paiva Martins</div></div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Davi Rodrigues da Rocha</div></div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><img src="/img/avatar-m.svg" alt="Avatar masculino" class="object-cover h-48 w-full"><div class="p-4 text-center font-semibold">Daniel Rodrigues da Rocha</div></div>
 </div>
@@ -63,4 +54,3 @@ translationKey: "people-collaborators"
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Wilker Mesquita de Assunção</div></div>
   <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900"><div class="flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div><div class="p-4 text-center font-semibold">Érico Maximiano Bandeira</div></div>
 </div>
-

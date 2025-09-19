@@ -2,8 +2,6 @@
 title: "Início"
 ---
 
-<h2 style="text-align:center">Este é o site sobre gamificação</h2>
-
 Gamification is a process that uses elements, techniques, and game design mechanics in contexts not related to games, aiming to increase user motivation, participation, and engagement. Gamification has been applied in various fields, such as education, marketing, health, and corporate training, becoming a growing trend over the last decade.
 
 ## About the Area Coordinator

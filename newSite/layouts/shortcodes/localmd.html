@@ -1,0 +1,8 @@
+{{/* Include local Markdown file by path relative to project root */}}
+{{ $path := .Get "path" }}
+{{ with readFile $path }}
+  {{ . | markdownify }}
+{{ else }}
+  {{ errorf "localmd: file not found %s" $path }}
+{{ end }}
+

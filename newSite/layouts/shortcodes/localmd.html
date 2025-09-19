@@ -7,9 +7,14 @@
   {{/* Strip front matter if present (--- ... --- at start) */}}
   {{ $content := replaceRE "^---[\\s\\S]*?---\\s*" "" $raw }}
   {{/* Normalize grids to at least 4 cols on md and beyond */}}
-  {{ $content = replaceRE "sm:grid-cols-2 md:grid-cols-3" "grid-cols-2 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6" $content }}
-  {{ $content = replaceRE "grid gap-4 sm:grid-cols-2 md:grid-cols-3" "grid gap-4 grid-cols-2 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6" $content }}
-  {{ $content = replaceRE "grid gap-4 sm:grid-cols-2 md:grid-cols-3 mb-6" "grid gap-4 grid-cols-2 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 mb-6" $content }}
+  {{ $content = replaceRE "sm:grid-cols-2 md:grid-cols-3" "grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4" $content }}
+  {{ $content = replaceRE "grid gap-4 sm:grid-cols-2 md:grid-cols-3" "grid gap-4 grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4" $content }}
+  {{ $content = replaceRE "grid gap-4 sm:grid-cols-2 md:grid-cols-3 mb-6" "grid gap-4 grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 mb-6" $content }}
+  {{/* Normalize image sizing to contained avatars */}}
+  {{/* Force all images to uniform avatar sizing */}}
+  {{ $content = replaceRE "object-cover" "object-contain" $content }}
+  {{ $content = replaceRE "h-48" "h-40" $content }}
+  {{ $content = replaceRE "object-contain" "object-contain bg-neutral-200 dark:bg-neutral-800 p-6" $content }}
   {{/* Replace placeholder emoji avatar with default male avatar block */}}
   {{ $content = replaceRE "<div class=\\\"flex items-center justify-center h-48 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl\\\">👤</div>" "<img src=\\\"/img/avatar-m.svg\\\" alt=\\\"Avatar\\\" loading=\\\"lazy\\\" class=\\\"object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-48 w-full\\\">" $content }}
   {{/* Ensure fixed title height for alignment */}}

@@ -16,7 +16,7 @@ translationKey: "people"
 
 <h2 id="pesquisadores">Pesquisadores</h2>
 
-<div class="grid gap-4 grid-cols-2 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+<div class="grid gap-4 grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
   <a href="https://cedis.unb.br/pt/people/sergio_freitas/" class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900 transition-transform border border-transparent hover:border-primary-300 hover:shadow-xl hover:scale-[1.01]">
     <img src="/img/avatar-m.svg" alt="Avatar masculino" loading="lazy" class="object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-40 w-full">
     <div class="p-3 text-center font-semibold min-h-12 flex items-center justify-center">Sergio Antônio Andrade de Freitas {{< badge >}}Coordenador{{< /badge >}}</div>
@@ -37,4 +37,4 @@ translationKey: "people"
 
 <h2 id="colaboradores">Colaboradores</h2>
 
-{{< localmd path="content/pt/pessoas/colaboradores/_index.md" >}}
+{{< localmd path="data/people/collab_pt.md" >}}

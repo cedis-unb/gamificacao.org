@@ -32,3 +32,8 @@ shortcode:
 recent:
   show_more: "Show More"
 
+list:
+  no_articles: ""
+
+term:
+  no_articles: ""

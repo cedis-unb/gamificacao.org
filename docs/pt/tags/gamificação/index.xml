@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gamificação on Gamificação ORG</title>
+    <link>http://localhost:1313/pt/tags/gamifica%C3%A7%C3%A3o/</link>
+    <description>Recent content in Gamificação on Gamificação ORG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pt/tags/gamifica%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Engenharia de Software da UnB recebe equipe de Gamificação do Banco do Brasil</title>
+      <link>http://localhost:1313/pt/posts/visita-bb-gamificacao-2025/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pt/posts/visita-bb-gamificacao-2025/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Artigo sobre processo gamificado de desenvolvimento de chatbots é apresentado em conferência internacional</title>
+      <link>http://localhost:1313/pt/posts/artigo-chatbot-gamificado-intellisys-2024/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pt/posts/artigo-chatbot-gamificado-intellisys-2024/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

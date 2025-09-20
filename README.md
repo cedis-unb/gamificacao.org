@@ -9,7 +9,7 @@ Site estático construído com Hugo e o tema Blowfish. Conteúdo bilíngue (Port
 ## Como rodar
 - Desenvolvimento: `npm start` (Hugo server com rascunhos)
 - Produção (pré‑visualização): `npm run serve:prod`
-- Build: `npm run build` (gera em `newSite/public/`)
+- Build: `npm run build` (gera em `docs/` na raiz do repositório)
 - Limpar e buildar: `npm run build:clean`
 - Checagens de build: `npm run check` (falha em warnings)
 
@@ -41,20 +41,23 @@ Site estático construído com Hugo e o tema Blowfish. Conteúdo bilíngue (Port
 - Seletor de idioma em `layouts/partials/translations.html` (sempre visível; tenta linkar a tradução; fallback para home do idioma)
 
 ## Deploy (GitHub Pages)
-Este repositório inclui um workflow de GitHub Actions em `.github/workflows/hugo.yml` que:
-- Faz checkout com submódulos
-- Instala Hugo (extended)
-- Roda `hugo -s newSite --minify`
-- Publica `newSite/public` no GitHub Pages
+O projeto está configurado para publicar o build no diretório `docs/` (raiz do repositório) via `publishDir = "../docs"`.
 
-Passos para habilitar:
-1. Em Settings → Pages, selecione “Build and deployment: GitHub Actions”
-2. Garanta permissões de Pages para o workflow (já configurado no arquivo)
-3. Faça push na branch padrão (ex.: `main`) e aguarde o deploy
+Há duas formas recomendadas de deploy:
 
-Alternativas de deploy:
-- Netlify: aponte para `newSite/` e use comando `hugo -s newSite --gc --minify`; diretório de publicação `newSite/public`
-- Qualquer hosting estático: publique o conteúdo de `newSite/public`
+1) Pages a partir da pasta `/docs` (mais simples)
+- Em Settings → Pages: “Build and deployment: Deploy from a branch”
+- Branch: `main` (ou a padrão) • Folder: `/docs`
+- Após `npm run build`, o site é servido a partir de `https://<user>.github.io/<repo>/` (ou do domínio configurado).
+
+2) GitHub Actions (workflow incluso)
+- Arquivo: `.github/workflows/hugo.yml`
+- O passo de build roda `hugo -s newSite --minify --gc`, que gera o site em `docs/` (por causa do `publishDir`).
+- Ajuste o artifact de publicação para usar `path: docs` (o workflow padrão aponta para `newSite/public`).
+
+Outras opções de deploy:
+- Netlify: base `newSite/`, comando `hugo -s newSite --gc --minify`, diretório de publicação `docs` (ou ajuste conforme sua preferência)
+- Qualquer hosting estático: publique o conteúdo de `docs/`
 
 ## Manutenção do tema
 - O tema Blowfish é um submódulo (`themes/blowfish`). Para atualizar:
@@ -65,5 +68,6 @@ Alternativas de deploy:
 - Recomenda‑se fixar o submódulo em uma tag/commit estável ao invés de seguir `main`.
 
 ## Notas de configuração
-- Removido `newSite/hugo.toml` (duplicado) para evitar conflitos com `config/_default/*`
-- `defaultContentLanguageInSubdir` definido como `true` (Português em `/pt/`)
+- `baseURL = "https://gamificacao.org/"`
+- `publishDir = "../docs"` (gera em `docs/` na raiz)
+- `defaultContentLanguage = "pt"` e `defaultContentLanguageInSubdir = true` (Português em `/pt/`)

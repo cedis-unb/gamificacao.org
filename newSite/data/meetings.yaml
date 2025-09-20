@@ -250,22 +250,7 @@ en:
       #### Reception
 
       Faculty and peers praised the dense literature review and clarity of preliminary results, while suggesting caution about relying on a single database and encouraging continuation at the master’s level. Prof. Sergio Freitas noted that a structured guide already represents a relevant contribution to the field.
-  - date: "2025-03-06"
-    title: "Meeting"
-    speaker: "TBD"
-    icon: "list"
-    badge: "Agenda"
-    desc: "Progress checkpoint and next milestones."
-    videoURL: ""
-    summary: ""
-  - date: "2025-02-13"
-    title: "Meeting"
-    speaker: "TBD"
-    icon: "list"
-    badge: "Agenda"
-    desc: "Group updates and deliverables."
-    videoURL: ""
-    summary: ""
+  
   - date: "2025-01-30"
     title: "Meeting"
     speaker: "Luciana Assis · Embrapa"
@@ -308,12 +293,12 @@ en:
 
       The group discussed standardizing a motivational‑profile questionnaire for Gamificação.ORG, based on Luciana’s instrument, and suggested submitting papers to journals such as Revista Design e Tecnologia (UFRGS), exploring methods and findings.
     links:
-      - label: "HCII (2023) publication"
-        url: ""
-      - label: "GSteck system"
-        url: ""
-      - label: "Revista Design e Tecnologia (UFRGS)"
-        url: ""
+      - label: "Master's dissertation (UnB Repository)"
+        url: "https://repositorio.unb.br/handle/10482/48525"
+      - label: "Gamification in Organizational Contexts: A Systematic Literature Review"
+        url: "https://doi.org/10.1007/978-3-031-35969-9_23"
+      - label: "Embrapa"
+        url: "https://www.embrapa.br/"
   - date: "2025-01-16"
     title: "Meeting"
     speaker: "Capt. Públio Cavalcante"
@@ -348,6 +333,11 @@ en:
       #### Conclusion
 
       Gamification can engage agents and improve intelligence reporting, but faces constraints of time, culture, and continuity. Prof. Sergio Freitas highlighted intangible gains — especially feedback and professional appreciation — as central to gamification and worth deeper research.
+    links:
+      - label: "Master's dissertation (UnB Repository)"
+        url: "http://repositorio2.unb.br/handle/10482/47822"
+      - label: "Evaluation of the Change in the Quality of Reports with the Application of Gamification in a Corporative Institution"
+        url: "https://doi.org/10.1007/978-3-031-05544-7_27"
   - date: "2024-12-19"
     title: "Meeting"
     speaker: "Prof. Cristiane S. Ramos & Mylena A. S. Farias"
@@ -382,12 +372,16 @@ en:
 
       The study opens paths for future research and reinforces integrating motivational diagnostics with business metrics — also echoed in partnerships with organizations such as Banco do Brasil.
     links:
-      - label: "Paper — Process for players"
-        url: ""
-      - label: "Canal Ciência"
-        url: ""
+      - label: "Project page — Canal Ciência"
+        url: "https://cedis.unb.br/projects/canal_ciencia"
+      - label: "A Process to Identify Players’ Motivational Profiles for Designing a Gamification Project"
+        url: "https://link.springer.com/chapter/10.1007/978-3-031-64608-9_4"
+      - label: "Best paper — news"
+        url: "https://cedis.unb.br/posts/news-post.010/"
+      - label: "Canal Ciência — official site"
+        url: "https://canalciencia.ibict.br/"
       - label: "Galactic Journey"
-        url: ""
+        url: "https://canalciencia.ibict.br/jornada-galactica/"
   - date: "2024-12-05"
     title: "Meeting"
     speaker: "Bruno Mello Andrade"
@@ -685,18 +679,7 @@ pt:
       #### Repercussão
 
       Professores e colegas elogiaram a densidade da revisão e a clareza dos resultados preliminares, sugerindo cautela quanto ao uso de uma única base e incentivando continuidade no mestrado. O professor Sergio Freitas lembrou que a criação de um guia sistemático já representa contribuição relevante para a área.
-  - date: "2025-03-06"
-    title: "Encontro"
-    speaker: "A definir"
-    icon: "list"
-    badge: "Agenda"
-    desc: "Checkpoint de andamento e próximos marcos."
-  - date: "2025-02-13"
-    title: "Encontro"
-    speaker: "A definir"
-    icon: "list"
-    badge: "Agenda"
-    desc: "Atualizações do grupo e definição de entregas."
+  
   - date: "2025-01-30"
     title: "Encontro"
     speaker: "Luciana Assis · Embrapa"
@@ -739,12 +722,12 @@ pt:
 
       O grupo discutiu padronizar um questionário de perfis motivacionais no Gamificação.ORG, a partir do instrumento de Luciana, e sugeriu submissões a periódicos como a Revista Design e Tecnologia (UFRGS), explorando metodologias e resultados.
     links:
-      - label: "Publicação HCII (2023)"
-        url: ""
-      - label: "Sistema GSteck"
-        url: ""
-      - label: "Revista Design e Tecnologia (UFRGS)"
-        url: ""
+      - label: "Dissertação (Repositório UnB)"
+        url: "https://repositorio.unb.br/handle/10482/48525"
+      - label: "Gamification in Organizational Contexts: A Systematic Literature Review"
+        url: "https://doi.org/10.1007/978-3-031-35969-9_23"
+      - label: "Embrapa"
+        url: "https://www.embrapa.br/"
   - date: "2025-01-16"
     title: "Encontro"
     speaker: "Cap. Públio Cavalcante"
@@ -779,6 +762,11 @@ pt:
       #### Conclusão
 
       A gamificação mostrou potencial para engajar agentes e aprimorar relatórios, mas enfrenta barreiras de tempo, cultura e continuidade. O prof. Sergio Freitas destacou ganhos intangíveis — feedback e valorização profissional — como centrais na lógica da gamificação e promissores para pesquisas futuras.
+    links:
+      - label: "Dissertação (Repositório UnB)"
+        url: "http://repositorio2.unb.br/handle/10482/47822"
+      - label: "Evaluation of the Change in the Quality of Reports with the Application of Gamification in a Corporative Institution"
+        url: "https://doi.org/10.1007/978-3-031-05544-7_27"
   - date: "2024-12-19"
     title: "Encontro"
     speaker: "Profa. Cristiane S. Ramos & Mylena A. S. Farias"
@@ -814,12 +802,16 @@ pt:
 
       O estudo abre caminho para futuras pesquisas e reforça a importância de integrar diagnósticos motivacionais com métricas de negócio — ponto também ressaltado em parcerias com organizações como o Banco do Brasil.
     links:
-      - label: "Artigo — Process for players"
-        url: ""
-      - label: "Canal Ciência"
-        url: ""
+      - label: "Página do projeto — Canal Ciência"
+        url: "https://cedis.unb.br/pt/projects/canal_ciencia/"
+      - label: "A Process to Identify Players’ Motivational Profiles for Designing a Gamification Project"
+        url: "https://link.springer.com/chapter/10.1007/978-3-031-64608-9_4"
+      - label: "Best paper — notícia"
+        url: "https://cedis.unb.br/pt/posts/news-post.010/"
+      - label: "Site do Canal Ciência"
+        url: "https://canalciencia.ibict.br/"
       - label: "Jornada Galáctica"
-        url: ""
+        url: "https://canalciencia.ibict.br/jornada-galactica/"
   - date: "2024-12-05"
     title: "Encontro"
     speaker: "Bruno Mello Andrade"

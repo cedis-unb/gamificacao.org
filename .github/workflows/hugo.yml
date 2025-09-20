@@ -29,12 +29,15 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.128.2'
+          # Blowfish v2 requires Hugo >= 0.137.0 (see themes/blowfish/config.toml)
+          hugo-version: '0.147.6'
           extended: true
 
       - name: Build
         run: |
-          hugo -s newSite --minify --gc
+          # Build site; publishDir is set to ../docs in newSite/config/_default/hugo.toml
+          # Cache set inside workspace to avoid permission issues
+          hugo -s newSite --minify --gc --cacheDir "${{ github.workspace }}/newSite/.hugo_cache"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

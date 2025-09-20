@@ -1,6 +1,6 @@
 {{/* Renders a grid of person cards. Expects .items (list of dicts with name, url?, avatar?, badge?); and .lang */}}
 {{- $lang := .lang | default .Page.Lang | default .Site.Language.Lang -}}
-<section class="w-full grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+<section class="w-full grid gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
   {{- range $person := .items -}}
     {{- $name := $person.name -}}
     {{- $url := $person.url | default "" -}}
@@ -18,7 +18,7 @@
 
     {{- $img := (print ("img/avatar-m.svg" | relURL)) -}}
 
-    <div class="h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-5 shadow hover:shadow-xl transition-shadow">
+    <div class="h-full m-2 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-5 shadow hover:shadow-xl transition-shadow">
       <div class="flex flex-col items-center text-center gap-3">
         <div class="h-12 w-12 rounded-full overflow-hidden ring-2 ring-neutral-200 dark:ring-neutral-700 bg-white">
           <img src="{{ $img }}" alt="Avatar" class="h-full w-full object-contain" loading="lazy" />
@@ -54,7 +54,7 @@
                   {{- else -}}
                     <span>{{ $p.title }}</span>
                   {{- end -}}
-                  {{- with $p.year -}} <span class="text-neutral-400">({{ . }})</span>{{- end -}}
+                  {{ with $p.year }} <span class="text-neutral-400"> ({{ . }})</span>{{ end }}
                 </li>
               {{- end -}}
             </ul>

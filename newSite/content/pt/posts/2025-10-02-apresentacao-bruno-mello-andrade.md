@@ -1,6 +1,6 @@
 ---
 title: "Bruno Mello Andrade apresenta resultados parciais da dissertação"
-date: 2025-09-01T09:00:00-03:00
+date: 2025-09-10T09:00:00-03:00
 eventDate: 2025-10-02T10:00:00-03:00
 slug: apresentacao-bruno-mello-andrade
 description: "Em preparação para a defesa de mestrado, Bruno Mello Andrade apresenta resultados parciais à comunidade do Gamificação.ORG."

@@ -3,15 +3,15 @@
 {{ $pages := cond $sec (where $sec.RegularPages "Lang" .Lang) (slice) }}
 {{ $sorted := first 4 (sort $pages "Date" "desc") }}
 
-<section class="w-full grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+<section class="w-full grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
   {{ range $sorted }}
   <a href="{{ .RelPermalink }}" class="group block">
-    <div class="h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 overflow-hidden shadow hover:shadow-2xl transition-shadow duration-200">
+    <div class="h-full m-2 rounded-lg bg-neutral-50 dark:bg-neutral-800/50 overflow-hidden p-6 shadow-2xl hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)] transition-shadow duration-200">
       {{/* Header image (fallback to logo) */}}
       {{ $logo := resources.Get "logo.png" }}
-      <div class="w-full h-32 bg-cover bg-center nozoom" style="background-image:url('{{ with $logo }}{{ .RelPermalink }}{{ end }}');"></div>
+      <div class="w-full h-32 -mt-2 -mx-2 mb-4 rounded-md bg-cover bg-center nozoom" style="background-image:url('{{ with $logo }}{{ .RelPermalink }}{{ end }}');"></div>
 
-      <div class="flex flex-col gap-3 p-4">
+      <div class="flex flex-col gap-3">
         {{/* Title */}}
         <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral group-hover:underline group-hover:decoration-primary-500 group-hover:underline-offset-2">{{ .Title | emojify }}</h3>
 

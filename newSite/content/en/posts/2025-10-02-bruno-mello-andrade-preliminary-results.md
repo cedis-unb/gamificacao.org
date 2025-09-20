@@ -1,6 +1,6 @@
 ---
 title: "Bruno Mello Andrade presents preliminary master’s results"
-date: 2025-09-01T09:00:00-03:00
+date: 2025-09-10T09:00:00-03:00
 eventDate: 2025-10-02T10:00:00-03:00
 slug: bruno-mello-andrade-preliminary-results
 description: "In preparation for his defense, Bruno Mello Andrade shares preliminary results with the Gamificação.ORG community."

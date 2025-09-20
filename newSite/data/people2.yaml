@@ -1,0 +1,939 @@
+people:
+  - name: Ana Carolina Costa César
+    categories:
+      - people
+      - scientific_initiation
+    title:
+      pt: Projeto sobre Desenvolvimento de Software Verde
+      en: Project on Green Software Development
+    program: curso_esw2
+    advisors:
+      - fabiana_mendes
+    tags:
+      - inactive
+      - green_software
+    year: 2022
+
+  - name: Dione Ramos Canuto Moura
+    categories:
+      - people
+      - master_student
+    title:
+      pt: (Em definição)
+      en: (not defined)
+    program: curso_ppca
+    advisors:
+      - george_marsicano
+    tags:
+      - active
+      - software_architecture
+    year: 2022
+
+  - name: Lucas Kuniyoshi
+    categories:
+      - people
+      - master_student
+    title:
+      pt: (Em definição)
+      en: (not defined)
+    program: curso_ppca
+    advisors:
+      - andre_lanna
+    tags:
+      - active
+    year: 2021
+
+  - name: Suéllyn Schopping
+    categories:
+      - people
+      - master_student
+    title:
+      pt: (Em definição)
+      en: (not defined)
+    program: curso_ppca
+    advisors:
+      - andre_lanna
+    tags:
+      - active
+    year: 2021
+  - name: Sandro Leite Furtado
+    categories:
+      - people
+      - master_student
+    title:
+      pt: Proposição de Melhoria de Usabilidade da Interação entre Usuário e Sistema Corporativo do Exército Brasileiro
+      en: Proposal for Usability Improvement of the Interaction between User and the Brazilian Army Corporate System
+    program: curso_ppca
+    advisors:
+      - george_marsicano
+    tags:
+      - active
+      - software_quality
+    year: 2021
+
+  - name: Luis Guilherme Gaboardi Lins
+    categories:
+      - people
+      - tcc
+    title:
+      pt: Uso de LLMs em diálogos sobre direito do trabalho
+      en: Use of LLMs in labor law dialogues
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - machine_learning
+      - ai
+    year: 2024
+
+  - name: Alvaro Henrique de Sousa Gouvea
+    categories:
+      - people
+      - tcc
+    title:
+      pt: Uso de LLMs em diálogos sobre direito do trabalho
+      en: Use of LLMs in labor law dialogues
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - machine_learning
+      - ai
+    year: 2024
+
+  - name: Antonio Rangel Chaves
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Gamificação no Ambiente Virtual de Aprendizagem Moodle: Guia e Ferramenta para Criadores de Conteúdo'
+      en: 'Gamification in the Moodle Virtual Learning Environment: Guide and Tool for Content Creators'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - gamification
+      - inactive
+    year: 2023
+
+  - name: Vitor Diniz Pagani Vieira Ribeiro
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Gamificação no Ambiente Virtual de Aprendizagem Moodle: Guia e Ferramenta para Criadores de Conteúdo'
+      en: 'Gamification in the Moodle Virtual Learning Environment: Guide and Tool for Content Creators'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - gamification
+      - inactive
+    year: 2023
+
+  - name: Bruno Marquete da Silva
+    categories:
+      - people
+      - master_student
+    title:
+      pt: Em definição
+      en: Topic under development
+    program: curso_ppca
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - machine_learning
+    year: 2024
+
+  - name: Bruno Mello Andrade
+    categories:
+      - people
+      - master_student
+    title:
+      pt: Em definição
+      en: Topic under development
+    program: curso_ppca
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - machine_learning
+    year: 2024
+
+  - name: Lucas Pereira Gomes Linard
+    categories:
+      - people
+      - master_student
+    title:
+      pt: Em definição
+      en: Topic under development
+    program: curso_ppca
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - machine_learning
+    year: 2024
+
+  - name: Giulia Lobo Barros
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Melhoria de um processo de engenharia de requisitos de software'
+      en: 'Improvement of a software requirements engineering process'
+    program: curso_esw2
+    advisors:
+      - cristiane_ramos
+      - ricardo_ajax
+    tags:
+      - inactive
+      - software_requirements
+    year: 2023
+  
+  - name: Daniel Barcelos Moreira
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Ferramentas de avaliação de acessibilidade de sites web utilizados por pessoas idosas: Guia de apoio à escolha'
+      en: 'Web accessibility evaluation tools for elderly people: A support guide for choosing'
+    program: curso_esw2
+    advisors:
+      - cristiane_ramos
+      - ricardo_ajax
+    tags:
+      - software_quality
+      - active
+    year: 2024
+  
+  - name: Juliana Pereira Valle Gonçalves
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Ferramentas de avaliação de acessibilidade de sites web utilizados por pessoas idosas: Guia de apoio à escolha'
+      en: 'Web accessibility evaluation tools for elderly people: A support guide for choosing'
+    program: curso_esw2
+    advisors:
+      - cristiane_ramos
+      - ricardo_ajax
+    tags:
+      - software_quality
+      - active
+    year: 2024
+
+  - name: Guilherme Daniel Fernandes da Silva
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Qualidade de software e envelhecimento populacional: uma análise com base nos dados da TIC Domicílios'
+      en: 'Software quality and population aging: an analysis based on ICT Household data'
+    program: curso_esw2
+    advisors:
+      - marilia_miranda
+      - ricardo_ajax
+    tags:
+      - inactive
+      - software_quality
+    year: 2023
+
+  - name: Lorrayne Alves Cardozo
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Qualidade de software e envelhecimento populacional: uma análise com base nos dados da TIC Domicílios'
+      en: 'Software quality and population aging: an analysis based on ICT Household data'
+    program: curso_esw2
+    advisors:
+      - marília_miranda
+      - ricardo_ajax
+    tags:
+      - software_quality
+      - inactive
+    year: 2023
+
+  - name: Ricardo de Castro Loureiro
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Tecnologias para a inclusão: Métricas para avaliação da acessibilidade de páginas web para pessoas com deficiência visual'
+      en: 'Technologies for inclusion: Metrics for evaluating web page accessibility for visually impaired people'
+    program: curso_esw2
+    advisors:
+      - cristiane_ramos
+      - ricardo_ajax
+    tags:
+      - software_quality
+      - inactive
+    year: 2023
+
+  - name: Ana Carolina Rodrigues Leite
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Ética no uso de IA por estudantes de ESW (provisório)'
+      en: 'Ethics in the use of AI by ESW students (provisional)'
+    program: curso_esw2
+    advisors:
+      - cristiane_ramos
+      - ricardo_ajax
+    tags:
+      - ai
+      - education
+      - active
+    year: 2024
+
+  - name: Amanda Jeniffer Pereira Nobre
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Ética no uso de IA por estudantes de ESW (provisório)'
+      en: 'Ethics in the use of AI by ESW students (provisional)'
+    program: curso_esw2
+    advisors:
+      - cristiane_ramos
+      - ricardo_ajax
+    tags:
+      - ai
+      - education
+      - active
+    year: 2024
+
+  - name: Edvan Barreira Gomes Junior
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Maturidade de metodologias ativas (provisório)'
+      en: 'Maturity of active methodologies (provisional)'
+    program: curso_esw2
+    advisors:
+      - cristiane_ramos
+      - ricardo_ajax
+    tags:
+      - active_learning
+      - education
+      - active
+    year: 2024
+
+  - name: Luiza Esteves dos Santos
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Aplicativo para apoio à organização de conteúdo de disciplinas (provisório)'
+      en: 'Application to support the organization of course content (provisional)'
+    program: curso_esw2
+    advisors:
+      - ricardo_ajax
+    tags:
+      - education
+      - software_architecture
+      - active
+    year: 2024
+
+  - name: Artur de Souza Vieira
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Aplicativo para apoio à organização de conteúdo de disciplinas (provisório)'
+      en: 'Application to support the organization of course content (provisional)'
+    program: curso_esw2
+    advisors:
+      - ricardo_ajax
+    tags:
+      - education
+      - software_architecture
+      - active
+    year: 2024
+
+  - name: Nathalia Lorena Cardoso Dias
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Por que processos de melhoria de software já definidos não estão sendo utilizados pelas empresas? Uma revisão da literatura'
+      en: 'Why are already defined software improvement processes not being used by companies? A literature review'
+    program: curso_esw2
+    advisors:
+      - cristiane_ramos
+    tags:
+      - software_quality
+      - inactive
+    year: 2024
+
+
+  - name: Brenno Oliveira Silva
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Desenvolvimento de Solução para a Gamificação da Disciplina de ER'
+      en: 'Development of a Solution for the Gamification of the RE Course'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - gamification
+      - software_requirements
+      - mobile_application
+    year: 2024
+
+  - name: Paulo Vitor Silva Abi Acl
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Desenvolvimento de Solução para a Gamificação da Disciplina de ER'
+      en: 'Development of a Solution for the Gamification of the RE Course'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - gamification
+      - software_requirements
+      - mobile_application
+    year: 2024
+
+  - name: Geraldo Victor Alves Barbosa
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Investigação da utilização de IA no processo de engenharia de requisitos: um estudo de caso'
+      en: 'Investigation of the Use of AI in the Requirements Engineering Process: A Case Study'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - software_requirements
+      - ai
+    year: 2024
+
+  - name: João Victor Oliveira Matos
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Investigação da utilização de IA no processo de engenharia de requisitos: um estudo de caso'
+      en: 'Investigation of the Use of AI in the Requirements Engineering Process: A Case Study'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - software_requirements
+      - ai
+    year: 2024
+
+  - name: Daniela Soares de Oliveira
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Plataforma de Tradução de Libras'
+      en: 'Brazilian Sign Language Translation Platform'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - education
+      - machine_learning
+    year: 2024
+
+  - name: Danilo Domingo Vitoriano Silva
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Plataforma de Tradução de Libras'
+      en: 'Brazilian Sign Language Translation Platform'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - education
+      - machine_learning
+    year: 2024
+
+  - name: Caio César Oliveira
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Desenvolvimento de uma Inteligência Artificial para Aprimoramento da Avaliação Individual em Disciplinas de Software na Universidade de Brasília'
+      en: 'Development of an Artificial Intelligence for the Improvement of Individual Assessment in Software Courses at the University of Brasília'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - ai
+      - education
+      - software_quality
+    year: 2024
+
+  - name: Vitor Eduardo Kühl Rodrigues
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Desenvolvimento de uma Inteligência Artificial para Aprimoramento da Avaliação Individual em Disciplinas de Software na Universidade de Brasília'
+      en: 'Development of an Artificial Intelligence for the Improvement of Individual Assessment in Software Courses at the University of Brasília'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - ai
+      - education
+      - software_quality
+    year: 2024
+
+  - name: Iago Ribeiro
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Desenvolvimento da Solução Professor, para o SUPER-R'
+      en: 'Development of the Teacher Solution for SUPER-R'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - gamification
+    year: 2024
+
+  - name: Yuri Alves
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Engenharia de Requisitos Suportada por Inteligência Artificial'
+      en: 'Requirements Engineering Supported by Artificial Intelligence'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - software_requirements
+      - ai
+    year: 2024
+
+  - name: Victor Yukio
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Desenvolvimento da Solução Estudantes, para o SUPER-R'
+      en: 'Development of the Student Solution for SUPER-R'
+    program: curso_esw2
+    advisors:
+      - george_marsicano
+    tags:
+      - gamification
+    year: 2024
+
+  - name: Mylena Angélica Silva Farias
+    categories:
+      - people
+      - scientific_initiation
+    title:
+      pt: 'Framework preditivo de engajamento e desempenho discente em ambientes de aprendizagem gamificados com base em Octalysis, indicadores neurocientíficos e machine learning'
+      en: 'Predictive Framework for Student Engagement and Performance in Gamified Learning Environments Based on Octalysis, Neuroscientific Indicators, and Machine Learning'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - machine_learning
+      - ai
+    year: 2025
+
+  - name: Daniel Rodrigues da Rocha
+    categories:
+      - people
+      - scientific_initiation
+    title:
+      pt: 'Framework preditivo de engajamento e desempenho discente em ambientes de aprendizagem gamificados com base em Octalysis, indicadores neurocientíficos e machine learning'
+      en: 'Predictive Framework for Student Engagement and Performance in Gamified Learning Environments Based on Octalysis, Neuroscientific Indicators, and Machine Learning'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - machine_learning
+      - ai
+    year: 2025
+
+  - name: Davi Rodrigues da Rocha
+    categories:
+      - people
+      - scientific_initiation
+    title:
+      pt: 'Framework preditivo de engajamento e desempenho discente em ambientes de aprendizagem gamificados com base em Octalysis, indicadores neurocientíficos e machine learning'
+      en: 'Predictive Framework for Student Engagement and Performance in Gamified Learning Environments Based on Octalysis, Neuroscientific Indicators, and Machine Learning'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - machine_learning
+      - ai
+    year: 2025
+
+  - name: Alexia Naara da Silva Cardoso
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Aplicativo tradutor de línguas indígenas: Munduruku'
+      en: 'Indigenous Language Translator App: Munduruku'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - nlp
+      - ai
+      - social_software
+    year: 2025
+
+  - name: Beatriz Vieira Nascimento
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Ferramenta gamificada de apoio à gestão ágil: Uma aplicação web para gestão de tarefas'
+      en: 'Gamified Tool for Agile Management: A Web Application for Task Management'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - active_learning
+    year: 2025
+
+  - name: Ana Beatriz Norberto da Silva
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Ferramenta gamificada de apoio à gestão ágil: Uma aplicação web para gestão de tarefas'
+      en: 'Gamified Tool for Agile Management: A Web Application for Task Management'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - active_learning
+    year: 2025
+    
+  - name: Luciano Ricardo da Silva Junior
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Gamificação e Code smells'
+      en: 'Gamification and Code Smells'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - software_architecture
+    year: 2025
+     
+  - name: Miguel Matos Costa de Frias Barbosa
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Sistema de apoio à análise de processos organizacionais: Uma abordagem com inteligência artificial e controle de contexto'
+      en: 'Support System for Organizational Process Analysis: An Approach with Artificial Intelligence and Context Control'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - ai
+      - machine_learning
+      - digital_transformation
+    year: 2025
+
+  - name: Mylena Angélica Silva Farias
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Visualização Interativa de Estruturas de Dados com Realidade Aumentada para Apoio ao Ensino de Algoritmos: Uma abordagem gamificada para engajamento e aprendizagem ativa'
+      en: 'Interactive Visualization of Data Structures with Augmented Reality to Support Algorithm Teaching: A Gamified Approach for Engagement and Active Learning'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - active_learning
+      - social_software
+    year: 2025
+
+  - name: Geovanna Maciel Avelino da Costa
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Visualização Interativa de Estruturas de Dados com Realidade Aumentada para Apoio ao Ensino de Algoritmos: Uma abordagem gamificada para engajamento e aprendizagem ativa'
+      en: 'Interactive Visualization of Data Structures with Augmented Reality to Support Algorithm Teaching: A Gamified Approach for Engagement and Active Learning'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - gamification
+      - active_learning
+      - social_software
+    year: 2025
+
+  - name: Marina Marcia Costa de Souza
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Machine learning aplicado a identificação de vulnerabilidades de segurança'
+      en: 'Machine Learning Applied to Security Vulnerability Identification'
+    program: curso_esw2
+    advisors:
+      - sergio_freitas
+    tags:
+      - active
+      - machine_learning
+      - security
+    year: 2025
+
+  - name: Maicon Dal Moro
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Simulação de IDS para Ambientes de Automação Industrial'
+      en: 'Simulation of IDS for Industrial Automation Environments'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2007
+
+  - name: Raphael de Oliveira Santos
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Implementação de protocolos para automação industrial num IDS'
+      en: 'Implementation of Protocols for Industrial Automation in an IDS'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2006
+
+  - name: Bruno Oliveira Silvestre
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Proposta de um agente de reação para segurança de redes de computadores'
+      en: 'Proposal for a Reaction Agent for Computer Network Security'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2003
+
+  - name: Arthur Cypriano Monteiro Costa
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Proposta de um modelo para estruturação de vulnerabilidades e falhas'
+      en: 'Proposal for a Model for Structuring Vulnerabilities and Failures'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2003
+
+  - name: Luiz Celso Gomes Junior
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Segurança de Redes: um agente distribuido de reação à invasões'
+      en: 'Network Security: A Distributed Agent for Intrusion Reaction'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2003
+
+  - name: Bruno Fardin Fáe
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'ACEL: Um modelo de ambiente para o desenvolvimento de sistemas multi-agentes baseado numa organização em células'
+      en: 'ACEL: A Framework for the Development of Multi-Agent Systems Based on a Cell Organization'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2003
+
+  - name: Kassiano Castiglioni Rossmann
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Um estudo sobre redes virtuais privadas: sua implementação e teste sobre a rede UFES'
+      en: 'A Study on Virtual Private Networks: Implementation and Testing on the UFES Network'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2003
+
+  - name: Marcio Pereira Machado
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Análise e estudo de segurança de corporações utilizando firewalls'
+      en: 'Analysis and Study of Corporate Security Using Firewalls'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2002
+
+  - name: Walmir Pereira de Amorim Júnior
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Criptografia e autenticação: um protocolo de autenticação utilizando os algoritimos IDEA, RSA e SHA-1'
+      en: 'Cryptography and Authentication: An Authentication Protocol Using IDEA, RSA, and SHA-1 Algorithms'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2002
+
+  - name: Hélder Bergamin Pimentel Dias
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Uma Proposta de Agente de Detecção de Intrusão'
+      en: 'A Proposal for an Intrusion Detection Agent'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2002
+
+  - name: Rui Sant'Ana Junior
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Proposta de um Agente de Reconfiguração Remota de Serviços'
+      en: 'Proposal for a Remote Service Reconfiguration Agent'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2002
+
+  - name: Eduardo Venturin Linhalis
+    categories:
+      - people
+      - tcc
+    title:
+      pt: 'Avaliação da Segurança Interna de uma Rede Corporativa'
+      en: 'Evaluation of Internal Security in a Corporate Network'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2000
+
+
+  - name: Bruno Oliveira Silvestre
+    categories:
+      - people
+      - scientific_initiation
+    title:
+      pt: 'Implementação de um agente para planejamento de contra-ações de uma rede sob ataque'
+      en: 'Implementation of an Agent for Planning Countermeasures in an Attacked Network'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2002
+
+
+  - name: Arthur Cypriano Monteiro Costa
+    categories:
+      - people
+      - scientific_initiation
+    title:
+      pt: 'Implementação de um modelo genérico para representação de vulnerabilidades e invasões'
+      en: 'Implementation of a Generic Model for Representing Vulnerabilities and Attacks'
+    program: curso_cc
+    advisors:
+      - sergio_freitas
+    tags:
+      - inactive
+      - security
+    year: 2002

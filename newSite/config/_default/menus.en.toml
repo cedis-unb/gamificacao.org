@@ -19,6 +19,20 @@ pageRef = "people"
 identifier = "people-en"
 weight = 30
 
+[[main]]
+name = "Productions"
+pre = "pencil"
+pageRef = "productions"
+identifier = "productions-en"
+weight = 40
+
+[[main]]
+name = "Partnerships"
+pre = "link"
+pageRef = "partnerships"
+identifier = "partnerships-en"
+weight = 50
+
 [[footer]]
 name = "GitHub"
 url = "https://github.com/CedisUnB"

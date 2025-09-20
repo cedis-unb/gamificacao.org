@@ -42,6 +42,7 @@
     {{- /* Build items list with badges (category + status) and sort (active->inactive, then name) */ -}}
     {{- $.Scratch.Set "items" (slice) -}}
     {{- $over := site.Data.people_overrides | default dict -}}
+    {{- $advmap := site.Data.people_advisors | default dict -}}
     {{- range $it := $g.items -}}
       {{- $cat := index (intersect $it.categories (slice "master_student" "scientific_initiation" "tcc")) 0 -}}
       {{- $catBadge := "" -}}
@@ -65,7 +66,19 @@
         {{- $url = .url | default "" -}}
         {{- $avatar = .avatar | default "" -}}
       {{- end -}}
-      {{- $.Scratch.Add "items" (slice (dict "name" $it.name "badges" $badges "url" $url "avatar" $avatar "inactive" $isInactive "sortName" (lower $it.name))) -}}
+      {{- /* Resolve advisors to full names via data/people_advisors.yaml; ignore unknown codes */ -}}
+      {{- $.Scratch.Set "adv" (slice) -}}
+      {{- with $it.advisors -}}
+        {{- range . -}}
+          {{- $code := . -}}
+          {{- $aname := (index $advmap $code) | default "" -}}
+          {{- if $aname -}}
+            {{- $.Scratch.Add "adv" (slice $aname) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $advisors := ($.Scratch.Get "adv") -}}
+      {{- $.Scratch.Add "items" (slice (dict "name" $it.name "badges" $badges "url" $url "avatar" $avatar "inactive" $isInactive "sortName" (lower $it.name) "advisors" $advisors)) -}}
     {{- end -}}
     {{- $all := ($.Scratch.Get "items") -}}
     {{- $act := where $all "inactive" false -}}

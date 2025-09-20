@@ -25,6 +25,11 @@
         </div>
         <div class="min-w-0">
           <h3 class="text-base font-semibold text-neutral-900 dark:text-neutral">{{ $name }}</h3>
+          {{- with $person.advisors -}}
+          <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-0.5">
+            {{- if eq $lang "pt" -}}Orientador(a):{{- else -}}Advisor(s):{{- end -}} {{ delimit . ", " }}
+          </p>
+          {{- end -}}
           {{- if gt (len $badges) 0 -}}
           <div class="mt-1 flex flex-wrap items-center justify-center gap-1">
             {{- range $b := $badges -}}

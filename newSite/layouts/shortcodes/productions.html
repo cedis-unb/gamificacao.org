@@ -1,0 +1,103 @@
+{{- /* Productions from data/productions-cedis.yaml filtered by tag 'gamification', grouped by year (desc) */ -}}
+{{- $lang := .Page.Lang | default .Site.Language.Lang -}}
+{{- $pdata := (index site.Data "productions-cedis") | default dict -}}
+{{- $all := $pdata | default dict -}}
+{{- $items := $all | default slice -}}
+{{- if $all.items -}}
+  {{- $items = $all.items -}}
+{{- else -}}
+  {{- /* The file is a plain YAML list (top-level array) */ -}}
+  {{- $items = $all -}}
+{{- end -}}
+
+{{- /* Normalize to slice and filter */ -}}
+{{- $list := $items | default (slice) -}}
+{{- $list = where $list "tags" "intersect" (slice "gamification") -}}
+{{- /* Sort by year desc */ -}}
+{{- $list = sort $list "year" "desc" -}}
+
+{{- if eq (len $list) 0 -}}
+  <p class="text-neutral-500">{{ if eq $lang "pt" }}Nenhuma produção encontrada.{{ else }}No productions found.{{ end }}</p>
+{{- else -}}
+  <div class="mx-auto" style="max-width:90vw;">
+    {{- /* Collect years in order */ -}}
+    {{- $.Scratch.Set "years" (slice) -}}
+    {{- range $it := $list -}}
+      {{- $y := printf "%v" $it.year -}}
+      {{- if not (in ($.Scratch.Get "years") $y) -}}
+        {{- $.Scratch.Add "years" (slice $y) -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- /* Top index by year */ -}}
+    <nav class="mt-2 mb-6 flex flex-wrap items-center gap-3 text-sm">
+      <span class="text-neutral-500">{{ if eq $lang "pt" }}Índice:{{ else }}Index:{{ end }}</span>
+      {{- range $y := ($.Scratch.Get "years") -}}
+        <a href="#y{{ $y }}" class="px-2 py-0.5 rounded-full bg-neutral-100 text-neutral-700 hover:bg-primary-100 hover:text-primary-700 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-primary-400/20 dark:hover:text-primary-300">{{ $y }}</a>
+      {{- end -}}
+    </nav>
+
+    {{- range $y := ($.Scratch.Get "years") -}}
+      <h2 id="y{{ $y }}" class="mt-8 mb-4 text-2xl font-bold">{{ $y }}</h2>
+      <section class="w-full grid gap-6" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
+        {{- range where $list "year" (int $y) -}}
+          {{- $title := .title -}}
+          {{- if reflect.IsMap $title -}}
+            {{- $title = (index .title $lang) | default (index .title "en") | default (index .title "pt") | default "" -}}
+          {{- end -}}
+          {{- $summary := .summary -}}
+          {{- if reflect.IsMap $summary -}}
+            {{- $summary = (index .summary $lang) | default (index .summary "en") | default (index .summary "pt") | default "" -}}
+          {{- end -}}
+          {{- $venue := cond (ne .journal_event "") .journal_event (cond (ne .book_title "") .book_title "") -}}
+          {{- $doi := .doi_isbn | default "" -}}
+          {{- $url := .url | default "" -}}
+          {{- /* Icon by type */ -}}
+          {{- $type := lower (.type | default "") -}}
+          {{- $icon := "circle-info" -}}
+          {{- if eq $type "article" -}}
+            {{- $icon = "pencil" -}}
+          {{- else if eq $type "conference" -}}
+            {{- $icon = "globe" -}}
+          {{- else if or (eq $type "dissertation") (eq $type "phd") (eq $type "tcc") -}}
+            {{- $icon = "graduation-cap" -}}
+          {{- else if or (eq $type "book") (eq $type "book chapter") (eq $type "book_section") -}}
+            {{- $icon = "book" -}}
+          {{- else if eq $type "workshop" -}}
+            {{- $icon = "lightbulb" -}}
+          {{- else if eq $type "specialization" -}}
+            {{- $icon = "star" -}}
+          {{- end -}}
+          <div class="h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-5 shadow hover:shadow-xl transition-shadow">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-neutral-100 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
+                {{ partial "icon.html" $icon }}
+              </span>
+              <span class="text-xs uppercase tracking-wide text-neutral-500 dark:text-neutral-400">{{ $type }}</span>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="text-base font-semibold text-neutral-900 dark:text-neutral">{{ $title }}</h3>
+              {{- with .authors -}}
+                <p class="text-sm text-neutral-600 dark:text-neutral-300">{{ delimit . ", " }}</p>
+              {{- end -}}
+              {{- with $venue -}}
+                <p class="text-sm text-neutral-500 dark:text-neutral-400">{{ . }}</p>
+              {{- end -}}
+              {{- with $summary -}}
+                <p class="text-sm text-neutral-600 dark:text-neutral-300">{{ . }}</p>
+              {{- end -}}
+              <div class="mt-1 flex flex-wrap gap-3 text-sm">
+                {{- if $doi -}}
+                  <a class="text-primary-700 hover:underline dark:text-primary-400" href="https://doi.org/{{ $doi }}" target="_blank" rel="noopener">DOI</a>
+                {{- end -}}
+                {{- if $url -}}
+                  <a class="text-primary-700 hover:underline dark:text-primary-400" href="{{ $url }}" target="_blank" rel="noopener">{{ if eq $lang "pt" }}Acesso{{ else }}Access{{ end }}</a>
+                {{- end -}}
+              </div>
+            </div>
+          </div>
+        {{- end -}}
+      </section>
+    {{- end -}}
+  </div>
+{{- end -}}

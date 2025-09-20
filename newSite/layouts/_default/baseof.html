@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-{{ $lang := (cond (hasPrefix .RelPermalink "/en/") "en" "pt") }}
-<html lang="{{ $lang }}" dir="{{ if .Site.Params.rtl | default false -}}rtl{{- else -}}ltr{{- end }}" class="scroll-smooth" data-default-appearance="{{ .Site.Params.defaultAppearance | default " light" }}" data-auto-appearance="{{ .Site.Params.autoSwitchAppearance | default " true" }}">
+<html lang="{{ .Site.Language.Lang }}" dir="{{ if .Site.Params.rtl | default false -}}rtl{{- else -}}ltr{{- end }}" class="scroll-smooth" data-default-appearance="{{ .Site.Params.defaultAppearance | default " light" }}" data-auto-appearance="{{ .Site.Params.autoSwitchAppearance | default " true" }}">
 {{- partial "head.html" . -}}
 
 <body

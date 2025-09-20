@@ -31,26 +31,17 @@
 
         </nav>
         <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
-            {{ $isEN := or (eq .Lang "en") (hasPrefix .RelPermalink "/en/") }}
-            {{ $aboutURL := (cond $isEN "/en/about/" "/pt/about/") }}
-            {{ $meetURL := (cond $isEN "/en/meetings/" "/pt/reunioes/") }}
-            <a href="{{ $aboutURL }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-                <span class="mr-1">{{ partial "icon.html" "eye" }}</span>
-                <p class="text-base font-medium">
-                    {{ if $isEN }}About{{ else }}Sobre{{ end }}
-                </p>
+            {{ $lang := .Site.Language.Lang }}
+            {{ $isEN := eq $lang "en" }}
+            {{ $aboutURL := ("about/" | relLangURL) }}
+            {{ $meetURL := (cond $isEN ("meetings/" | relLangURL) ("reunioes/" | relLangURL)) }}
+            {{ $peopleURL := (cond $isEN ("people/" | relLangURL) ("pessoas/" | relLangURL)) }}
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+                {{ if .Pre }}<span class="mr-1">{{ partial "icon.html" .Pre }}</span>{{ end }}
+                <p class="text-base font-medium">{{ .Name | markdownify }}</p>
             </a>
-            <a href="{{ $meetURL }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-                <span class="mr-1">{{ partial "icon.html" "list" }}</span>
-                <p class="text-base font-medium">
-                    {{ if $isEN }}Meetings{{ else }}Reuniões{{ end }}
-                </p>
-            </a>
-
-            <a href="{{ (cond $isEN "/en/people/" "/pt/pessoas/") }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-                <span class="mr-1">{{ partial "icon.html" "graduation-cap" }}</span>
-                <p class="text-base font-medium">{{ if $isEN }}People{{ else }}Pessoas{{ end }}</p>
-            </a>
+            {{ end }}
 
             {{ partial "translations.html" . }}
 
@@ -124,24 +115,14 @@
                             "xmark" }}</span>
                     </li>
 
+                    {{ range .Site.Menus.main }}
                     <li class="mt-1">
-                        <a href="{{ $aboutURL }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-                            <div class="mr-2">{{ partial "icon.html" "eye" }}</div>
-                            <p class="text-bg font-bg">{{ if $isEN }}About{{ else }}Sobre{{ end }}</p>
+                        <a href="{{ .URL }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+                            <div class="mr-2">{{ if .Pre }}{{ partial "icon.html" .Pre }}{{ end }}</div>
+                            <p class="text-bg font-bg">{{ .Name | markdownify }}</p>
                         </a>
                     </li>
-                    <li class="mt-1">
-                        <a href="{{ $meetURL }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-                            <div class="mr-2">{{ partial "icon.html" "list" }}</div>
-                            <p class="text-bg font-bg">{{ if $isEN }}Meetings{{ else }}Reuniões{{ end }}</p>
-                        </a>
-                    </li>
-                    <li class="mt-1">
-                        <a href="{{ (cond $isEN "/en/people/" "/pt/pessoas/") }}"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-                            <div class="mr-2">{{ partial "icon.html" "graduation-cap" }}</div>
-                            <p class="text-bg font-bg">{{ if $isEN }}People{{ else }}Pessoas{{ end }}</p>
-                        </a>
-                    </li>
+                    {{ end }}
 
                 </ul>
                 {{ if .Site.Menus.subnavigation }}

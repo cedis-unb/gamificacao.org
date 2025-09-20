@@ -15,6 +15,13 @@ pageRef = "reunioes"
 identifier = "meetings-pt"
 weight = 9_999
 
+[[main]]
+name = "Pessoas"
+pre = "graduation-cap"
+pageRef = "pessoas"
+identifier = "people-pt"
+weight = 9_999
+
 [[footer]]
 none = "none"
 

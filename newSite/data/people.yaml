@@ -1,0 +1,80 @@
+groups:
+  - key: researchers
+    title:
+      en: Researchers
+      pt: Pesquisadores
+    items:
+      - name: "Sergio Antônio Andrade de Freitas"
+        url: "https://cedis.unb.br/pt/people/sergio_freitas/"
+        avatar: m
+        badge:
+          en: "Coordinator"
+          pt: "Coordenador"
+      - name: "Cristiane Soares Ramos"
+        url: "https://cedis.unb.br/pt/people/cristiane_ramos/"
+        avatar: f
+      - name: "George Marsicano Côrrea"
+        url: "https://cedis.unb.br/pt/people/george_marsicano/"
+        avatar: m
+      - name: "Ricardo Ajax Dias Kosloski"
+        url: "https://cedis.unb.br/pt/people/ricardo_ajax/"
+        avatar: m
+
+  - key: collaborators
+    title:
+      en: Collaborators
+      pt: Colaboradores
+    items:
+      - name: "Mylena Angélica Silva Farias"
+        avatar: f
+      - name: "Juan Mangeira Alves"
+        avatar: m
+      - name: "Marcus Vinicius Paiva Martins"
+        avatar: m
+
+  - key: masters
+    title:
+      en: Master's
+      pt: Mestrado
+    items:
+      - name: "Bruno Marquete da Silva"
+        avatar: m
+      - name: "Bruno Mello Andrade"
+        avatar: m
+      - name: "Lucas Pereira Gomes Linard"
+        avatar: m
+
+  - key: si
+    title:
+      en: Scientific Initiation
+      pt: Iniciação científica
+    items:
+      - name: "Mylena Angélica Silva Farias"
+        avatar: f
+      - name: "Juan Mangeira Alves"
+        avatar: m
+      - name: "Marcus Vinicius Paiva Martins"
+        avatar: m
+      - name: "Davi Rodrigues da Rocha"
+        avatar: m
+      - name: "Daniel Rodrigues da Rocha"
+        avatar: m
+
+  - key: tcc
+    title:
+      en: Undergraduate Thesis (TCC)
+      pt: TCC
+    items:
+      - name: "A. SOUSA E SILVA"
+        avatar: m
+      - name: "Ana Beatriz Norberto da Silva"
+        avatar: f
+      - name: "Ana Cláudia Alves Mendes Araújo"
+        avatar: f
+      - name: "Arthur Rocha Temporim de Lacerda"
+        avatar: m
+      - name: "Ateldy Brasil Filho"
+      - name: "Beatriz Vieira Nascimento"
+        avatar: f
+      - name: "Brenno Oliveira Silva"
+      - name: "Bruno Contessotto Bragança Pinheiro"

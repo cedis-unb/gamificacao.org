@@ -36,7 +36,7 @@ Site estático construído com Hugo e o tema Blowfish. Conteúdo bilíngue (Port
 
 ## Internacionalização
 - Idioma padrão: PT (`defaultContentLanguage = "pt"`)
-- Padrão na raiz (sem subdiretório): `defaultContentLanguageInSubdir = false`
+- Português sob subdiretório `/pt/`: `defaultContentLanguageInSubdir = true`
 - Menus por idioma: `newSite/config/_default/menus.pt.toml` e `menus.en.toml`
 - Seletor de idioma em `layouts/partials/translations.html` (sempre visível; tenta linkar a tradução; fallback para home do idioma)
 
@@ -66,5 +66,4 @@ Alternativas de deploy:
 
 ## Notas de configuração
 - Removido `newSite/hugo.toml` (duplicado) para evitar conflitos com `config/_default/*`
-- `defaultContentLanguageInSubdir` definido como `false` (Português na raiz do site); ajuste para `true` se quiser `/pt/`
-
+- `defaultContentLanguageInSubdir` definido como `true` (Português em `/pt/`)

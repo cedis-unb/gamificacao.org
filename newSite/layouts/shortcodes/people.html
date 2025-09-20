@@ -1,59 +1,41 @@
-{{- /* People listing shortcode: renders groups from data/people.yaml with localized labels */ -}}
-{{- $lang := .Page.Lang | default "pt" -}}
+{{/* People grid from data/people.yaml */}}
+{{- $lang := .Page.Lang | default .Site.Language.Lang -}}
 {{- $data := site.Data.people -}}
-{{- if not $data -}}
-  <p class="text-neutral-500">{{ if eq $lang "pt" }}Nenhum integrante cadastrado.{{ else }}No members yet.{{ end }}</p>
+{{- if not $data }}
+  <p class="text-neutral-500">{{ if eq $lang "pt" }}Nenhuma pessoa cadastrada.{{ else }}No people data available.{{ end }}</p>
 {{- else -}}
-
-  {{- /* Top navigation pills */ -}}
-  <div class="flex flex-wrap gap-2 mb-6">
-    {{- range $data.groups -}}
-      {{- $title := index .title $lang | default (index .title "en") -}}
-      <a href="#{{ .key }}" class="px-3 py-1 rounded-full text-sm bg-neutral-200 hover:bg-neutral-300 dark:bg-neutral-700 dark:hover:bg-neutral-600">{{ $title }}</a>
+  {{- range $group := $data.groups -}}
+    {{- $title := index $group.title $lang | default (index $group.title "en") -}}
+    {{- with $title -}}
+    <h2 class="mt-8 mb-4 text-2xl font-bold">{{ . | markdownify }}</h2>
     {{- end -}}
-  </div>
 
-  {{- range $data.groups -}}
-    {{- $title := index .title $lang | default (index .title "en") -}}
-    <h2 id="{{ .key }}">{{ $title }}</h2>
-    <div class="grid gap-4 grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 mb-6">
-      {{- range .items -}}
-        {{- $avatar := .avatar | default "" -}}
-        {{- $img := cond (eq $avatar "f") "/img/avatar-f.svg" (cond (eq $avatar "m") "/img/avatar-m.svg" "") -}}
-        {{- $cardClasses := "flex flex-col overflow-hidden rounded-lg shadow-lg bg-neutral-50 dark:bg-neutral-900 transition-transform border border-transparent hover:border-primary-300 hover:shadow-xl hover:scale-[1.01]" -}}
-        {{- if .url -}}
-          <a href="{{ .url }}" class="{{ $cardClasses }}">
-            {{- if $img -}}
-              <img src="{{ $img }}" alt="{{ if eq $avatar "f" }}{{ if eq $lang "pt" }}Avatar feminino{{ else }}Female avatar{{ end }}{{ else }}{{ if eq $lang "pt" }}Avatar masculino{{ else }}Male avatar{{ end }}{{ end }}" loading="lazy" class="object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-40 w-full">
-            {{- else -}}
-              <div class="flex items-center justify-center h-40 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div>
-            {{- end -}}
-            <div class="p-3 text-center min-h-12 flex flex-col items-center justify-center">
-              <div class="font-semibold">{{ .name }}</div>
-              {{- with .badge -}}
-                {{- $label := (index . $lang) | default (index . "en") -}}
-                {{- if $label -}}<span class="mt-2 inline-flex items-center rounded-full bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300 px-2 py-0.5 text-xs">{{ $label }}</span>{{ end -}}
-              {{- end -}}
-            </div>
-          </a>
+    <section class="w-full grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {{- range $person := $group.items -}}
+        {{- $name := $person.name -}}
+        {{- $url := $person.url | default "" -}}
+        {{- $avatar := $person.avatar | default "" -}}
+        {{- $card := (printf "<div class=\"h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-4 shadow hover:shadow-xl transition-shadow\">%%s</div>") -}}
+
+        {{- /* Avatar badge */ -}}
+        {{- $badge := "" -}}
+        {{- if eq $avatar "m" -}}
+          {{- $badge = "<div class=\"h-12 w-12 rounded-full bg-blue-200 text-blue-700 flex items-center justify-center font-semibold\">M</div>" -}}
+        {{- else if eq $avatar "f" -}}
+          {{- $badge = "<div class=\"h-12 w-12 rounded-full bg-pink-200 text-pink-700 flex items-center justify-center font-semibold\">F</div>" -}}
         {{- else -}}
-          <div class="{{ $cardClasses }}">
-            {{- if $img -}}
-              <img src="{{ $img }}" alt="{{ if eq $avatar "f" }}{{ if eq $lang "pt" }}Avatar feminino{{ else }}Female avatar{{ end }}{{ else }}{{ if eq $lang "pt" }}Avatar masculino{{ else }}Male avatar{{ end }}{{ end }}" loading="lazy" class="object-contain bg-neutral-200 dark:bg-neutral-800 p-6 h-40 w-full">
-            {{- else -}}
-              <div class="flex items-center justify-center h-40 w-full bg-neutral-200 dark:bg-neutral-800 text-5xl">👤</div>
-            {{- end -}}
-            <div class="p-3 text-center min-h-12 flex flex-col items-center justify-center">
-              <div class="font-semibold">{{ .name }}</div>
-              {{- with .badge -}}
-                {{- $label := (index . $lang) | default (index . "en") -}}
-                {{- if $label -}}<span class="mt-2 inline-flex items-center rounded-full bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300 px-2 py-0.5 text-xs">{{ $label }}</span>{{ end -}}
-              {{- end -}}
-            </div>
-          </div>
+          {{- $badge = "<div class=\"h-12 w-12 rounded-full bg-neutral-200 text-neutral-700 flex items-center justify-center font-semibold\">?</div>" -}}
+        {{- end -}}
+
+        {{- $inner := printf "<div class=\"flex items-center gap-3\">%s<div class=\"min-w-0\"><h3 class=\"text-base font-semibold text-neutral-900 dark:text-neutral\">%s</h3></div></div>" $badge ($name | htmlEscape) -}}
+
+        {{- if ne (len $url) 0 -}}
+          <a href="{{ $url }}" target="_blank" rel="noopener" class="group block">{{ printf $card $inner | safeHTML }}</a>
+        {{- else -}}
+          <div class="group block">{{ printf $card $inner | safeHTML }}</div>
         {{- end -}}
       {{- end -}}
-    </div>
+    </section>
   {{- end -}}
-
 {{- end -}}
+

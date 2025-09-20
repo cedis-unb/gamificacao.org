@@ -3,10 +3,11 @@
     "start": "hugo server -s newSite -D",
     "build": "hugo -s newSite -D --gc",
     "clean": "rm -rf newSite/public newSite/.hugo_cache",
-    "build:clean": "npm run clean && npm run build"
+    "build:clean": "npm run clean && npm run build",
+    "serve:prod": "hugo server -s newSite --disableFastRender",
+    "check": "hugo -s newSite --panicOnWarning"
   },
   "dependencies": {
-    "blowfish-tools": "^1.10.0",
-    "npm": "^11.6.0"
+    "blowfish-tools": "^1.10.0"
   }
 }

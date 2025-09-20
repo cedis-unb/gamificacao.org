@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "start": "hugo server -s newSite -D",
-    "build": "hugo -s newSite -D --gc",
+    "start": "HUGO_CACHEDIR=\"$(pwd)/newSite/.hugo_cache\" hugo server -s newSite -D",
+    "build": "HUGO_CACHEDIR=\"$(pwd)/newSite/.hugo_cache\" hugo -s newSite -D --gc",
     "clean": "rm -rf newSite/public newSite/.hugo_cache",
     "build:clean": "npm run clean && npm run build",
-    "serve:prod": "hugo server -s newSite --disableFastRender",
-    "check": "hugo -s newSite --panicOnWarning"
+    "serve:prod": "HUGO_CACHEDIR=\"$(pwd)/newSite/.hugo_cache\" hugo server -s newSite --disableFastRender",
+    "check": "HUGO_CACHEDIR=\"$(pwd)/newSite/.hugo_cache\" hugo -s newSite --panicOnWarning"
   },
   "dependencies": {
     "blowfish-tools": "^1.10.0"

@@ -2,11 +2,11 @@
 title: "Início"
 ---
 
-Gamification is a process that uses elements, techniques, and game design mechanics in contexts not related to games, aiming to increase user motivation, participation, and engagement. Gamification has been applied in various fields, such as education, marketing, health, and corporate training, becoming a growing trend over the last decade.
+Gamificação é um processo que utiliza elementos, técnicas e mecânicas de design de jogos em contextos não relacionados a jogos, com o objetivo de aumentar a motivação, a participação e o engajamento das pessoas. A gamificação tem sido aplicada em diversas áreas — como educação, marketing, saúde e treinamento corporativo — e tornou‑se uma tendência ao longo da última década.
 
-## About the Area Coordinator
+## Sobre o coordenador da área
 Prof. Sergio Antônio Andrade de Freitas
 
-Specialist in gamification and Full Professor at the University of Brasília - UnB. His experience spans both gamification in Education and the application of this methodology in other fields. He is recognized for integrating game design elements into educational and business contexts, aiming to increase user motivation, participation, and engagement. His dedication to research in Gamification and Learning Analytics has contributed to innovation and the development of new teaching and learning strategies in the area of Software Engineering.
+Especialista em gamificação e professor titular da Universidade de Brasília (UnB). Sua experiência abrange tanto a gamificação na Educação quanto a aplicação dessa metodologia em outros domínios. É reconhecido por integrar elementos de design de jogos a contextos educacionais e organizacionais, com foco em aumentar motivação, participação e engajamento. Sua dedicação à pesquisa em Gamificação e Learning Analytics tem contribuído para a inovação e o desenvolvimento de novas estratégias de ensino e aprendizagem na área de Engenharia de Software.
 
-[More About the Coordinator](/pt/about/)
+[Mais sobre o coordenador](/pt/about/)

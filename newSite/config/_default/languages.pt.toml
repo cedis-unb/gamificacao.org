@@ -10,7 +10,7 @@ title = "Gamificação ORG"        # Título do site em PT-BR (pode ser o mesmo 
   displayName = "PT"              # Nome curto para o seletor de idiomas (ex: PT ou PT-BR)
   isoCode = "pt"               # Código ISO para pt-BR
   rtl = false                     # Português não é da direita para a esquerda
-  dateFormat = "2 de janeiro de 2006" # Formato de data em português
+  dateFormat = "02/01/2006" # Formato de data em português (Go layout)
   logo = "logo.png"               # Caminho para o logo (geralmente o mesmo)
   # Outros params específicos do tema que você queira traduzir ou ajustar para pt-BR
   # Por exemplo, se você tiver um 'description' em params no 'en', adicione a versão pt-BR aqui.

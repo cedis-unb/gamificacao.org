@@ -32,7 +32,11 @@
         </div>
 
         {{/* Summary (trimmed) */}}
-        <p class="text-sm text-neutral-700 dark:text-neutral-300 min-h-[3.5rem]">{{ .Summary | plainify | truncate 160 }}</p>
+        {{ $sum := .Summary | plainify }}
+        {{ if eq (len $sum) 0 }}
+          {{ $sum = cond (ne (len .Params.description) 0) .Params.description (.Plain | plainify) }}
+        {{ end }}
+        <p class="text-sm text-neutral-700 dark:text-neutral-300 min-h-[3.5rem]">{{ $sum | truncate 160 }}</p>
 
         {{/* Footer: first tag + CTA */}}
         <div class="mt-auto flex items-center justify-between">
@@ -50,4 +54,3 @@
   </a>
   {{ end }}
 </section>
-

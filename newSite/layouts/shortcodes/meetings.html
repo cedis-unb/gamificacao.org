@@ -70,7 +70,7 @@
               <span class="relative inline-block align-text-bottom icon">{{ $icon.Content | safeHTML }}</span>
             {{- end -}}
           </div>
-          <div class="block p-6 rounded-lg shadow-2xl w-full sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 2xl:w-7/12 ml-6 mb-10 break-words">
+          <div class="block p-6 md:p-8 rounded-lg shadow-2xl w-full sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 2xl:w-7/12 ml-6 mb-10 break-words">
             <div class="flex justify-between items-start gap-2 flex-wrap">
               {{- $d := time .date -}}
               {{- $dateStr := (cond (eq $.Page.Lang "pt") ($d.Format "02/01/2006") ($d.Format "Jan 2, 2006")) -}}
@@ -123,12 +123,12 @@
                 </span>
               </summary>
               <div class="summary-content mt-2 p-0">
-                <div class="flex flex-col lg:flex-row gap-6 pl-4 pr-4 py-4 rounded-md border bg-neutral-50 dark:bg-neutral-800/50 border-neutral-200 dark:border-neutral-700">
+                <div class="flex flex-col lg:flex-row gap-6 p-4 md:p-6 rounded-md border bg-neutral-50 dark:bg-neutral-800/50 border-neutral-200 dark:border-neutral-700">
                   <div class="basis-auto lg:basis-4/5 grow prose prose-neutral dark:prose-invert max-w-none text-base">
                     {{ . | markdownify }}
                   </div>
                   <aside class="basis-auto lg:basis-1/5 shrink-0 ml-auto lg:pl-2">
-                    <div class="rounded-md border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-3">
+                    <div class="rounded-md border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-4 md:p-5">
                       <div class="text-sm font-medium mb-3 text-neutral-700 dark:text-neutral-200">{{ if eq $.Page.Lang "pt" }}Recursos{{ else }}Resources{{ end }}</div>
                       {{- $turl := $item.transcriptURL | default "" -}}
                       {{- $links := $item.links | default (slice) -}}
@@ -146,16 +146,27 @@
                         {{- end -}}
                         {{- range $links }}
                           {{- $u := .url | default "" -}}
+                          {{- /* Detect article links (explicit type or common publishers) */ -}}
+                          {{- $isArticle := or (eq .type "article") (in $u "ieeexplore.ieee.org") (in $u "link.springer.com") (in $u "doi.org") (in $u "/doi/") (in $u "acm.org/doi") (in $u "arxiv.org") (in $u "sciencedirect.com") (in $u "wiley.com") (in $u "tandfonline.com") -}}
+                          {{- $prefix := cond $isArticle (cond (eq $.Page.Lang "pt") "Artigo: " "Article: ") "" -}}
+                          {{- /* Build label with optional truncation for articles */ -}}
+                          {{- $label := .label | default "" -}}
+                          {{- $titleDisplay := $label -}}
+                          {{- if and $isArticle (gt (len $label) 40) -}}
+                            {{- $titleDisplay = (substr $label 0 40) -}}
+                            {{- $titleDisplay = (printf "%s..." $titleDisplay) -}}
+                          {{- end -}}
+                          {{- $finalLabel := printf "%s%s" $prefix $titleDisplay -}}
                           <li>
                             {{- if ne (len $u) 0 -}}
-                            <a href="{{ $u }}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm text-primary-700 hover:text-primary-800 dark:text-primary-300 dark:hover:text-primary-200">
+                            <a href="{{ $u }}" target="_blank" rel="noopener" class="flex items-start gap-3 text-sm text-primary-700 hover:text-primary-800 dark:text-primary-300 dark:hover:text-primary-200">
                               <span class="inline-block align-text-bottom">{{ partial "icon.html" "link" }}</span>
-                              <span>{{ .label }}</span>
+                              <span class="whitespace-normal break-words leading-snug">{{ $finalLabel }}</span>
                             </a>
                             {{- else -}}
-                            <span class="inline-flex items-center gap-2 text-sm opacity-70 cursor-not-allowed">
+                            <span class="flex items-start gap-3 text-sm opacity-70 cursor-not-allowed">
                               <span class="inline-block align-text-bottom">{{ partial "icon.html" "link" }}</span>
-                              <span>{{ .label }}</span>
+                              <span class="whitespace-normal break-words leading-snug">{{ $finalLabel }}</span>
                             </span>
                             {{- end -}}
                           </li>

@@ -34,6 +34,9 @@ en:
       New members are selected through periodic processes announced on social networks such as Instagram and LinkedIn. Although registered with a CNPJ, Orc’estra is non‑profit: all revenue is reinvested in its own operation.
 
       At the end of the presentation, professors and peers highlighted Orc’estra’s relevance as a space for practical and entrepreneurial training within UnB — in the scope of the Gamificação.ORG meeting.
+    links:
+      - label: "Orc'estra"
+        url: "https://orcestra.com.br/"
   - date: "2025-07-10"
     title: "Meeting"
     speaker: "Lucas · Porto Digital"
@@ -82,6 +85,11 @@ en:
       #### Outcomes
 
       SuperR generated a gamification guide, its own visual identity, badges, and even a Power Apps prototype to support activities. The project also inspired undergraduate theses and opened paths for future research using data mining and machine learning to predict motivational profiles and adapt dynamics in real time — within the Gamificação.ORG meeting.
+    links:
+      - label: "SuperR — Project page"
+        url: "https://cedis.unb.br/projects/super_r"
+      - label: "Prof. George Marsicano"
+        url: "https://cedis.unb.br/people/george_marsicano"
   - date: "2025-06-05"
     title: "Meeting"
     speaker: "Leda · IBICT"
@@ -119,12 +127,16 @@ en:
 
       For Leda, the differentiator lies in uniting innovation, science, and entertainment: “Science outreach must be fun. When users dive into an engaging narrative, they learn without realizing they are studying.”
     links:
-      - label: "Canal Ciência"
-        url: ""
+      - label: "Canal Ciência — official site"
+        url: "https://canalciencia.ibict.br/"
       - label: "Galactic Journey"
-        url: ""
-      - label: "Publications"
-        url: ""
+        url: "https://canalciencia.ibict.br/jornada-galactica/"
+      - label: "Researcher CV (Lattes)"
+        url: "http://lattes.cnpq.br/5350538098267724"
+      - label: "Crafting Personalized Learning Environments Through Motivational Profiling (FIE 2024)"
+        url: "https://ieeexplore.ieee.org/document/10893473"
+      - label: "A Process to Identify Players’ Motivational Profiles for Designing a Gamification Project (ICCSA 2024)"
+        url: "https://link.springer.com/chapter/10.1007/978-3-031-64608-9_4"
   - date: "2025-05-22"
     title: "Meeting"
     speaker: "Banco do Brasil"
@@ -458,6 +470,9 @@ pt:
       A seleção de novos integrantes ocorre em processos seletivos periódicos, divulgados em redes sociais como Instagram e LinkedIn. Embora registrada com CNPJ, a Orc’estra não tem fins lucrativos: toda receita é reinvestida na própria operação.
 
       Ao final da apresentação, professores e colegas destacaram a relevância da Orc’estra como espaço de formação prática e empreendedora dentro da UnB — no contexto da Reunião Gamificação.ORG.
+    links:
+      - label: "Orc'estra"
+        url: "https://orcestra.com.br/"
   - date: "2025-07-10"
     title: "Encontro"
     speaker: "Lucas · Porto Digital"
@@ -502,6 +517,11 @@ pt:
       #### Desdobramentos
 
       O SuperR gerou um guia de gamificação, identidade visual própria, emblemas e até um protótipo de aplicativo em Power Apps para apoiar as atividades. O projeto também inspirou trabalhos de TCC e abriu caminho para futuras pesquisas envolvendo mineração de dados e machine learning para prever perfis motivacionais e ajustar as dinâmicas em tempo real — no âmbito da Reunião Gamificação.ORG.
+    links:
+      - label: "SuperR — página do projeto"
+        url: "https://cedis.unb.br/projects/super_r"
+      - label: "Prof. George Marsicano"
+        url: "https://cedis.unb.br/pt/people/george_marsicano/"
   - date: "2025-06-05"
     title: "Encontro"
     speaker: "Leda · IBICT"
@@ -540,12 +560,16 @@ pt:
 
       Para Leda, o diferencial está em unir inovação, ciência e entretenimento: “A divulgação científica precisa ser divertida. Quando o usuário mergulha em uma narrativa envolvente, ele aprende sem perceber que está estudando”.
     links:
-      - label: "Canal Ciência"
-        url: ""
+      - label: "Site do Canal Ciência"
+        url: "https://canalciencia.ibict.br/"
       - label: "Jornada Galáctica"
-        url: ""
-      - label: "Publicações"
-        url: ""
+        url: "https://canalciencia.ibict.br/jornada-galactica/"
+      - label: "Currículo Lattes"
+        url: "http://lattes.cnpq.br/5350538098267724"
+      - label: "Crafting Personalized Learning Environments Through Motivational Profiling (FIE 2024)"
+        url: "https://ieeexplore.ieee.org/document/10893473"
+      - label: "A Process to Identify Players’ Motivational Profiles for Designing a Gamification Project (ICCSA 2024)"
+        url: "https://link.springer.com/chapter/10.1007/978-3-031-64608-9_4"
   - date: "2025-05-22"
     title: "Encontro"
     speaker: "Banco do Brasil"

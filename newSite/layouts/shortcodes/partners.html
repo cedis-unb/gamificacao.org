@@ -2,7 +2,7 @@
 {{- $lang := .Page.Lang | default .Site.Language.Lang -}}
 {{- $items := site.Data.partners | default (slice) -}}
 
-<section class="w-full grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+<section class="w-full grid gap-8 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
   {{- range $p := $items -}}
     {{- $name := $p.name -}}
     {{- $url := $p.url | default "" -}}
@@ -32,4 +32,3 @@
     {{- if ne (len $url) 0 -}}</a>{{- end -}}
   {{- end -}}
 </section>
-

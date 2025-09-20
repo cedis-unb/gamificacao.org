@@ -1,12 +1,13 @@
 ---
 title: "Bruno Mello Andrade apresenta resultados parciais da dissertação (02/10/2025)"
-date: 2025-09-20T12:00:00-03:00
+date: 2025-09-01T09:00:00-03:00
 eventDate: 2025-10-02T10:00:00-03:00
 slug: apresentacao-bruno-mello-andrade
 description: "Em preparação para a defesa de mestrado, Bruno Mello Andrade apresenta resultados parciais à comunidade do Gamificação.ORG."
 translationKey: "news-bruno-2025-10-02"
 tags: ["notícias", "mestrado", "apresentações"]
 type: "posts"
+draft: false
 ---
 
 Na quinta-feira, 2 de outubro de 2025, Bruno Mello Andrade apresentará à comunidade do Gamificação.ORG os resultados parciais de sua dissertação de mestrado, atualmente em preparação para a defesa.

@@ -1,0 +1,53 @@
+{{/* News cards for homepage — 4 latest posts per current language */}}
+{{ $sec := .Site.GetPage "section" "posts" }}
+{{ $pages := cond $sec (where $sec.RegularPages "Lang" .Lang) (slice) }}
+{{ $sorted := first 4 (sort $pages "Date" "desc") }}
+
+<section class="w-full grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+  {{ range $sorted }}
+  <a href="{{ .RelPermalink }}" class="group block">
+    <div class="h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 overflow-hidden shadow hover:shadow-2xl transition-shadow duration-200">
+      {{/* Header image (fallback to logo) */}}
+      {{ $logo := resources.Get "logo.png" }}
+      <div class="w-full h-32 bg-cover bg-center nozoom" style="background-image:url('{{ with $logo }}{{ .RelPermalink }}{{ end }}');"></div>
+
+      <div class="flex flex-col gap-3 p-4">
+        {{/* Title */}}
+        <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral group-hover:underline group-hover:decoration-primary-500 group-hover:underline-offset-2">{{ .Title | emojify }}</h3>
+
+        {{/* Meta: date and optional event date */}}
+        <div class="text-xs text-neutral-500 dark:text-neutral-400 flex items-center gap-2">
+          {{ $date := .Date }}
+          {{ $dateStr := cond (eq $.Lang "pt") ($date.Format "02/01/2006") ($date.Format "Jan 2, 2006") }}
+          <span>{{ $dateStr }}</span>
+          {{ with .Params.eventDate }}
+            {{ $ev := time . }}
+            {{ $evStr := cond (eq $.Lang "pt") ($ev.Format "02/01/2006") ($ev.Format "Jan 2, 2006") }}
+            <span class="px-1 text-primary-500">•</span>
+            <span class="inline-flex items-center gap-1">
+              {{ partial "icon.html" "calendar" }}
+              <span>{{ if eq $.Lang "pt" }}Evento:{{ else }}Event:{{ end }} {{ $evStr }}</span>
+            </span>
+          {{ end }}
+        </div>
+
+        {{/* Summary (trimmed) */}}
+        <p class="text-sm text-neutral-700 dark:text-neutral-300 min-h-[3.5rem]">{{ .Summary | plainify | truncate 160 }}</p>
+
+        {{/* Footer: first tag + CTA */}}
+        <div class="mt-auto flex items-center justify-between">
+          <div class="flex flex-wrap gap-2">
+            {{ with index .Params.tags 0 }}
+              <span class="inline-flex items-center rounded-full bg-neutral-200 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200 px-2 py-0.5 text-xs">{{ . }}</span>
+            {{ end }}
+          </div>
+          <span class="text-sm font-medium text-primary-600 dark:text-primary-400 group-hover:underline">
+            {{ if eq $.Lang "pt" }}Ler mais{{ else }}Read more{{ end }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+</section>
+

@@ -3,21 +3,6 @@
     <div class="prose dark:prose-invert max-w-3xl mx-auto text-center mb-6">
       <h2>{{ if eq .Site.Language.Lang "pt" }}Notícias recentes{{ else }}Recent News{{ end }}</h2>
     </div>
-    {{ $section := .Site.GetPage (printf "/%s/posts" .Lang) }}
-    {{ $pages := cond $section (where $section.RegularPages "Kind" "page") (slice) }}
-    {{ if eq (len $pages) 0 }}
-      {{ $all := .Site.RegularPages }}
-      {{ $pages = where $all "RelPermalink" "intersect" (slice (printf "/%s/posts/" .Lang)) }}
-    {{ end }}
-    {{ $sorted := first 4 (sort $pages "Date" "desc") }}
-    <section class="space-y-10 w-full">
-      {{ if gt (len $sorted) 0 }}
-        {{ range $sorted }}
-          {{ partial "article-link/simple.html" . }}
-        {{ end }}
-      {{ else }}
-        <p class="text-center text-neutral-500">{{ if eq .Site.Language.Lang "pt" }}Nenhuma notícia publicada ainda.{{ else }}No news yet.{{ end }}</p>
-      {{ end }}
-    </section>
+    {{ partial "home/news-cards.html" . }}
   </section>
 {{ end }}

@@ -4,7 +4,7 @@ description: "About the Gamification ORG project"
 slug: "about"
 ---
 
-Gamificação.ORG is a research and collaboration group connected to the [Center for Studies, Development, and Innovation in Software (CEDIS)](https://cedis.unb.br) at the University of Brasília (UnB). It was born out of the gamification research line at CEDIS, which since 2015 has brought together academic works, experimental projects, and interdisciplinary initiatives focused on the use of gamification strategies to foster motivation, engagement, and innovation.
+Gamificação.ORG is a research and collaboration group connected to the [Center for Studies, Development, and Innovation in Software (CEDIS)](https://cedis.unb.br) at the University of Brasília (UnB). It was born out of the [gamification research line](https://cedis.unb.br/areas/gamification) at CEDIS, which since 2015 has brought together academic works, experimental projects, and interdisciplinary initiatives focused on the use of gamification strategies to foster motivation, engagement, and innovation.
 
 ## Origin and trajectory
 

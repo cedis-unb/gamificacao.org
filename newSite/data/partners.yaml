@@ -1,0 +1,27 @@
+- name: "IBICT — Canal Ciência"
+  url: "https://canalciencia.ibict.br/"
+  logo: ""
+  description:
+    pt: "Parceria com o IBICT (Canal Ciência) em iniciativas de gamificação e formação."
+    en: "Partnership with IBICT (Canal Ciência) in gamification initiatives and training."
+
+- name: "Orc’estra (UnB)"
+  url: "https://orcestra.com.br/"
+  logo: ""
+  description:
+    pt: "Empresa júnior dedicada à gamificação; colaboração em projetos e eventos."
+    en: "Junior company dedicated to gamification; collaboration in projects and events."
+
+- name: "Banco do Brasil — Equipe de Gamificação (Ditec)"
+  url: ""
+  logo: ""
+  description:
+    pt: "Parceria com equipe de Gamificação (Ditec) em palestras e estudos de caso."
+    en: "Partnership with the Gamification Team (Ditec) for talks and case studies."
+
+- name: "Lab Vista — University of Évora"
+  url: "https://www.uevora.pt/investigar/unidades-id/vista-lab"
+  logo: ""
+  description:
+    pt: "Parceria acadêmica e pesquisa aplicada com o Lab Vista (Universidade de Évora)."
+    en: "Academic partnership and applied research with Lab Vista (University of Évora)."

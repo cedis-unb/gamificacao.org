@@ -2,93 +2,173 @@ en:
   - date: "2025-09-04"
     title: "Meeting"
     speaker: "Orc'estra"
-    icon: "music"
-    badge: "Project"
-    desc: "Integration, coordination, and next steps."
+    icon: "globe"
+    badge: "Partnership"
+    desc: "Orc’sestra presented its trajectory and pioneering work as a student organization dedicated to gamification."
+    videoURL: ""
+    summary: |
+      ### Orc’estra presents itself as a pioneer in gamification in Brazil
+
+      In the September 4 meeting, the junior company Orc’estra, linked to UnB Gama’s Software Engineering program, presented its trajectory and activity as the first Brazilian student organization dedicated exclusively to gamification — within the Gamificação.ORG meeting.
+
+      Student Bryan Leite, representing the organization, emphasized that the group’s mission is to “reframe people’s lives by bringing productivity and pleasure together.” Orc’estra focuses on developing solutions that apply game techniques to foster engagement and results in different contexts.
+
+      #### Service portfolio
+
+      - Gamification design — needs assessment and tailored solutions.
+      - Software conception — requirements structuring and high‑fidelity prototype development.
+      - Gamified development — building or maintaining systems with gamification elements.
+
+      Among the success cases are projects with Unimed (promoting healthy habits); the “Ao Encontro” app, which helps search for lost animals; and Alegro, an international marketplace aiming to strengthen users’ sense of belonging.
+
+      #### Structure and organizational culture
+
+      The company is organized with two presidencies (institutional and organizational) and four directorates: Communication and Marketing (Decom), Projects, Business (Debis), and Operations (Tops).
+
+      Members describe the internal culture as collaborative and family‑like. There are practices for activity follow‑up, climate surveys, and overload prevention. “Orc’estra is not just a junior company; it’s a family,” Bryan said.
+
+      #### Relationship with the community
+
+      New members are selected through periodic processes announced on social networks such as Instagram and LinkedIn. Although registered with a CNPJ, Orc’estra is non‑profit: all revenue is reinvested in its own operation.
+
+      At the end of the presentation, professors and peers highlighted Orc’estra’s relevance as a space for practical and entrepreneurial training within UnB — in the scope of the Gamificação.ORG meeting.
   - date: "2025-07-10"
     title: "Meeting"
     speaker: "Lucas · Porto Digital"
     icon: "globe"
     badge: "Partnership"
     desc: "Innovation ecosystem and collaboration opportunities."
+    videoURL: ""
+    summary: ""
   - date: "2025-06-22"
     title: "Meeting"
     speaker: "George · SuperR"
     icon: "lightbulb"
     badge: "Case"
     desc: "Experience report and good practices."
+    videoURL: ""
+    summary: ""
   - date: "2025-06-05"
     title: "Meeting"
     speaker: "Leda · IBICT"
     icon: "graduation-cap"
     badge: "Guest"
     desc: "Discussion on information science and gamification."
+    videoURL: ""
+    summary: ""
   - date: "2025-05-22"
     title: "Meeting"
     speaker: "BB"
     icon: "star"
     badge: "Presentation"
     desc: "Knowledge sharing and Q&A."
+    videoURL: ""
+    summary: ""
   - date: "2025-05-08"
     title: "Meeting"
     speaker: "Sergio"
     icon: "wand-magic-sparkles"
     badge: "Talk"
     desc: "The future of Gamification: trends, opportunities, and challenges."
+    videoURL: ""
+    summary: ""
   - date: "2025-04-03"
     title: "Meeting"
     speaker: "Denniel"
     icon: "graduation-cap"
     badge: "Thesis"
     desc: "Presentation of results and discussions on the final project."
+    videoURL: ""
+    summary: ""
   - date: "2025-03-06"
     title: "Meeting"
     speaker: "TBD"
     icon: "list"
     badge: "Agenda"
     desc: "Progress checkpoint and next milestones."
+    videoURL: ""
+    summary: ""
   - date: "2025-02-13"
     title: "Meeting"
     speaker: "TBD"
     icon: "list"
     badge: "Agenda"
     desc: "Group updates and deliverables."
+    videoURL: ""
+    summary: ""
   - date: "2025-01-30"
     title: "Meeting"
     speaker: "TBD"
     icon: "list"
     badge: "Agenda"
     desc: "Planning and action follow-up."
+    videoURL: ""
+    summary: ""
   - date: "2025-01-16"
     title: "Meeting"
     speaker: "TBD"
     icon: "list"
     badge: "Agenda"
     desc: "Topics and agenda will be defined with the group."
+    videoURL: ""
+    summary: ""
   - date: "2024-12-19"
     title: "Meeting"
     speaker: "Mylena & Cris"
     icon: "heart"
     desc: "Collaborative session focused on integration and next steps."
+    videoURL: ""
+    summary: ""
   - date: "2024-12-05"
     title: "Meeting"
     speaker: "Bruno Andrade"
     icon: "star"
     desc: "Shared experiences and outlook for the semester."
+    videoURL: ""
+    summary: ""
   - date: "2024-11-21"
     title: "Cycle Opening"
     speaker: "Sergio"
     icon: "lightbulb"
     badge: "Kickoff"
     desc: "Official start of the meeting cycle and expectations alignment."
+    videoURL: ""
+    summary: ""
 
 pt:
   - date: "2025-09-04"
     title: "Encontro"
     speaker: "Orc'estra"
-    icon: "music"
-    badge: "Projeto"
-    desc: "Integração, coordenação e próximos passos do projeto."
+    icon: "globe"
+    badge: "Parceria"
+    desc: "A Orc’estra apresentou sua trajetória e atuação pioneira como organização estudantil dedicada à gamificação."
+    videoURL: ""
+    summary: |
+      ### Orc’estra se apresenta como pioneira em gamificação no Brasil
+
+      Na reunião de 4 de setembro, a empresa júnior Orc’estra, vinculada ao curso de Engenharia de Software da UnB Gama, apresentou sua trajetória e atuação como a primeira organização estudantil brasileira dedicada exclusivamente à gamificação — no âmbito da Reunião Gamificação.ORG.
+
+      O estudante Bryan Leite, representante da entidade, ressaltou que a missão do grupo é “ressignificar a vida das pessoas, unindo produtividade e prazer”. A Orc’estra tem como foco o desenvolvimento de soluções que aplicam técnicas de jogos para estimular engajamento e resultados em diferentes contextos.
+
+      #### Portfólio de serviços
+
+      - Design de gamificação — diagnóstico de necessidades e elaboração de soluções personalizadas.
+      - Concepção de software — estruturação de requisitos e desenvolvimento de protótipos de alta fidelidade.
+      - Desenvolvimento gamificado — criação ou manutenção de sistemas com elementos de gamificação.
+
+      Entre os cases de sucesso, destacam‑se projetos com a Unimed, voltados à promoção de hábitos de saúde; o aplicativo Ao Encontro, que auxilia na busca de animais perdidos; e o Alegro, marketplace internacional que buscou aumentar o senso de pertencimento dos usuários.
+
+      #### Estrutura e cultura organizacional
+
+      A empresa é organizada em duas presidências (institucional e organizacional) e quatro diretorias: Comunicação e Marketing (Decom), Projetos, Negócios (Debis) e Operações (Tops).
+
+      A cultura interna é descrita pelos membros como colaborativa e familiar. Há práticas de acompanhamento de atividades, pesquisas de clima e prevenção de sobrecarga. “A Orc’estra não é só uma empresa júnior, é uma família”, afirmou Bryan.
+
+      #### Relação com a comunidade
+
+      A seleção de novos integrantes ocorre em processos seletivos periódicos, divulgados em redes sociais como Instagram e LinkedIn. Embora registrada com CNPJ, a Orc’estra não tem fins lucrativos: toda receita é reinvestida na própria operação.
+
+      Ao final da apresentação, professores e colegas destacaram a relevância da Orc’estra como espaço de formação prática e empreendedora dentro da UnB — no contexto da Reunião Gamificação.ORG.
   - date: "2025-07-10"
     title: "Encontro"
     speaker: "Lucas · Porto Digital"
@@ -165,4 +245,3 @@ pt:
     icon: "lightbulb"
     badge: "Kickoff"
     desc: "Início oficial do ciclo de encontros e alinhamento de expectativas."
-

@@ -39,7 +39,7 @@
     {{- end -}}
   </div>
 
-  <ol class="border-l-2 border-primary-500 dark:border-primary-300 list-none">
+  <ol class="border-l-2 border-primary-500 dark:border-primary-300 list-none pl-6 md:pl-8">
     {{- /* Render in reverse-chronological order */ -}}
     {{- $desc := sort $items "date" "desc" -}}
     {{- range $desc -}}
@@ -47,13 +47,13 @@
       {{- $year := printf "%d" $d.Year -}}
       <li data-year="{{ $year }}">
         <div class="flex flex-start">
-          <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+          <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 w-8 h-8 text-2xl flex items-center justify-center rounded-full -ml-2 md:-ml-4 mt-5">
             {{- $icon := resources.Get (printf "icons/%s.svg" (.icon | default "list")) -}}
             {{- if $icon -}}
               <span class="relative inline-block align-text-bottom icon">{{ $icon.Content | safeHTML }}</span>
             {{- end -}}
           </div>
-          <div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 break-words">
+          <div class="block p-6 rounded-lg shadow-2xl w-full sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12 2xl:w-7/12 ml-6 mb-10 break-words">
             <div class="flex justify-between items-start gap-2 flex-wrap">
               <h2 class="mt-0">
                 {{ .date }} · {{ .title }}

@@ -6635,4 +6635,81 @@ The model was validated through a case study at the University of Brasília (UnB
   - sergio_freitas
   url:
   year: 2000
-
+- authors:
+  - Pedro Henrique Potiguara Carvalho
+  title:
+    pt: "Sistema de buscas em ambiente virtual de aprendizagem baseada em perfis"
+    en: "Search System in a Virtual Learning Environment Based on Profiles"
+  summary:
+    pt: "Este trabalho tem como objetivo a modelagem e a implementação da parte da busca de um ambiente virtual de aprendizagem, levando em consideração tanto o perfil de grupo do usuário que está realizando a busca, quanto o seu perfil individual. Este tipo de modelagem da busca permite que sejam apresentados ao usuário, como resultado da busca, documentos mais próximos da sua necessidade e portanto, mais relevantes para ele. Ao decorrer do trabalho é descrita a proposta do trabalho, bem como o processo de desenvolvimento adotado para o desenvolvimento do trabalho. A metodologia utilizada para a realização do trabalho gira em torno de estudos em implementações já realizadas para a definição de perfil de grupo e perfil individual, além da composição (integração) dessas implementações e da construção da busca associada a essa composição. Como resultado deste trabalho foi desenvolvido um ambiente capaz de apresentar páginas html com conteúdos relevantes ao usuário, a partir de uma busca realizada por ele e baseada em seu perfil."
+    en: "This work aims to model and implement the search part of a virtual learning environment, taking into account both the group profile of the user performing the search and their individual profile. This type of search modeling allows documents that are closer to the user's needs and therefore more relevant to them to be presented as search results. Throughout the work, the proposal is described, as well as the development process adopted for the work. The methodology used for the work revolves around studies of already implemented solutions for defining group profiles and individual profiles, in addition to composing (integrating) these implementations and building the search associated with this composition. As a result of this work, an environment was developed capable of presenting HTML pages with content relevant to the user, based on a search performed by them and based on their profile."
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - gamification
+  - education
+  type: tcc
+  program: curso_esw
+  advisors:
+  - sergio_freitas
+  url: https://bdm.unb.br/handle/10483/9273
+  year: 2014
+- authors:
+  - Álvaro Henrique de S. Gouvea
+  - Luís Guilherme G. Lins
+  title:
+    pt: "Utilização de Large Language Models no desenvolvimento de um chatbot multimodal para consultoria jurídico-trabalhista"
+    en: "Use of Large Language Models in the development of a multimodal chatbot for labor law consultancy"
+  summary:
+    pt: "O objetivo principal desse projeto é o desenvolvimento de um chatbot multimodal especializado em consultoria jurídico-trabalhista via aplicação web."
+    en: "The main objective of this project is the development of a multimodal chatbot specialized in labor law consultancy through a web application."
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - ia
+  - pln
+  - machine_learning
+  type: tcc
+  program: curso_esw
+  advisors:
+  - sergio_freitas
+  url: https://bdm.unb.br/handle/10483/40493
+  year: 2024
+- authors:
+  - Ana Júlia Mendes Santos
+  - Maria Clara Oleari de Araújo
+  - Júlia Rocha Fortunato
+  - Maurício Ferreira de Araújo
+  - Sérgio Antônio Andrade de Freitas 
+  title:
+    pt: "Repensando a educação em IHC: gamificação, heurísticas e aprendizagem baseada em projetos em ação"
+    en: "Rethinking HCI Education: Gamification, Heuristics, and Project-Based Learning in Action"
+  summary:
+    pt: 'Este artigo propõe uma abordagem pedagógica para o ensino de Interação Humano-Computador (IHC) em Engenharia de Software, combinando avaliação heurística, gamificação e aprendizagem baseada em projetos. Por meio de questionários, análise estatística, prototipagem e validação com usuários, o método — fundamentado no framework Octalysis — mostrou-se eficaz para melhorar a qualidade das interfaces e o engajamento dos estudantes, utilizando elementos educacionais de RPG (Role-Playing Game).'
+    en: 'This article proposes a pedagogical approach to teaching Human-Computer Interaction (HCI) in Software Engineering by combining heuristic evaluation, gamification, and project-based learning. Using questionnaires, statistical analysis, prototyping, and user validation, the method—based on the Octalysis framework—proved effective in improving interface quality and student engagement through educational (Role-Playing Game) RPG elements.'
+  book_title:  Human-Computer Interaction – INTERACT 2025
+  volume: '16111'
+  doi_isbn: 10.1007/978-3-032-05008-3_55
+  journal_event: ''
+  location: ''
+  pages: 106-116
+  publisher: Springer Berlin Heidelberg
+  tags:
+  - gamification
+  - ihc
+  - sergio_freitas
+  type: conference
+  program: ''
+  advisors: []
+  url: ''
+  year: 2025

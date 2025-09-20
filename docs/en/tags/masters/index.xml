@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Master’s on Gamification ORG</title><link>https://gamificacao.org/en/tags/masters/</link><description>Recent content in Master’s on Gamification ORG</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 10 Sep 2025 09:00:00 -0300</lastBuildDate><atom:link href="https://gamificacao.org/en/tags/masters/index.xml" rel="self" type="application/rss+xml"/><item><title>Bruno Mello Andrade presents preliminary master’s results</title><link>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</link><pubDate>Wed, 10 Sep 2025 09:00:00 -0300</pubDate><guid>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Master’s on Gamification ORG</title>
+    <link>https://gamificacao.org/en/tags/masters/</link>
+    <description>Recent content in Master’s on Gamification ORG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Wed, 10 Sep 2025 09:00:00 -0300</lastBuildDate><atom:link href="https://gamificacao.org/en/tags/masters/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bruno Mello Andrade presents preliminary master’s results</title>
+      <link>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</link>
+      <pubDate>Wed, 10 Sep 2025 09:00:00 -0300</pubDate>
+      
+      <guid>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

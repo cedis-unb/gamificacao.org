@@ -37,7 +37,9 @@ jobs:
         run: |
           # Build site; publishDir is set to ../docs in newSite/config/_default/hugo.toml
           # Cache set inside workspace to avoid permission issues
-          hugo -s newSite --minify --gc --cacheDir "${{ github.workspace }}/newSite/.hugo_cache"
+          hugo -s newSite --minify --gc \
+            --baseURL "https://gamificacao.org/" \
+            --cacheDir "${{ github.workspace }}/newSite/.hugo_cache"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

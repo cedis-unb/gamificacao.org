@@ -16,6 +16,7 @@ buymeacoffee = { }
 verification = { }
 rssnext = { }
 highlightCurrentMenuArea = true
+mainSections = ["posts"]
 
 [header]
 layout = "fixed-fill-blur"
@@ -29,8 +30,8 @@ showScrollToTop = true
 
 [homepage]
 layout = "profile"
-showRecent = false
-showRecentItems = 5
+showRecent = true
+showRecentItems = 4
 showMoreLink = "enable"
 showMoreLinkDest = "/posts/"
 cardView = "enable"

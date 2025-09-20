@@ -6,6 +6,8 @@ en:
     badge: "Project"
     desc: "Orc’sestra presented its trajectory and pioneering work as a student organization dedicated to gamification."
     videoURL: ""
+    transcriptURL: ""
+    transcriptURL: ""
     summary: |
       ### Orc’estra presents itself as a pioneer in gamification in Brazil
 
@@ -39,6 +41,7 @@ en:
     badge: "Partnership"
     desc: "Innovation ecosystem and collaboration opportunities."
     videoURL: ""
+    transcriptURL: ""
     summary: ""
   - date: "2025-06-22"
     title: "Meeting"
@@ -47,6 +50,8 @@ en:
     badge: "Project"
     desc: "SuperR: a gamified, project‑based approach brought to life at UnB."
     videoURL: ""
+    transcriptURL: ""
+    transcriptURL: ""
     summary: |
       ### SuperR: a gamified course comes to life at UnB
 
@@ -84,6 +89,7 @@ en:
     badge: "Guest"
     desc: "Canal Ciência bets on gamification to engage youth."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### Canal Ciência bets on gamification to engage youth
 
@@ -126,6 +132,7 @@ en:
     badge: "Case"
     desc: "Banco do Brasil bets on gamification to engage employees."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### Banco do Brasil bets on gamification to engage employees
 
@@ -249,20 +256,86 @@ en:
     summary: ""
   - date: "2025-01-30"
     title: "Meeting"
-    speaker: "TBD"
-    icon: "list"
-    badge: "Agenda"
-    desc: "Planning and action follow-up."
+    speaker: "Luciana Assis · Embrapa"
+    icon: "graduation-cap"
+    badge: "Master's"
+    desc: "Embrapa research applies gamification to asset management and reports advances."
     videoURL: ""
-    summary: ""
+    transcriptURL: ""
+    summary: |
+      ### Embrapa case: gamification in asset management shows advances
+
+      On January 30, 2025, researcher Luciana Assis presented results from her master's research, advised by Prof. Sergio Freitas, on using gamification in organizational environments, with a case study at Embrapa.
+
+      #### Context and objectives
+
+      The work focused on GSteck, Embrapa’s research asset management system, where low user motivation had been observed. The study asked how gamification could improve engagement and collaboration, and what effects might emerge in this context.
+
+      #### Methodology
+
+      - Literature review: 144 papers analyzed, 36 selected — leading to an HCII (2023) publication;
+      - Case study in three stages:
+        - Motivational profiling (Octalysis core drives);
+        - Gamification design (16 requirements);
+        - Partial implementation (9 techniques: progress bars, badges, points, leaderboards, social trophies, narratives, etc.).
+
+      #### Results
+
+      - 135 respondents out of 780 users, representing all Embrapa units;
+      - Most relevant core drive: Development & Accomplishment;
+      - Implemented techniques yielded perceived increases in motivation and appreciation of the system;
+      - Feedback indicated greater sense of usefulness and engagement, with suggestions to refine the evaluation model.
+
+      #### Limitations
+
+      - 9/16 techniques implemented due to time constraints;
+      - The underlying asset‑scoring model is not yet validated by Embrapa, preventing production rollout;
+      - Evaluation was conducted in a staging environment with 27 participants selected by managers.
+
+      #### Next steps
+
+      The group discussed standardizing a motivational‑profile questionnaire for Gamificação.ORG, based on Luciana’s instrument, and suggested submitting papers to journals such as Revista Design e Tecnologia (UFRGS), exploring methods and findings.
+    links:
+      - label: "HCII (2023) publication"
+        url: ""
+      - label: "GSteck system"
+        url: ""
+      - label: "Revista Design e Tecnologia (UFRGS)"
+        url: ""
   - date: "2025-01-16"
     title: "Meeting"
-    speaker: "TBD"
-    icon: "list"
-    badge: "Agenda"
-    desc: "Topics and agenda will be defined with the group."
+    speaker: "Capt. Públio Cavalcante"
+    icon: "star"
+    badge: "Case"
+    desc: "Gamification in the Military Police: case study shows potential and challenges."
     videoURL: ""
-    summary: ""
+    transcriptURL: ""
+    summary: |
+      ### Gamification in the Military Police: potential and challenges
+
+      On January 16, 2025, Capt. Públio Cavalcante (Military Police) presented a study on using gamification in police intelligence reports.
+
+      #### Objective and method
+
+      The study assessed whether gamification could improve the quality of intelligence reports. It applied Intrinsic Motivation Inventory (IMI), Octalysis‑based motivational profiling, and a comparison between units using or not a gamified reporting system.
+
+      #### Implementation
+
+      The Ippon Web system was adapted with medals, leaderboards, virtual coins, and anonymous peer feedback. Each report was evaluated by three different people; scores fed individual and team profiles. Techniques included social reinforcement, immediate feedback, and achievement progression.
+
+      #### Results and perceptions
+
+      - Intangible: higher engagement from officers as they felt read and evaluated; rare peer feedback in the military environment improved text and image quality.
+      - Quantitative: independent evaluations showed slightly higher scores for gamified reports.
+      - Limitations: only 6/19 planned techniques implemented; short pilot window constrained robust effects.
+
+      #### Institutional challenges
+
+      Command changes led to pausing gamification, prioritizing administrative use of the system. Cultural and institutional maturity are needed to sustain such innovations.
+
+      #### Conclusion
+
+      Gamification can engage agents and improve intelligence reporting, but faces constraints of time, culture, and continuity. Prof. Sergio Freitas highlighted intangible gains — especially feedback and professional appreciation — as central to gamification and worth deeper research.
   - date: "2024-12-19"
     title: "Meeting"
     speaker: "Prof. Cristiane S. Ramos & Mylena A. S. Farias"
@@ -358,6 +431,7 @@ pt:
     badge: "Projeto"
     desc: "A Orc’estra apresentou sua trajetória e atuação pioneira como organização estudantil dedicada à gamificação."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### Orc’estra se apresenta como pioneira em gamificação no Brasil
 
@@ -397,6 +471,7 @@ pt:
     badge: "Projeto"
     desc: "SuperR: disciplina gamificada ganha vida na UnB."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### SuperR: disciplina gamificada ganha vida na UnB
 
@@ -434,6 +509,7 @@ pt:
     badge: "Convidada"
     desc: "Canal Ciência aposta em gamificação para engajar jovens."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### Canal Ciência aposta em gamificação para engajar jovens
 
@@ -477,6 +553,7 @@ pt:
     badge: "Case"
     desc: "Banco do Brasil aposta em gamificação para engajar colaboradores."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### Banco do Brasil aposta em gamificação para engajar colaboradores
 
@@ -506,6 +583,7 @@ pt:
     badge: "Palestra"
     desc: "Palestra do Prof. Sergio Freitas — passado, presente e futuro da gamificação."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### Palestra do Prof. Sergio Freitas — 08/05/2025
 
@@ -541,6 +619,7 @@ pt:
     badge: "TCC"
     desc: "Pesquisa de Denniel aponta caminhos para gamificação no desenvolvimento ágil."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### Pesquisa de Denniel aponta caminhos para gamificação no desenvolvimento ágil
 
@@ -596,16 +675,86 @@ pt:
     desc: "Atualizações do grupo e definição de entregas."
   - date: "2025-01-30"
     title: "Encontro"
-    speaker: "A definir"
-    icon: "list"
-    badge: "Agenda"
-    desc: "Planejamento e acompanhamento das ações."
+    speaker: "Luciana Assis · Embrapa"
+    icon: "graduation-cap"
+    badge: "Mestrado"
+    desc: "Pesquisa da Embrapa aplica gamificação em gestão de ativos e aponta avanços."
+    videoURL: ""
+    transcriptURL: ""
+    summary: |
+      ### Pesquisa da Embrapa aplica gamificação em gestão de ativos e aponta avanços
+
+      Na reunião de 30 de janeiro de 2025, a pesquisadora Luciana Assis apresentou os resultados de seu mestrado, orientado pelo professor Sergio Freitas, sobre o uso de gamificação em ambientes organizacionais, com estudo de caso na Embrapa.
+
+      #### Contexto e objetivos
+
+      O trabalho foi realizado no sistema GSteck, responsável pela gestão de ativos de pesquisa da Embrapa, onde se observava baixa motivação de uso. A pesquisa buscou responder como soluções de gamificação poderiam melhorar engajamento e colaboração, e quais efeitos poderiam surgir nesse contexto.
+
+      #### Metodologia
+
+      - Revisão da literatura: 144 artigos analisados, 36 selecionados — resultando em publicação no periódico HCII (2023);
+      - Estudo de caso em três etapas:
+        - Identificação do perfil motivacional (core drivers do Octalysis);
+        - Projeto da solução (16 requisitos);
+        - Implementação parcial (9 técnicas: barras de progresso, selos, pontos, rankings, troféus sociais, narrativas etc.).
+
+      #### Resultados
+
+      - 135 respondentes entre 780 usuários, contemplando todas as unidades da Embrapa;
+      - Core driver mais relevante: Desenvolvimento e Realização;
+      - Técnicas implementadas geraram melhorias percebidas na motivação e valorização do sistema;
+      - Feedbacks indicaram maior senso de utilidade e engajamento, com sugestões de aprimorar o modelo de avaliação.
+
+      #### Limitações
+
+      - 9 das 16 técnicas previstas foram implementadas, por restrições de tempo;
+      - O modelo de pontuação de ativos ainda não foi validado pela Embrapa, impedindo implantação em produção;
+      - A avaliação ocorreu em ambiente de homologação, com 27 participantes selecionados pelas gestoras.
+
+      #### Próximos passos
+
+      O grupo discutiu padronizar um questionário de perfis motivacionais no Gamificação.ORG, a partir do instrumento de Luciana, e sugeriu submissões a periódicos como a Revista Design e Tecnologia (UFRGS), explorando metodologias e resultados.
+    links:
+      - label: "Publicação HCII (2023)"
+        url: ""
+      - label: "Sistema GSteck"
+        url: ""
+      - label: "Revista Design e Tecnologia (UFRGS)"
+        url: ""
   - date: "2025-01-16"
     title: "Encontro"
-    speaker: "A definir"
-    icon: "list"
-    badge: "Agenda"
-    desc: "Tópicos e pauta serão definidos com o grupo."
+    speaker: "Cap. Públio Cavalcante"
+    icon: "star"
+    badge: "Estudo de caso"
+    desc: "Gamificação na Polícia Militar: estudo de caso revela potencial e desafios."
+    videoURL: ""
+    transcriptURL: ""
+    summary: |
+      ### Gamificação na Polícia Militar: estudo de caso revela potencial e desafios
+
+      Na reunião de 16 de janeiro de 2025, o capitão Públio Cavalcante, da Polícia Militar, apresentou sua pesquisa sobre o uso de gamificação em relatórios de inteligência policial.
+
+      #### Objetivo e metodologia
+
+      O estudo avaliou se a gamificação poderia melhorar a qualidade de relatórios de inteligência. Foram aplicados o IMI (Inventário de Motivação Intrínseca), perfis motivacionais com base no Octalysis e comparação entre unidades com e sem a versão gamificada do sistema.
+
+      #### Implementação
+
+      O sistema Ippon Web foi adaptado com medalhas, rankings, moedas virtuais e feedback anônimo entre pares. Cada relatório era avaliado por três pessoas; os resultados alimentavam perfis individuais e coletivos. Técnicas incluíram reforço social, feedback imediato e progressão por conquistas.
+
+      #### Resultados e percepções
+
+      - Intangíveis: maior engajamento ao perceberem leitura e avaliação; feedback entre pares — raro no ambiente militar — melhorou a qualidade de textos e imagens.
+      - Quantitativos: avaliações independentes indicaram notas ligeiramente superiores para relatórios gamificados.
+      - Limitações: 6/19 técnicas previstas implementadas; pouco tempo de aplicação reduziu efeitos mensuráveis.
+
+      #### Desafios institucionais
+
+      Mudanças de comando levaram à suspensão da gamificação, priorizando uso administrativo do sistema. É necessário amadurecimento cultural e institucional para consolidar inovações desse tipo.
+
+      #### Conclusão
+
+      A gamificação mostrou potencial para engajar agentes e aprimorar relatórios, mas enfrenta barreiras de tempo, cultura e continuidade. O prof. Sergio Freitas destacou ganhos intangíveis — feedback e valorização profissional — como centrais na lógica da gamificação e promissores para pesquisas futuras.
   - date: "2024-12-19"
     title: "Encontro"
     speaker: "Profa. Cristiane S. Ramos & Mylena A. S. Farias"
@@ -613,6 +762,7 @@ pt:
     badge: "Prêmio"
     desc: "Pesquisadoras discutem perfil motivacional e gamificação no Canal Ciência."
     videoURL: ""
+    transcriptURL: ""
     summary: |
       ### Pesquisadoras discutem perfil motivacional e gamificação no Canal Ciência
 

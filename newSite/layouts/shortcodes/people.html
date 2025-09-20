@@ -15,27 +15,45 @@
         {{- $name := $person.name -}}
         {{- $url := $person.url | default "" -}}
         {{- $avatar := $person.avatar | default "" -}}
-        {{- $card := (printf "<div class=\"h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-4 shadow hover:shadow-xl transition-shadow\">%%s</div>") -}}
-
-        {{- /* Avatar badge */ -}}
-        {{- $badge := "" -}}
-        {{- if eq $avatar "m" -}}
-          {{- $badge = "<div class=\"h-12 w-12 rounded-full bg-blue-200 text-blue-700 flex items-center justify-center font-semibold\">M</div>" -}}
-        {{- else if eq $avatar "f" -}}
-          {{- $badge = "<div class=\"h-12 w-12 rounded-full bg-pink-200 text-pink-700 flex items-center justify-center font-semibold\">F</div>" -}}
+        {{- /* Badge label: supports map with language keys or a flat string */ -}}
+        {{- $badgeLabel := "" -}}
+        {{- if reflect.IsMap $person.badge -}}
+          {{- $badgeLabel = (index $person.badge $lang) | default (index $person.badge "en") | default "" -}}
         {{- else -}}
-          {{- $badge = "<div class=\"h-12 w-12 rounded-full bg-neutral-200 text-neutral-700 flex items-center justify-center font-semibold\">?</div>" -}}
+          {{- $badgeLabel = $person.badge | default "" -}}
         {{- end -}}
 
-        {{- $inner := printf "<div class=\"flex items-center gap-3\">%s<div class=\"min-w-0\"><h3 class=\"text-base font-semibold text-neutral-900 dark:text-neutral\">%s</h3></div></div>" $badge ($name | htmlEscape) -}}
-
-        {{- if ne (len $url) 0 -}}
-          <a href="{{ $url }}" target="_blank" rel="noopener" class="group block">{{ printf $card $inner | safeHTML }}</a>
+        {{- $img := "" -}}
+        {{- if eq $avatar "f" -}}
+          {{- $img = (print ("img/avatar-f.svg" | relURL)) -}}
         {{- else -}}
-          <div class="group block">{{ printf $card $inner | safeHTML }}</div>
+          {{- /* default to male/neutral silhouette */ -}}
+          {{- $img = (print ("img/avatar-m.svg" | relURL)) -}}
         {{- end -}}
+
+        <div class="h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-5 shadow hover:shadow-xl transition-shadow">
+          <div class="flex flex-col items-center text-center gap-3">
+            <div class="h-12 w-12 rounded-full overflow-hidden ring-2 ring-neutral-200 dark:ring-neutral-700 bg-white">
+              <img src="{{ $img }}" alt="Avatar" class="h-full w-full object-contain" loading="lazy" />
+            </div>
+            <div class="min-w-0">
+              <h3 class="text-base font-semibold text-neutral-900 dark:text-neutral">{{ $name }}</h3>
+              {{- with $badgeLabel -}}
+              <div class="mt-1 inline-block rounded-full bg-primary-100 text-primary-700 dark:bg-primary-400/20 dark:text-primary-300 px-2 py-0.5 text-xs font-medium">
+                {{ . }}
+              </div>
+              {{- end -}}
+            </div>
+            {{- if ne (len $url) 0 -}}
+            <div class="mt-2">
+              <a href="{{ $url }}" target="_blank" rel="noopener" class="text-sm text-primary-700 hover:underline dark:text-primary-400">
+                {{- if eq $lang "pt" -}}Ver perfil{{- else -}}View profile{{- end -}}
+              </a>
+            </div>
+            {{- end -}}
+          </div>
+        </div>
       {{- end -}}
     </section>
   {{- end -}}
 {{- end -}}
-

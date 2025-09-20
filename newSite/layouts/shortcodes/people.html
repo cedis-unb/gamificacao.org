@@ -30,10 +30,64 @@
 {{- $si := where $gamers "categories" "intersect" (slice "scientific_initiation") -}}
 {{- $tcc := where $gamers "categories" "intersect" (slice "tcc") -}}
 
+{{- /* Build existing names set for dedup */ -}}
+{{- $.Scratch.Set "names" (slice) -}}
+{{- range $gamers -}}{{- $.Scratch.Add "names" (slice .name) -}}{{- end -}}
+{{- $names := ($.Scratch.Get "names") -}}
+
+{{- /* Infer additional concluded people from productions-cedis (gamification + type) */ -}}
+{{- $proddata := (index site.Data "productions-cedis") | default dict -}}
+{{- $proditems := $proddata | default slice -}}
+{{- if $proddata.items -}}{{- $proditems = $proddata.items -}}{{- end -}}
+{{- $prodgam := where ($proditems | default (slice)) "tags" "intersect" (slice "gamification") -}}
+{{- $.Scratch.Set "inf_masters" (slice) -}}
+{{- $.Scratch.Set "inf_tcc" (slice) -}}
+{{- range $p := $prodgam -}}
+  {{- $ptype := lower ($p.type | default "") -}}
+  {{- $cat := "" -}}
+  {{- if eq $ptype "dissertation" -}}
+    {{- $cat = "master_student" -}}
+  {{- else if eq $ptype "tcc" -}}
+    {{- $cat = "tcc" -}}
+  {{- else -}}
+    {{- /* skip other types */ -}}
+  {{- end -}}
+  {{- if $cat -}}
+    {{- with $p.authors -}}
+      {{- range . -}}
+        {{- $author := . -}}
+        {{- if and $author (not (in $names $author)) -}}
+          {{- $dict := dict "name" $author "categories" (slice $cat) "tags" (slice "inactive") -}}
+          {{- with $p.advisors -}}{{- $dict = merge $dict (dict "advisors" .) -}}{{- end -}}
+          {{- if eq $cat "master_student" -}}
+            {{- $.Scratch.Add "inf_masters" (slice $dict) -}}
+          {{- else if eq $cat "tcc" -}}
+            {{- $.Scratch.Add "inf_tcc" (slice $dict) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $inf_masters := ($.Scratch.Get "inf_masters") -}}
+{{- $inf_tcc := ($.Scratch.Get "inf_tcc") -}}
+
+{{- /* Combine base + inferred lists per group */ -}}
+{{- $.Scratch.Set "masters_all" (slice) -}}
+{{- range $x := $masters -}}{{- $.Scratch.Add "masters_all" (slice $x) -}}{{- end -}}
+{{- range $x := $inf_masters -}}{{- $.Scratch.Add "masters_all" (slice $x) -}}{{- end -}}
+{{- $masters_all := ($.Scratch.Get "masters_all") -}}
+
+{{- $.Scratch.Set "tcc_all" (slice) -}}
+{{- range $x := $tcc -}}{{- $.Scratch.Add "tcc_all" (slice $x) -}}{{- end -}}
+{{- range $x := $inf_tcc -}}{{- $.Scratch.Add "tcc_all" (slice $x) -}}{{- end -}}
+{{- $tcc_all := ($.Scratch.Get "tcc_all") -}}
+
 {{- $groups := slice
-  (dict "key" "masters" "title" (cond (eq $lang "pt") "Mestrado" "Master's") "items" $masters)
+  (dict "key" "masters" "title" (cond (eq $lang "pt") "Mestrado" "Master's") "items" $masters_all)
   (dict "key" "si" "title" (cond (eq $lang "pt") "Iniciação científica" "Scientific Initiation") "items" $si)
-  (dict "key" "tcc" "title" (cond (eq $lang "pt") "TCC" "Undergraduate Thesis") "items" $tcc)
+  (dict "key" "tcc" "title" (cond (eq $lang "pt") "TCC" "Undergraduate Thesis") "items" $tcc_all)
 -}}
 
 {{- range $g := $groups -}}
@@ -78,7 +132,24 @@
         {{- end -}}
       {{- end -}}
       {{- $advisors := ($.Scratch.Get "adv") -}}
-      {{- $.Scratch.Add "items" (slice (dict "name" $it.name "badges" $badges "url" $url "avatar" $avatar "inactive" $isInactive "sortName" (lower $it.name) "advisors" $advisors)) -}}
+      {{- /* Collect productions for inactive people (from productions-cedis, gamification only) */ -}}
+      {{- $.Scratch.Set "plist" (slice) -}}
+      {{- if $isInactive -}}
+        {{- $pp := where $prodgam "authors" "intersect" (slice $it.name) -}}
+        {{- range $p := $pp -}}
+          {{- $ptitle := $p.title -}}
+          {{- if reflect.IsMap $ptitle -}}
+            {{- $ptitle = (index $p.title $lang) | default (index $p.title "en") | default (index $p.title "pt") | default "" -}}
+          {{- end -}}
+          {{- $purl := $p.url | default "" -}}
+          {{- $pdoi := $p.doi_isbn | default "" -}}
+          {{- $pyear := $p.year | default "" -}}
+          {{- $ptype := lower ($p.type | default "") -}}
+          {{- $.Scratch.Add "plist" (slice (dict "title" $ptitle "url" $purl "doi" $pdoi "year" $pyear "type" $ptype)) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $productions := ($.Scratch.Get "plist") -}}
+      {{- $.Scratch.Add "items" (slice (dict "name" $it.name "badges" $badges "url" $url "avatar" $avatar "inactive" $isInactive "sortName" (lower $it.name) "advisors" $advisors "productions" $productions)) -}}
     {{- end -}}
     {{- $all := ($.Scratch.Get "items") -}}
     {{- $act := where $all "inactive" false -}}

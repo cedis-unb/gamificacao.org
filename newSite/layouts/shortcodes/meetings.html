@@ -1,4 +1,11 @@
-{{- $items := .Page.Params.meetings -}}
+{{- $lang := .Page.Lang | default .Site.Language.Lang -}}
+{{- $data := site.Data.meetings -}}
+{{- $items := (cond $data (index $data $lang) slice) -}}
+{{- if (not $items) }}{{ $items = slice }}{{ end -}}
+{{- if (eq (len $items) 0) -}}
+  {{- /* Fallback: legacy front matter list */ -}}
+  {{- $items = .Page.Params.meetings -}}
+{{- end -}}
 {{- if not $items -}}
   {{- /* No meetings defined */ -}}
   <p class="text-neutral-500">{{ if eq .Page.Lang "pt" }}Nenhuma reunião cadastrada.{{ else }}No meetings yet.{{ end }}</p>
@@ -51,9 +58,9 @@
               <h2 class="mt-0">
                 {{ .date }} · {{ .title }}
               </h2>
-              <div class="flex gap-2">
+              <div class="flex gap-2 items-center">
                 {{- if .badge -}}
-                {{ partial "badge.html" .badge }}
+                <span class="inline-flex items-center rounded-full bg-primary-100 text-primary-700 dark:bg-primary-900/30 dark:text-primary-300 px-2 py-0.5 text-xs">{{ .badge }}</span>
                 {{- end -}}
                 {{- if eq .date $nextDate -}}
                 <span class="px-2 py-0.5 rounded-full text-xs bg-amber-100 text-amber-800 dark:bg-amber-300 dark:text-neutral-900">

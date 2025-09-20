@@ -1,31 +1,26 @@
 [[main]]
-none = "none"
-
-[[main]]
 name = "About"
 pre = "eye"
 pageRef = "about"
 identifier = "OmXIR5znfN"
-weight = 9_999
+weight = 10
 
 [[main]]
 name = "Meetings"
 pre = "list"
 pageRef = "meetings"
 identifier = "meetings-en"
-weight = 9_999
+weight = 20
 
 [[main]]
 name = "People"
 pre = "graduation-cap"
 pageRef = "people"
 identifier = "people-en"
-weight = 9_999
+weight = 30
 
 [[footer]]
-none = "none"
-
-[[footer]]
-pageRef = "https://github.com/CedisUnB"
+name = "GitHub"
+url = "https://github.com/CedisUnB"
 identifier = "STHwfSjXAO"
 weight = 9_999

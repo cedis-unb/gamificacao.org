@@ -1,5 +1,6 @@
 disabled = false
 languageCode = "pt"
+contentDir = "content/pt"
 languageName = "Português (Brasil)" # Nome que aparecerá no seletor de idiomas
 weight = 1                        # Se 'en' é 1, 'pt-BR' pode ser 2 para definir a ordem
 

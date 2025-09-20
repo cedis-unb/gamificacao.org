@@ -1,59 +1,80 @@
-{{/* People grid from data/people.yaml */}}
+{{/* People rendering sourced from people2.yaml (gamification only) plus optional extras */}}
 {{- $lang := .Page.Lang | default .Site.Language.Lang -}}
-{{- $data := site.Data.people -}}
-{{- if not $data }}
-  <p class="text-neutral-500">{{ if eq $lang "pt" }}Nenhuma pessoa cadastrada.{{ else }}No people data available.{{ end }}</p>
-{{- else -}}
-  {{- range $group := $data.groups -}}
+
+{{/* 1) Extras: researchers/collaborators from people_extras.yaml, or fallback to legacy people.yaml */}}
+{{- $extras := site.Data.people_extras -}}
+{{- if $extras -}}
+  {{- range $group := $extras.groups -}}
     {{- $title := index $group.title $lang | default (index $group.title "en") -}}
-    {{- with $title -}}
-    <h2 class="mt-8 mb-4 text-2xl font-bold">{{ . | markdownify }}</h2>
+    {{- with $title -}}<h2 class="mt-8 mb-4 text-2xl font-bold">{{ . | markdownify }}</h2>{{- end -}}
+    {{- partial "people/card_list.html" (dict "items" $group.items "lang" $lang) -}}
+  {{- end -}}
+{{- else if site.Data.people -}}
+  {{- $allowed := (slice "researchers" "collaborators") -}}
+  {{- range $group := site.Data.people.groups -}}
+    {{- if in $allowed $group.key -}}
+      {{- $title := index $group.title $lang | default (index $group.title "en") -}}
+      {{- with $title -}}<h2 class="mt-8 mb-4 text-2xl font-bold">{{ . | markdownify }}</h2>{{- end -}}
+      {{- partial "people/card_list.html" (dict "items" $group.items "lang" $lang) -}}
     {{- end -}}
+  {{- end -}}
+{{- end -}}
 
-    <section class="w-full grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      {{- range $person := $group.items -}}
-        {{- $name := $person.name -}}
-        {{- $url := $person.url | default "" -}}
-        {{- $avatar := $person.avatar | default "" -}}
-        {{- /* Badge label: supports map with language keys or a flat string */ -}}
-        {{- $badgeLabel := "" -}}
-        {{- if reflect.IsMap $person.badge -}}
-          {{- $badgeLabel = (index $person.badge $lang) | default (index $person.badge "en") | default "" -}}
-        {{- else -}}
-          {{- $badgeLabel = $person.badge | default "" -}}
-        {{- end -}}
+{{/* 2) Gamification-only from people2.yaml, grouped by category */}}
+{{- $p2data := (index site.Data "people-cedis") | default dict -}}
+{{- $p2 := $p2data.people | default (slice) -}}
+{{- $gamers := where $p2 "tags" "intersect" (slice "gamification") -}}
 
-        {{- $img := "" -}}
-        {{- if eq $avatar "f" -}}
-          {{- $img = (print ("img/avatar-f.svg" | relURL)) -}}
-        {{- else -}}
-          {{- /* default to male/neutral silhouette */ -}}
-          {{- $img = (print ("img/avatar-m.svg" | relURL)) -}}
-        {{- end -}}
+{{- /* Build group slices */ -}}
+{{- $masters := where $gamers "categories" "intersect" (slice "master_student") -}}
+{{- $si := where $gamers "categories" "intersect" (slice "scientific_initiation") -}}
+{{- $tcc := where $gamers "categories" "intersect" (slice "tcc") -}}
 
-        <div class="h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-5 shadow hover:shadow-xl transition-shadow">
-          <div class="flex flex-col items-center text-center gap-3">
-            <div class="h-12 w-12 rounded-full overflow-hidden ring-2 ring-neutral-200 dark:ring-neutral-700 bg-white">
-              <img src="{{ $img }}" alt="Avatar" class="h-full w-full object-contain" loading="lazy" />
-            </div>
-            <div class="min-w-0">
-              <h3 class="text-base font-semibold text-neutral-900 dark:text-neutral">{{ $name }}</h3>
-              {{- with $badgeLabel -}}
-              <div class="mt-1 inline-block rounded-full bg-primary-100 text-primary-700 dark:bg-primary-400/20 dark:text-primary-300 px-2 py-0.5 text-xs font-medium">
-                {{ . }}
-              </div>
-              {{- end -}}
-            </div>
-            {{- if ne (len $url) 0 -}}
-            <div class="mt-2">
-              <a href="{{ $url }}" target="_blank" rel="noopener" class="text-sm text-primary-700 hover:underline dark:text-primary-400">
-                {{- if eq $lang "pt" -}}Ver perfil{{- else -}}View profile{{- end -}}
-              </a>
-            </div>
-            {{- end -}}
-          </div>
-        </div>
+{{- $groups := slice
+  (dict "key" "masters" "title" (cond (eq $lang "pt") "Mestrado" "Master's") "items" $masters)
+  (dict "key" "si" "title" (cond (eq $lang "pt") "Iniciação científica" "Scientific Initiation") "items" $si)
+  (dict "key" "tcc" "title" (cond (eq $lang "pt") "TCC" "Undergraduate Thesis") "items" $tcc)
+-}}
+
+{{- range $g := $groups -}}
+  {{- if gt (len $g.items) 0 -}}
+    <h2 class="mt-8 mb-4 text-2xl font-bold">{{ $g.title }}</h2>
+    {{- /* Build items list with badges (category + status) and sort (active->inactive, then name) */ -}}
+    {{- $.Scratch.Set "items" (slice) -}}
+    {{- $over := site.Data.people_overrides | default dict -}}
+    {{- range $it := $g.items -}}
+      {{- $cat := index (intersect $it.categories (slice "master_student" "scientific_initiation" "tcc")) 0 -}}
+      {{- $catBadge := "" -}}
+      {{- if eq $cat "master_student" -}}
+        {{- $catBadge = (cond (eq $lang "pt") "Mestrado" "Master's") -}}
+      {{- else if eq $cat "scientific_initiation" -}}
+        {{- $catBadge = (cond (eq $lang "pt") "Iniciação científica" "Scientific Initiation") -}}
+      {{- else if eq $cat "tcc" -}}
+        {{- $catBadge = (cond (eq $lang "pt") "TCC" "Undergraduate Thesis") -}}
       {{- end -}}
-    </section>
+      {{- $badges := (slice $catBadge) -}}
+      {{- $isInactive := (gt (len (intersect $it.tags (slice "inactive"))) 0) -}}
+      {{- if $isInactive -}}
+        {{- $statusBadge := (cond (eq $lang "pt") "Concluído" "Completed") -}}
+        {{- $badges = ( $badges | append $statusBadge ) -}}
+      {{- end -}}
+      {{- $o := (index $over $it.name) -}}
+      {{- $url := "" -}}
+      {{- $avatar := "" -}}
+      {{- with $o -}}
+        {{- $url = .url | default "" -}}
+        {{- $avatar = .avatar | default "" -}}
+      {{- end -}}
+      {{- $.Scratch.Add "items" (slice (dict "name" $it.name "badges" $badges "url" $url "avatar" $avatar "inactive" $isInactive "sortName" (lower $it.name))) -}}
+    {{- end -}}
+    {{- $all := ($.Scratch.Get "items") -}}
+    {{- $act := where $all "inactive" false -}}
+    {{- $ina := where $all "inactive" true -}}
+    {{- $act = (sort $act "sortName") -}}
+    {{- $ina = (sort $ina "sortName") -}}
+    {{- $.Scratch.Set "final" (slice) -}}
+    {{- range $x := $act -}}{{- $.Scratch.Add "final" (slice $x) -}}{{- end -}}
+    {{- range $x := $ina -}}{{- $.Scratch.Add "final" (slice $x) -}}{{- end -}}
+    {{- partial "people/card_list.html" (dict "items" ($.Scratch.Get "final") "lang" $lang) -}}
   {{- end -}}
 {{- end -}}

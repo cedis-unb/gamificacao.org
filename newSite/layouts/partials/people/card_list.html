@@ -1,0 +1,46 @@
+{{/* Renders a grid of person cards. Expects .items (list of dicts with name, url?, avatar?, badge?); and .lang */}}
+{{- $lang := .lang | default .Page.Lang | default .Site.Language.Lang -}}
+<section class="w-full grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+  {{- range $person := .items -}}
+    {{- $name := $person.name -}}
+    {{- $url := $person.url | default "" -}}
+    {{- /* Ignore provided avatar info; use single neutral avatar */ -}}
+    {{- $badgeLabel := "" -}}
+    {{- if reflect.IsMap $person.badge -}}
+      {{- $badgeLabel = (index $person.badge $lang) | default (index $person.badge "en") | default "" -}}
+    {{- else -}}
+      {{- $badgeLabel = $person.badge | default "" -}}
+    {{- end -}}
+    {{- $badges := $person.badges | default (slice) -}}
+    {{- if and (not $badges) $badgeLabel -}}
+      {{- $badges = (slice $badgeLabel) -}}
+    {{- end -}}
+
+    {{- $img := (print ("img/avatar-m.svg" | relURL)) -}}
+
+    <div class="h-full rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 p-5 shadow hover:shadow-xl transition-shadow">
+      <div class="flex flex-col items-center text-center gap-3">
+        <div class="h-12 w-12 rounded-full overflow-hidden ring-2 ring-neutral-200 dark:ring-neutral-700 bg-white">
+          <img src="{{ $img }}" alt="Avatar" class="h-full w-full object-contain" loading="lazy" />
+        </div>
+        <div class="min-w-0">
+          <h3 class="text-base font-semibold text-neutral-900 dark:text-neutral">{{ $name }}</h3>
+          {{- if gt (len $badges) 0 -}}
+          <div class="mt-1 flex flex-wrap items-center justify-center gap-1">
+            {{- range $b := $badges -}}
+            <div class="inline-block rounded-full bg-primary-100 text-primary-700 dark:bg-primary-400/20 dark:text-primary-300 px-2 py-0.5 text-xs font-medium">{{ $b }}</div>
+            {{- end -}}
+          </div>
+          {{- end -}}
+        </div>
+        {{- if ne (len $url) 0 -}}
+        <div class="mt-2">
+          <a href="{{ $url }}" target="_blank" rel="noopener" class="text-sm text-primary-700 hover:underline dark:text-primary-400">
+            {{- if eq $lang "pt" -}}Ver perfil{{- else -}}View profile{{- end -}}
+          </a>
+        </div>
+        {{- end -}}
+      </div>
+    </div>
+  {{- end -}}
+</section>

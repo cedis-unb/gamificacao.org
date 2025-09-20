@@ -1,0 +1,24 @@
+groups:
+  - key: researchers
+    title:
+      en: Researchers
+      pt: Pesquisadores
+    items:
+      - name: "Sergio Antônio Andrade de Freitas"
+        url: "https://cedis.unb.br/pt/people/sergio_freitas/"
+        avatar: m
+        badge:
+          en: "Coordinator"
+          pt: "Coordenador"
+      - name: "Cristiane Soares Ramos"
+        url: "https://cedis.unb.br/pt/people/cristiane_ramos/"
+        avatar: f
+      - name: "George Marsicano Côrrea"
+        url: "https://cedis.unb.br/pt/people/george_marsicano/"
+        avatar: m
+      - name: "Ricardo Ajax Dias Kosloski"
+        url: "https://cedis.unb.br/pt/people/ricardo_ajax/"
+        avatar: m
+
+
+

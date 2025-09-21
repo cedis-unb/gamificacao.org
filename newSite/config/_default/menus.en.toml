@@ -12,12 +12,19 @@ pageRef = "meetings"
 identifier = "meetings-en"
 weight = 20
 
+#[[main]]
+#name = "People"
+#pre = "graduation-cap"
+#pageRef = "people"
+#identifier = "people-en"
+#weight = 30
+
 [[main]]
-name = "People"
-pre = "graduation-cap"
-pageRef = "people"
-identifier = "people-en"
-weight = 30
+name = "Members"
+pre = "user"
+pageRef = "members"
+identifier = "members-en"
+weight = 35
 
 [[main]]
 name = "Productions"

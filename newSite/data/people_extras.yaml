@@ -1,24 +1,339 @@
 groups:
-  - key: researchers
-    title:
-      en: Researchers
-      pt: Pesquisadores
-    items:
-      - name: "Sergio Antônio Andrade de Freitas"
-        url: "https://cedis.unb.br/pt/people/sergio_freitas/"
-        avatar: m
-        badge:
-          en: "Coordinator"
-          pt: "Coordenador"
-      - name: "Cristiane Soares Ramos"
-        url: "https://cedis.unb.br/pt/people/cristiane_ramos/"
-        avatar: f
-      - name: "George Marsicano Côrrea"
-        url: "https://cedis.unb.br/pt/people/george_marsicano/"
-        avatar: m
-      - name: "Ricardo Ajax Dias Kosloski"
-        url: "https://cedis.unb.br/pt/people/ricardo_ajax/"
-        avatar: m
-
-
-
+- key: researchers
+  title:
+    en: Researchers
+    pt: Pesquisadores
+  items:
+  - name: Sergio Antônio Andrade de Freitas
+    url: https://cedis.unb.br/pt/people/sergio_freitas/
+    avatar: m
+    badge:
+      en: Coordinator
+      pt: Coordenador
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Coordinator
+      pt: Coordenador
+    status:
+      en: Researcher
+      pt: Pesquisador
+    active: true
+    role_key: coordinator
+  - name: Cristiane Soares Ramos
+    url: https://cedis.unb.br/pt/people/cristiane_ramos/
+    avatar: f
+    badge:
+      en: Coordinator
+      pt: Coordenadora
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Deputy coordinator
+      pt: Sub-coordenadora
+    status:
+      en: Researcher
+      pt: Pesquisadora
+    active: true
+    role_key: deputy_coordinator
+  - name: George Marsicano Côrrea
+    url: https://cedis.unb.br/pt/people/george_marsicano/
+    avatar: m
+    badge:
+      en: Researcher
+      pt: Pesquisador
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Researcher
+      pt: Pesquisador
+    status:
+      en: Professor
+      pt: Professor
+    active: true
+    role_key: researcher
+  - name: Ricardo Ajax Dias Kosloski
+    url: https://cedis.unb.br/pt/people/ricardo_ajax/
+    avatar: m
+    badge:
+      en: Researcher
+      pt: Pesquisador
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Researcher
+      pt: Pesquisador
+    status:
+      en: Professor
+      pt: Professor
+    active: true
+    role_key: researcher
+overrides:
+  Alexia Naara da Silva Cardoso:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Amanda Jeniffer Pereira Nobre:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Ana Beatriz Norberto da Silva:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Ana Carolina Rodrigues Leite:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Artur de Souza Vieira:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Beatriz Vieira Nascimento:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Bruno Marquete da Silva:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Master's student
+      pt: Estudante de mestrado
+    role_key: member
+  Bruno Mello Andrade:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Organizer
+      pt: Organizador
+    status:
+      en: Master's student
+      pt: Estudante de mestrado
+    role_key: organizer
+  Daniel Barcelos Moreira:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Daniel Rodrigues da Rocha:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate researcher
+      pt: Pesquisador(a) de iniciação científica
+    role_key: member
+  Davi Rodrigues da Rocha:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate researcher
+      pt: Pesquisador(a) de iniciação científica
+    role_key: member
+  Dione Ramos Canuto Moura:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Master's student
+      pt: Estudante de mestrado
+    role_key: member
+  Edvan Barreira Gomes Junior:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Geovanna Maciel Avelino da Costa:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Juliana Pereira Valle Gonçalves:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Lucas Kuniyoshi:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Master's student
+      pt: Estudante de mestrado
+    role_key: member
+  Lucas Pereira Gomes Linard:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Master's student
+      pt: Estudante de mestrado
+    role_key: member
+  Luciano Ricardo da Silva Junior:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Luiza Esteves dos Santos:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Marina Marcia Costa de Souza:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Miguel Matos Costa de Frias Barbosa:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate student
+      pt: Estudante de graduação
+    role_key: member
+  Mylena Angélica Silva Farias:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Undergraduate researcher / Undergraduate student
+      pt: Pesquisador(a) de iniciação científica / Estudante de graduação
+    role_key: member
+  Sandro Leite Furtado:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Master's student
+      pt: Estudante de mestrado
+    role_key: member
+  Suéllyn Schopping:
+    origin:
+      en: University of Brasília (UnB)
+      pt: Universidade de Brasília (UnB)
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Master's student
+      pt: Estudante de mestrado
+    role_key: member

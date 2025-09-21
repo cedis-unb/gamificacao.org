@@ -1,0 +1,194 @@
+{{/* Unified integrantes list ordered by role priority */}}
+{{- $lang := .Page.Lang | default .Site.Language.Lang -}}
+{{- $extrasData := site.Data.people_extras | default dict -}}
+{{- $overrides := $extrasData.overrides | default dict -}}
+{{- $advmap := site.Data.people_advisors | default dict -}}
+
+{{- $priority := dict
+  "coordinator" 1
+  "deputy_coordinator" 2
+  "organizer" 3
+  "researcher" 4
+  "member" 5
+-}}
+
+{{- $defaultRoleLabels := dict
+  "coordinator" (dict "pt" "Coordenador" "en" "Coordinator")
+  "deputy_coordinator" (dict "pt" "Sub-coordenador" "en" "Deputy coordinator")
+  "organizer" (dict "pt" "Organizador" "en" "Organizer")
+  "researcher" (dict "pt" "Pesquisador" "en" "Researcher")
+  "member" (dict "pt" "Integrante" "en" "Member")
+-}}
+
+{{- $defaultOrigin := cond (eq $lang "pt") "Universidade de Brasília (UnB)" "University of Brasília (UnB)" -}}
+
+{{- $.Scratch.Set "integrantes_items" (slice) -}}
+{{- $.Scratch.Set "integrantes_seen" (slice) -}}
+
+{{/* 1) Extras: coordinator / researchers */}}
+{{- with $extrasData.groups -}}
+  {{- range $group := . -}}
+    {{- range $person := ($group.items | default (slice)) -}}
+      {{- $isActive := ne ($person.active | default true) false -}}
+      {{- if $isActive -}}
+        {{- $name := $person.name | default "" -}}
+        {{- if $name -}}
+          {{- $.Scratch.Add "integrantes_seen" (slice $name) -}}
+          {{- $roleKey := $person.role_key | default "member" -}}
+
+          {{- $.Scratch.Set "tmpRole" "" -}}
+          {{- with $person.role -}}
+            {{- if reflect.IsMap . -}}
+              {{- $.Scratch.Set "tmpRole" ((index . $lang) | default (index . "en") | default (index . "pt") | default "") -}}
+            {{- else -}}
+              {{- $.Scratch.Set "tmpRole" . -}}
+            {{- end -}}
+          {{- end -}}
+          {{- $role := $.Scratch.Get "tmpRole" | default "" -}}
+          {{- if not $role -}}
+            {{- $.Scratch.Set "tmpRole" "" -}}
+            {{- with (index $defaultRoleLabels $roleKey) -}}
+              {{- $.Scratch.Set "tmpRole" ((index . $lang) | default (index . "en") | default (index . "pt") | default "") -}}
+            {{- end -}}
+            {{- $role = $.Scratch.Get "tmpRole" | default (cond (eq $lang "pt") "Integrante" "Member") -}}
+          {{- end -}}
+
+          {{- $.Scratch.Set "tmpStatus" "" -}}
+          {{- with $person.status -}}
+            {{- if reflect.IsMap . -}}
+              {{- $.Scratch.Set "tmpStatus" ((index . $lang) | default (index . "en") | default (index . "pt") | default "") -}}
+            {{- else -}}
+              {{- $.Scratch.Set "tmpStatus" . -}}
+            {{- end -}}
+          {{- end -}}
+          {{- $status := $.Scratch.Get "tmpStatus" | default "" -}}
+
+          {{- $.Scratch.Set "tmpOrigin" "" -}}
+          {{- with $person.origin -}}
+            {{- if reflect.IsMap . -}}
+              {{- $.Scratch.Set "tmpOrigin" ((index . $lang) | default (index . "en") | default (index . "pt") | default "") -}}
+            {{- else -}}
+              {{- $.Scratch.Set "tmpOrigin" . -}}
+            {{- end -}}
+          {{- end -}}
+          {{- $origin := $.Scratch.Get "tmpOrigin" | default $defaultOrigin -}}
+
+          {{- $badges := slice -}}
+          {{- range $badge := (slice $role $status $origin) -}}
+            {{- if and $badge (not (in $badges $badge)) -}}
+              {{- $badges = $badges | append $badge -}}
+            {{- end -}}
+          {{- end -}}
+
+          {{- $.Scratch.Add "integrantes_items" (slice (dict
+            "name" $name
+            "badges" $badges
+            "url" ($person.url | default "")
+            "inactive" false
+            "sortName" (lower $name)
+            "priority" (index $priority $roleKey | default 99)
+          )) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* 2) Active records from people-cedis */}}
+{{- $peopleData := (index site.Data "people-cedis") | default dict -}}
+{{- $people := $peopleData.people | default (slice) -}}
+{{- $active := where (where $people "tags" "intersect" (slice "active")) "tags" "intersect" (slice "gamification") -}}
+
+{{- range $entry := $active -}}
+  {{- $name := $entry.name | default "" -}}
+  {{- if and $name (not (in ($.Scratch.Get "integrantes_seen") $name)) -}}
+    {{- $override := (index $overrides $name) | default dict -}}
+    {{- $roleKey := (index $override "role_key") | default "member" -}}
+
+    {{- $.Scratch.Set "tmpRole" "" -}}
+    {{- with (index $override "role") -}}
+      {{- if reflect.IsMap . -}}
+        {{- $.Scratch.Set "tmpRole" ((index . $lang) | default (index . "en") | default (index . "pt") | default "") -}}
+      {{- else -}}
+        {{- $.Scratch.Set "tmpRole" . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $role := $.Scratch.Get "tmpRole" | default "" -}}
+    {{- if not $role -}}
+      {{- $.Scratch.Set "tmpRole" "" -}}
+      {{- with (index $defaultRoleLabels $roleKey) -}}
+        {{- $.Scratch.Set "tmpRole" ((index . $lang) | default (index . "en") | default (index . "pt") | default "") -}}
+      {{- end -}}
+      {{- $role = $.Scratch.Get "tmpRole" | default (cond (eq $lang "pt") "Integrante" "Member") -}}
+    {{- end -}}
+
+    {{- $category := index (intersect ($entry.categories | default (slice)) (slice "master_student" "scientific_initiation" "tcc")) 0 -}}
+    {{- $status := "" -}}
+    {{- if eq $category "master_student" -}}
+      {{- $status = cond (eq $lang "pt") "Estudante de mestrado" "Master's student" -}}
+    {{- else if eq $category "scientific_initiation" -}}
+      {{- $status = cond (eq $lang "pt") "Pesquisador(a) de iniciação científica" "Undergraduate researcher" -}}
+    {{- else if eq $category "tcc" -}}
+      {{- $status = cond (eq $lang "pt") "Estudante de graduação" "Undergraduate student" -}}
+    {{- end -}}
+
+    {{- $.Scratch.Set "tmpStatus" "" -}}
+    {{- with (index $override "status") -}}
+      {{- if reflect.IsMap . -}}
+        {{- $.Scratch.Set "tmpStatus" ((index . $lang) | default (index . "en") | default (index . "pt") | default "") -}}
+      {{- else -}}
+        {{- $.Scratch.Set "tmpStatus" . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $statusOverride := $.Scratch.Get "tmpStatus" | default "" -}}
+    {{- if $statusOverride -}}
+      {{- $status = $statusOverride -}}
+    {{- end -}}
+
+    {{- $.Scratch.Set "tmpOrigin" "" -}}
+    {{- with (index $override "origin") -}}
+      {{- if reflect.IsMap . -}}
+        {{- $.Scratch.Set "tmpOrigin" ((index . $lang) | default (index . "en") | default (index . "pt") | default "") -}}
+      {{- else -}}
+        {{- $.Scratch.Set "tmpOrigin" . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $origin := $.Scratch.Get "tmpOrigin" | default $defaultOrigin -}}
+
+    {{- $badges := slice -}}
+    {{- range $badge := (slice $role $status $origin) -}}
+      {{- if and $badge (not (in $badges $badge)) -}}
+        {{- $badges = $badges | append $badge -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- $advisors := slice -}}
+    {{- with $entry.advisors -}}
+      {{- range . -}}
+        {{- $code := . -}}
+        {{- $nameAdv := (index $advmap $code) | default "" -}}
+        {{- if and $nameAdv (not (in $advisors $nameAdv)) -}}
+          {{- $advisors = $advisors | append $nameAdv -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- $.Scratch.Add "integrantes_items" (slice (dict
+      "name" $name
+      "badges" $badges
+      "url" ""
+      "advisors" $advisors
+      "inactive" false
+      "sortName" (lower $name)
+      "priority" (index $priority $roleKey | default 99)
+    )) -}}
+    {{- $.Scratch.Add "integrantes_seen" (slice $name) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $items := $.Scratch.Get "integrantes_items" | default (slice) -}}
+{{- if gt (len $items) 0 -}}
+  {{- $items = sort $items "sortName" -}}
+  {{- $items = sort $items "priority" -}}
+  {{- partial "people/card_list.html" (dict "items" $items "lang" $lang) -}}
+{{- end -}}

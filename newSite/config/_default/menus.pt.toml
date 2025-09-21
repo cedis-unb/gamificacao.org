@@ -21,7 +21,7 @@ weight = 20
 
 [[main]]
 name = "Integrantes"
-pre = "heart"
+pre = "user"
 pageRef = "integrantes"
 identifier = "members-pt"
 weight = 35

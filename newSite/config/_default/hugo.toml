@@ -18,7 +18,7 @@ buildFuture = false
 
 enableEmoji = true
 
-# googleAnalytics = "G-XXXXXXXXX"
+googleAnalytics = "G-L8XNSXVC2T"
 
 [pagination]
   pagerSize = 100
@@ -78,3 +78,7 @@ enableEmoji = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-L8XNSXVC2T"

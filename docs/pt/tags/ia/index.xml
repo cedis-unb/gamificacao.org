@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IA on Gamificação ORG</title>
-    <link>https://gamificacao.org/pt/tags/ia/</link>
+    <link>http://localhost:1313/pt/tags/ia/</link>
     <description>Recent content in IA on Gamificação ORG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     
-    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://gamificacao.org/pt/tags/ia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pt/tags/ia/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Artigo sobre processo gamificado de desenvolvimento de chatbots é apresentado em conferência internacional</title>
-      <link>https://gamificacao.org/pt/posts/artigo-chatbot-gamificado-intellisys-2024/</link>
+      <link>http://localhost:1313/pt/posts/artigo-chatbot-gamificado-intellisys-2024/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://gamificacao.org/pt/posts/artigo-chatbot-gamificado-intellisys-2024/</guid>
+      <guid>http://localhost:1313/pt/posts/artigo-chatbot-gamificado-intellisys-2024/</guid>
       <description></description>
       
     </item>

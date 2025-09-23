@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Partnerships on Gamification ORG</title>
-    <link>http://localhost:1313/en/partnerships/</link>
-    <description>Recent content in Partnerships on Gamification ORG</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-    <atom:link href="http://localhost:1313/en/partnerships/index.xml" rel="self" type="application/rss+xml" />
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Partnerships on Gamification ORG</title><link>https://gamificacao.org/en/partnerships/</link><description>Recent content in Partnerships on Gamification ORG</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://gamificacao.org/en/partnerships/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

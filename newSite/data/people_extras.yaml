@@ -72,6 +72,24 @@ groups:
       pt: Professor
     active: true
     role_key: researcher
+
+  - name: Públio Pastrolin Cavalcante
+    url: 
+    avatar: m
+    badge:
+      en: Researcher
+      pt: Pesquisador
+    origin:
+      en: PMDF
+      pt: PMDF
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Researcher
+      pt: Pesquisador
+    active: true
+    role_key: researcher
 overrides:
   Alexia Naara da Silva Cardoso:
     origin:

@@ -1,34 +1,30 @@
-{{/* Partners cards, same layout as home news cards */}}
+{{/* Parcerias com logo reduzido (logo.png), layout igual a integrantes */}}
 {{- $lang := .Page.Lang | default .Site.Language.Lang -}}
 {{- $items := site.Data.partners | default (slice) -}}
 
-<section class="w-full grid gap-8 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-2">
   {{- range $p := $items -}}
-    {{- $name := $p.name -}}
-    {{- $url := $p.url | default "" -}}
-    {{- $desc := $p.description -}}
+    {{- $name := $p.name | default "" -}}
+    {{- $url  := $p.url  | default "" -}}
+
+    {{- $desc := $p.description | default "" -}}
     {{- if reflect.IsMap $desc -}}
       {{- $desc = (index $desc $lang) | default (index $desc "en") | default (index $desc "pt") | default "" -}}
     {{- end -}}
-    {{- $logo := $p.logo | default "" -}}
-    {{- $logoRes := resources.Get "logo.png" -}}
-    {{- $bg := (cond (ne $logo "") ($logo | relURL) (cond $logoRes $logoRes.RelPermalink "")) -}}
 
-    {{- if ne (len $url) 0 -}}<a href="{{ $url }}" target="_blank" rel="noopener" class="group block">{{- end -}}
-    <div class="h-full m-2 rounded-lg bg-neutral-50 dark:bg-neutral-800/50 overflow-hidden p-6 shadow-2xl hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)] transition-shadow duration-200">
-      <div class="w-full h-32 -mt-2 -mx-2 mb-4 rounded-md bg-cover bg-center nozoom" style="background-image:url('{{ $bg }}');"></div>
-      <div class="flex flex-col gap-3">
-        <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral group-hover:underline group-hover:decoration-primary-500 group-hover:underline-offset-2">{{ $name }}</h3>
-        <p class="text-sm text-neutral-700 dark:text-neutral-300 min-h-[3.5rem]">{{ $desc }}</p>
-        <div class="mt-auto flex items-center justify-end">
-          {{- if ne (len $url) 0 -}}
-          <span class="text-sm font-medium text-primary-600 dark:text-primary-400 group-hover:underline">
-            {{ if eq $lang "pt" }}Saiba mais{{ else }}Learn more{{ end }}
-          </span>
-          {{- end -}}
-        </div>
-      </div>
+    {{/* força sempre o logo padrão do site em tamanho menor */}}
+    {{- $logoRes := resources.Get "logo.png" -}}
+    {{- $logoAbs := cond $logoRes $logoRes.RelPermalink "" -}}
+
+    <div class="max-w-sm mx-auto">
+      {{- partial "card/generic.html" (dict
+        "title"  $name
+        "href"   $url
+        "image"  $logoAbs
+        "meta"   $desc
+        "badges" ($p.tags | default (slice))
+        "class"  "w-full"
+      ) -}}
     </div>
-    {{- if ne (len $url) 0 -}}</a>{{- end -}}
-  {{- end -}}
+  {{- end }}
 </section>

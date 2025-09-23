@@ -1,13 +1,15 @@
 {{- /* Generic card partial: visual consistente com os cards de artigos (recent news) */ -}}
 {{- $href := .href | default "" -}}
 <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-  {{- if .image }}
-    <div class="w-full thumbnail_card_related nozoom" style="background-image:url('{{ .image }}');"></div>
-  {{- else }}
-    <div class="w-full thumbnail_card_related nozoom"
-         style="background-image:url('/icons/user.svg'); background-size:40%; background-repeat:no-repeat; background-position:center; min-height:160px;">
-    </div>
-  {{- end }}
+{{- if .image }}
+  <div class="w-full thumbnail_card_related nozoom bg-neutral-50 dark:bg-neutral-800"
+       style="background-image:url('{{ .image }}'); background-size:contain; background-repeat:no-repeat; background-position:center; min-height:120px;">
+  </div>
+{{- else }}
+  <div class="w-full thumbnail_card_related nozoom bg-neutral-50 dark:bg-neutral-800"
+       style="background-image:url('/icons/user.svg'); background-size:40%; background-repeat:no-repeat; background-position:center; min-height:120px;">
+  </div>
+{{- end }}
   <div class="px-6 py-4">
     <h3 class="mb-1 text-xl font-semibold text-neutral-800 dark:text-white">
       {{- .title -}}

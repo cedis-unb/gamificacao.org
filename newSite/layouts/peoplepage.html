@@ -1,11 +1,10 @@
 {{ define "main" }}
 <header>
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-white">{{ .Title }}</h1>
 </header>
 <section class="mt-4">
-  <div class="relative w-screen max-w-[1600px] px-[30px]" style="left: calc(max(-50vw,-800px) + 50%);">
+  <div class="container mx-auto max-w-7xl px-6">
     {{ .Content }}
   </div>
 </section>
 {{ end }}
-

@@ -144,6 +144,21 @@
     />
   </url>
   <url>
+    <loc>https://gamificacao.org/pt/playground/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://gamificacao.org/en/playground/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://gamificacao.org/pt/playground/"
+    />
+  </url>
+  <url>
     <loc>https://gamificacao.org/pt/producoes/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

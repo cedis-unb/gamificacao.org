@@ -1,0 +1,166 @@
+{{/* Cards demo – exemplos de variações com Tailwind, prontos para copiar/reusar */}}
+
+<div class="space-y-10">
+
+  <!-- índice -->
+  <nav class="bg-neutral-50 dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 rounded p-4">
+    <h2 class="text-sm font-semibold text-neutral-700 dark:text-neutral-200 mb-2">Exemplos de cards</h2>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><a class="underline" href="#card-artigo">Card tipo artigo (recent news)</a></li>
+      <li><a class="underline" href="#card-parceiro">Card de parceiro (logo contido)</a></li>
+      <li><a class="underline" href="#card-pessoa">Card de integrante (avatar + badges)</a></li>
+      <li><a class="underline" href="#card-compacto">Card compacto (linha única)</a></li>
+      <li><a class="underline" href="#card-horizontal">Card horizontal (mídia à esquerda)</a></li>
+      <li><a class="underline" href="#card-kpi">Card de métrica (KPI)</a></li>
+    </ul>
+  </nav>
+
+  <!-- 1. artigo -->
+  <section id="card-artigo" class="space-y-3">
+    <h3 class="text-lg font-semibold">Card tipo artigo (recent news)</h3>
+    <div class="grid gap-4 sm:grid-cols-2">
+      <!-- usa a mesma “casca” dos artigos -->
+      <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        <div class="w-full thumbnail_card_related nozoom bg-neutral-50 dark:bg-neutral-800"
+             style="background-image:url('/images/cover-example.jpg'); background-size:cover; background-position:center; min-height:160px;">
+        </div>
+        <div class="px-6 py-4">
+          <h4 class="mb-1 text-xl font-semibold text-neutral-800 dark:text-white">Título do artigo</h4>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Resumo curto do artigo para pré-visualização.</p>
+        </div>
+        <a class="absolute inset-0" href="/en/post/example/" aria-label="Título do artigo"></a>
+      </div>
+
+      <!-- variante com “contain” -->
+      <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        <div class="w-full thumbnail_card_related nozoom bg-neutral-50 dark:bg-neutral-800"
+             style="background-image:url('/images/cover-example-2.png'); background-size:contain; background-repeat:no-repeat; background-position:center; min-height:160px;">
+        </div>
+        <div class="px-6 py-4">
+          <h4 class="mb-1 text-xl font-semibold text-neutral-800 dark:text-white">Outra notícia</h4>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Quando a imagem tem fundo transparente, “contain” ajuda.</p>
+        </div>
+        <a class="absolute inset-0" href="/pt/post/exemplo/" aria-label="Outra notícia"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. parceiro -->
+  <section id="card-parceiro" class="space-y-3">
+    <h3 class="text-lg font-semibold">Card de parceiro (logo contido, 2 colunas)</h3>
+    <div class="grid gap-4 sm:grid-cols-2">
+      {{/* demo com logo padrão do site */}}
+      <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        <div class="w-full thumbnail_card_related nozoom bg-neutral-50 dark:bg-neutral-800"
+             style="background-image:url('{{ with (resources.Get "logo.png") }}{{ .RelPermalink }}{{ end }}'); background-size:contain; background-repeat:no-repeat; background-position:center; min-height:120px;">
+        </div>
+        <div class="px-6 py-4">
+          <h4 class="mb-1 text-lg font-semibold text-neutral-800 dark:text-white">Nome do parceiro</h4>
+          <p class="text-sm text-neutral-700 dark:text-neutral-300">Descrição breve do parceiro em 1–2 linhas.</p>
+        </div>
+        <a class="absolute inset-0" href="https://exemplo.org" aria-label="Nome do parceiro" rel="noopener" target="_blank"></a>
+      </div>
+
+      {{/* demo com logo do parceiro */}}
+      <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        <div class="w-full thumbnail_card_related nozoom bg-neutral-50 dark:bg-neutral-800"
+             style="background-image:url('/images/logos/parceiro-x.png'); background-size:contain; background-repeat:no-repeat; background-position:center; min-height:120px;">
+        </div>
+        <div class="px-6 py-4">
+          <h4 class="mb-1 text-lg font-semibold text-neutral-800 dark:text-white">Parceiro X</h4>
+          <p class="text-sm text-neutral-700 dark:text-neutral-300">Outra descrição breve do parceiro.</p>
+        </div>
+        <a class="absolute inset-0" href="https://parceiro-x.example" aria-label="Parceiro X" rel="noopener" target="_blank"></a>
+      </div>
+    </div>
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">Dica: use <code>background-size:contain</code> e <code>min-height</code> para padronizar altura do logo.</p>
+  </section>
+
+  <!-- 3. pessoa -->
+  <section id="card-pessoa" class="space-y-3">
+    <h3 class="text-lg font-semibold">Card de integrante (avatar + badges)</h3>
+    <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+      <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl p-6">
+        <div class="flex items-center gap-4">
+          <img src="/images/avatars/user1.jpg" alt="Nome" class="h-14 w-14 rounded-full object-cover">
+          <div>
+            <h4 class="text-lg font-semibold text-neutral-800 dark:text-white">Nome da pessoa</h4>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">Pesquisador(a) • UnB</p>
+          </div>
+        </div>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="inline-flex items-center rounded-full border border-neutral-200 dark:border-neutral-700 px-2.5 py-0.5 text-xs text-neutral-700 dark:text-neutral-200">Gamificação</span>
+          <span class="inline-flex items-center rounded-full border border-neutral-200 dark:border-neutral-700 px-2.5 py-0.5 text-xs text-neutral-700 dark:text-neutral-200">NLP</span>
+        </div>
+      </div>
+      <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl p-6">
+        <div class="flex items-center gap-4">
+          <img src="/icons/user.svg" alt="Nome" class="h-14 w-14 rounded-full object-contain p-1 bg-neutral-50 dark:bg-neutral-800">
+          <div>
+            <h4 class="text-lg font-semibold text-neutral-800 dark:text-white">Outra pessoa</h4>
+            <p class="text-sm text-neutral-600 dark:text-neutral-300">Estudante de mestrado • UnB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. compacto -->
+  <section id="card-compacto" class="space-y-3">
+    <h3 class="text-lg font-semibold">Card compacto (linha única)</h3>
+    <div class="grid gap-2">
+      <a class="group border border-neutral-200 dark:border-neutral-700 rounded p-3 flex items-center gap-3 hover:bg-neutral-50 dark:hover:bg-neutral-900 transition"
+         href="/pt/post/exemplo/">
+        <div class="h-10 w-10 rounded bg-neutral-100 dark:bg-neutral-800"></div>
+        <div>
+          <div class="text-sm font-medium text-neutral-900 dark:text-neutral-100 group-hover:underline">Título curto</div>
+          <div class="text-xs text-neutral-600 dark:text-neutral-400">Meta breve</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- 5. horizontal -->
+  <section id="card-horizontal" class="space-y-3">
+    <h3 class="text-lg font-semibold">Card horizontal (mídia à esquerda)</h3>
+    <div class="grid gap-4">
+      <div class="border border-neutral-200 dark:border-neutral-700 rounded overflow-hidden shadow-2xl flex">
+        <div class="w-40 shrink-0 bg-neutral-100 dark:bg-neutral-800"
+             style="background-image:url('/images/cover-example.jpg'); background-size:cover; background-position:center;"></div>
+        <div class="p-5">
+          <h4 class="text-lg font-semibold text-neutral-800 dark:text-white">Título do conteúdo</h4>
+          <p class="text-sm text-neutral-600 dark:text-neutral-300">Descrição em 1–2 linhas. Ideal para listagens com imagem lateral.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. KPI -->
+  <section id="card-kpi" class="space-y-3">
+    <h3 class="text-lg font-semibold">Card de KPI (métrica)</h3>
+    <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
+      <div class="border border-neutral-200 dark:border-neutral-700 rounded shadow p-5 bg-white dark:bg-neutral-900">
+        <div class="text-xs uppercase tracking-wide text-neutral-500 dark:text-neutral-400">Projetos</div>
+        <div class="mt-1 text-3xl font-semibold text-neutral-900 dark:text-white">24</div>
+        <div class="text-xs text-neutral-500 dark:text-neutral-400">ativos</div>
+      </div>
+      <div class="border border-neutral-200 dark:border-neutral-700 rounded shadow p-5 bg-white dark:bg-neutral-900">
+        <div class="text-xs uppercase tracking-wide text-neutral-500 dark:text-neutral-400">Publicações</div>
+        <div class="mt-1 text-3xl font-semibold text-neutral-900 dark:text-white">132</div>
+        <div class="text-xs text-neutral-500 dark:text-neutral-400">indexadas</div>
+      </div>
+      <div class="border border-neutral-200 dark:border-neutral-700 rounded shadow p-5 bg-white dark:bg-neutral-900">
+        <div class="text-xs uppercase tracking-wide text-neutral-500 dark:text-neutral-400">Membros</div>
+        <div class="mt-1 text-3xl font-semibold text-neutral-900 dark:text-white">18</div>
+        <div class="text-xs text-neutral-500 dark:text-neutral-400">ativos</div>
+      </div>
+      <div class="border border-neutral-200 dark:border-neutral-700 rounded shadow p-5 bg-white dark:bg-neutral-900">
+        <div class="text-xs uppercase tracking-wide text-neutral-500 dark:text-neutral-400">Parcerias</div>
+        <div class="mt-1 text-3xl font-semibold text-neutral-900 dark:text-white">7</div>
+        <div class="text-xs text-neutral-500 dark:text-neutral-400">em andamento</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+

@@ -202,6 +202,9 @@ en:
       - Popularization — democratize access so everyday users can craft and apply techniques in daily life.
 
       In closing, Freitas reinforced that gamification should be understood as a strategy to motivate people, and that progress depends on integrating psychology, technology, and data analysis.
+    links:
+      - label: "Research area: Gamification at CEDIS"
+        url: "https://cedis.unb.br/areas/gamification/"
   - date: "2025-04-03"
     title: "Meeting"
     speaker: "Denniel William Roriz Lima"
@@ -630,6 +633,9 @@ pt:
       - Popularização — democratizar o acesso à gamificação, capacitando também o usuário comum a criar e aplicar técnicas no cotidiano.
 
       Ao encerrar, Sergio reforçou que a gamificação deve ser entendida como uma estratégia para motivar pessoas, e que o avanço da área depende da integração entre psicologia, tecnologia e análise de dados.
+    links:
+      - label: "Linha pesquisa: Gamificação no CEDIS"
+        url: "https://cedis.unb.br/pt/areas/gamification/"
   - date: "2025-04-03"
     title: "Encontro"
     speaker: "Denniel William Roriz Lima"

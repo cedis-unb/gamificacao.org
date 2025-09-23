@@ -1,91 +1,26 @@
-{{/* Renders a responsive grid of people cards with enhanced styling. Expects .items (dict list) and .lang. */}}
+{{/* Nova versão: usa o mesmo visual dos cards de artigos (recent news) */}}
+{{- $items := .items | default (slice) -}}
 {{- $lang := .lang | default .Page.Lang | default .Site.Language.Lang -}}
-<section class="w-full grid gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-  {{- range $person := .items -}}
-    {{- $name := $person.name | default "" -}}
-    {{- $url := $person.url | default "" -}}
-    {{- $badgeLabel := "" -}}
-    {{- if reflect.IsMap $person.badge -}}
-      {{- $badgeLabel = (index $person.badge $lang) | default (index $person.badge "en") | default "" -}}
-    {{- else -}}
-      {{- $badgeLabel = $person.badge | default "" -}}
+
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  {{- range $it := $items -}}
+    {{- $title := $it.name | default "" -}}
+    {{- $href  := $it.url  | default "" -}}
+    {{- $badges := $it.badges | default (slice) -}}
+    {{- $meta := "" -}}
+    {{- if gt (len $badges) 0 -}}
+      {{- $meta = index $badges 0 -}}
     {{- end -}}
-    {{- $badges := $person.badges | default (slice) -}}
-    {{- if and (not $badges) $badgeLabel -}}
-      {{- $badges = (slice $badgeLabel) -}}
-    {{- end -}}
+    {{- $image := $it.image | default "" -}}
 
-    {{- /* Derive initials for avatar placeholder */ -}}
-    {{- $initials := "" -}}
-    {{- $parts := split $name " " -}}
-    {{- range $idx, $part := (first 2 $parts) -}}
-      {{- if gt (len $part) 0 -}}
-        {{- $initials = printf "%s%s" $initials (upper (substr $part 0 1)) -}}
-      {{- end -}}
-    {{- end -}}
-    {{- if not $initials -}}
-      {{- $initials = "?" -}}
-    {{- end -}}
-
-    <article class="group relative flex h-full flex-col gap-6 overflow-hidden rounded-2xl border border-primary-200/50 bg-white/80 p-6 shadow-lg shadow-primary-900/5 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl focus-within:-translate-y-1 focus-within:shadow-2xl dark:border-primary-400/20 dark:bg-neutral-900/70">
-      <div aria-hidden="true" class="absolute inset-x-12 top-0 h-1 rounded-b-full bg-gradient-to-r from-primary-400 via-primary-500 to-primary-600 opacity-80 group-hover:opacity-100"></div>
-
-      <div class="flex flex-col items-center text-center gap-5">
-        <div class="relative flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-primary-500 via-primary-400 to-primary-600 text-lg font-semibold text-white shadow-lg shadow-primary-900/40">
-          <span>{{ $initials }}</span>
-          <span class="absolute inset-0 rounded-full border border-white/40 dark:border-white/20"></span>
-        </div>
-        <div class="flex flex-col items-center gap-2 text-center">
-          <h3 class="text-lg font-semibold text-neutral-900 dark:text-white">{{ $name }}</h3>
-          {{- with $person.advisors -}}
-            <p class="text-sm text-neutral-600 dark:text-neutral-300">
-              {{- if eq $lang "pt" -}}Orientador(a):{{- else -}}Advisor(s):{{- end -}} {{ delimit . ", " }}
-            </p>
-          {{- end -}}
-          {{- if gt (len $badges) 0 -}}
-            <div class="mt-1 flex flex-wrap justify-center gap-2">
-              {{- range $b := $badges -}}
-                <span class="inline-flex items-center rounded-full bg-primary-50/90 px-3 py-1 text-xs font-semibold text-primary-700 shadow-sm shadow-primary-900/5 ring-1 ring-primary-100/60 transition-colors duration-200 group-hover:bg-primary-100 dark:bg-primary-500/20 dark:text-primary-200 dark:ring-primary-500/30">{{ $b }}</span>
-              {{- end -}}
-            </div>
-          {{- end -}}
-        </div>
-      </div>
-
-      {{- if and $person.inactive (gt (len $person.productions) 0) -}}
-        <div class="w-full rounded-2xl bg-neutral-100/80 p-4 text-left text-sm leading-relaxed text-neutral-700 shadow-inner dark:bg-neutral-800/70 dark:text-neutral-200">
-          <p class="mb-2 font-medium text-neutral-900 dark:text-white">
-            {{- if eq $lang "pt" -}}Produções{{- else -}}Productions{{- end -}}
-          </p>
-          <ul class="space-y-2">
-            {{- range $p := $person.productions -}}
-              {{- $link := "" -}}
-              {{- if $p.doi -}}
-                {{- $link = printf "https://doi.org/%s" $p.doi -}}
-              {{- else if $p.url -}}
-                {{- $link = $p.url -}}
-              {{- end -}}
-              <li class="text-sm">
-                {{- if $link -}}
-                  <a href="{{ $link }}" target="_blank" rel="noopener" class="inline-flex items-center text-primary-700 transition-colors hover:text-primary-500 dark:text-primary-300 dark:hover:text-primary-200">
-                    {{ $p.title }}
-                  </a>
-                {{- else -}}
-                  <span>{{ $p.title }}</span>
-                {{- end -}}
-                {{- with $p.year -}} <span class="text-neutral-400">({{ . }})</span>{{- end -}}
-              </li>
-            {{- end -}}
-          </ul>
-        </div>
-      {{- end -}}
-
-      {{- if ne (len $url) 0 -}}
-        <a href="{{ $url }}" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 rounded-full border border-primary-200 bg-white/70 px-4 py-2 text-sm font-semibold text-primary-700 transition duration-200 hover:bg-primary-600 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 dark:border-primary-400/40 dark:bg-neutral-900/70 dark:text-primary-200 dark:hover:bg-primary-400/30">
-          {{- if eq $lang "pt" -}}Ver perfil{{- else -}}View profile{{- end -}}
-          <span aria-hidden="true" class="text-base">↗</span>
-        </a>
-      {{- end -}}
-    </article>
-  {{- end -}}
+    <div>
+      {{- partial "card/generic.html" (dict
+        "title" $title
+        "href"  $href
+        "image" $image
+        "meta"  $meta
+        "badges" $badges
+      ) -}}
+    </div>
+  {{- end }}
 </section>

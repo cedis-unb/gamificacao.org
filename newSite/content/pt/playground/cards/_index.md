@@ -1,6 +1,6 @@
 ---
 title: "Cards playground"
-url: "/playground/cards/"
+url: "/pt/playground/cards/"
 _build:
   list: never
   render: always

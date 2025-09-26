@@ -73,6 +73,24 @@ groups:
     active: true
     role_key: researcher
 
+  - name: Leda Cardoso Sampson Pinto
+    url: 
+    avatar: f
+    badge:
+      en: Researcher
+      pt: Pesquisadora
+    origin:
+      en: IBICT
+      pt: IBICT
+    role:
+      en: Member
+      pt: Integrante
+    status:
+      en: Researcher
+      pt: Pesquisadora
+    active: true
+    role_key: researcher
+
   - name: Públio Pastrolin Cavalcante
     url: 
     avatar: m

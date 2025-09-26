@@ -71,3 +71,8 @@ Outras opções de deploy:
 - `baseURL = "https://gamificacao.org/"`
 - `publishDir = "../docs"` (gera em `docs/` na raiz)
 - `defaultContentLanguage = "pt"` e `defaultContentLanguageInSubdir = true` (Português em `/pt/`)
+
+## Autor
+
+Sergio Antônio Andrade de Freitas
+

@@ -7,8 +7,11 @@
     {{- $title := $it.name | default "" -}}
     {{- $href  := $it.url  | default "" -}}
     {{- $badges := $it.badges | default (slice) -}}
+    {{- $role := $it.role | default "" -}}
     {{- $meta := "" -}}
-    {{- if gt (len $badges) 0 -}}
+    {{- if $role -}}
+      {{- $meta = $role -}}
+    {{- else if gt (len $badges) 0 -}}
       {{- $meta = index $badges 0 -}}
     {{- end -}}
     {{- $image := $it.image | default "" -}}

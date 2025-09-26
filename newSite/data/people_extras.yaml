@@ -17,8 +17,8 @@ groups:
       en: Coordinator
       pt: Coordenador
     status:
-      en: Researcher
-      pt: Pesquisador
+      en: Full Professor
+      pt: Professor
     active: true
     role_key: coordinator
   - name: Cristiane Soares Ramos
@@ -34,8 +34,8 @@ groups:
       en: Deputy coordinator
       pt: Vice-coordenadora
     status:
-      en: Researcher
-      pt: Pesquisadora
+      en: Professor
+      pt: Professora
     active: true
     role_key: deputy_coordinator
   - name: George Marsicano Côrrea

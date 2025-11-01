@@ -1,9 +1,122 @@
-sergio_freitas: "Sergio Antônio Andrade de Freitas"
-cristiane_ramos: "Cristiane Soares Ramos"
-george_marsicano: "George Marsicano Côrrea"
-ricardo_ajax: "Ricardo Ajax Dias Kosloski"
-# Complement as needed:
-# andre_lanna: ""
-# fabiana_mendes: ""
-# marilia_miranda: ""
-# marília_miranda: ""
+advisors:
+  sergio_freitas:
+    name: "Sergio Freitas"
+    link: "/people/sergio_freitas"
+    lattes: http://lattes.cnpq.br/0395549254894676
+    orcid: https://orcid.org/0000-0003-3996-4985
+    email: sergiofreitas@unb.br
+    areas: 
+      - active_learning
+      - ai
+      - education
+      - gamification
+      - learning_analytics
+      - machine_learning
+      - nlp
+
+  cristiane_ramos:
+    name: "Cristiane Ramos"
+    link: "/people/cristiane_ramos"
+    lattes:
+    areas: 
+      - active_learning
+      - education
+      - gamification
+      - learning_analytics
+      - software_quality
+      - verification_validation_testing
+
+  andre_lanna:
+    name: "André Lanna"
+    link: "/people/andre_lanna"
+    lattes: "http://lattes.cnpq.br/5685720614944773"
+    orcid: https://orcid.org/0000-0003-4200-6569
+    email: andrelanna@unb.br
+    areas: 
+      - software_architecture
+      - software_product_line
+      - ai
+      - machine_learning
+      
+  george_marsicano:
+    name: "George Marsicano"
+    link: "/people/george_marsicano"
+    lattes: http://lattes.cnpq.br/2317804591146328
+    orcid:
+    email: georgemarsicano@unb.br
+    areas: 
+      - active_learning
+      - digital_transformation
+      - education
+      - gamification
+      - soft_skills
+      - social_software
+      - software_requirements
+      - teamwork
+
+  fabiana_mendes:
+    name: "Fabiana Mendes"
+    link: "/people/fabiana_mendes"
+    lattes: http://lattes.cnpq.br/7675506667619564
+    orcid: https://orcid.org/0000-0002-1724-2044
+    email:
+    areas: 
+      - green_software
+
+  ricardo_ajax:
+    name: "Ricardo Ajax"
+    link: "/people/ricardo_ajax"
+    lattes: http://lattes.cnpq.br/8309011123228244
+    orcid:
+    email:
+    areas: 
+      - active_learning
+      - digital_transformation
+      - education
+      - software_quality
+      - verification_validation_testing
+
+  daniel_sundfeld:
+    name: "Daniel Sundfeld"
+    link: "/people/daniel_sundfeld"
+    lattes: http://lattes.cnpq.br/2619423058109475
+    orcid: https://orcid.org/0000-0002-5147-3698
+    email: daniel.sundfeld@unb.br
+    areas: 
+      - hpc
+
+  andrea_cabello:
+    name: "Andrea Cabello"
+    link: "http://lattes.cnpq.br/4731226594888669"
+    lattes: "http://lattes.cnpq.br/4731226594888669"
+    areas: []
+
+  berilhes_garcia:
+    name: "Berilhes Borges Garcia"
+    link: ""
+    lattes: ""
+    areas: []
+
+  edna_canedo:
+    name: "Edna Canedo"
+    link: "http://lattes.cnpq.br/9554285834432091"
+    lattes: "http://lattes.cnpq.br/9554285834432091"
+    areas: []
+
+  marilia_miranda:
+    name: "Marilia Miranda Forte Gomes"
+    link: "http://lattes.cnpq.br/9169095482512290"
+    lattes: "http://lattes.cnpq.br/9169095482512290"
+    areas: []
+
+  claudia_ochoa:
+    name: "Claudia Patricia Ochoa Diaz"
+    link: "http://lattes.cnpq.br/9018876493386363"
+    lattes: "http://lattes.cnpq.br/9018876493386363"
+    areas: []
+
+  celia_higawa:
+    name: "Célia Kinuko Matsunaga Higawa"
+    link: "http://lattes.cnpq.br/2977168844333740"
+    lattes: "http://lattes.cnpq.br/2977168844333740"
+    areas: []

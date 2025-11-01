@@ -7,6 +7,7 @@ baseURL = "https://gamificacao.org/"
 defaultContentLanguage = "pt"
 defaultContentLanguageInSubdir = true
 publishDir = "../docs"
+minVersion = "0.152.0"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 

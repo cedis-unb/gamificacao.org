@@ -4,9 +4,8 @@ en:
     speaker: "Orc'estra"
     icon: "globe"
     badge: "Partnership"
-    desc: "Orc’sestra presented its trajectory and pioneering work as a student organization dedicated to gamification."
+    desc: "Orc'sestra presented its trajectory and pioneering work as a student organization dedicated to gamification."
     videoURL: ""
-    transcriptURL: ""
     transcriptURL: ""
     summary: |
       ### Orc’estra presents itself as a pioneer in gamification in Brazil
@@ -53,7 +52,6 @@ en:
     badge: "Project"
     desc: "SuperR: a gamified, project‑based approach brought to life at UnB."
     videoURL: ""
-    transcriptURL: ""
     transcriptURL: ""
     summary: |
       ### SuperR: a gamified course comes to life at UnB

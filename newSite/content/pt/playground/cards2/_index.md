@@ -1,6 +1,6 @@
 ---
 title: "Cards do Blowfish"
-_build:
+build:
   list: never
   render: always
   publishResources: true

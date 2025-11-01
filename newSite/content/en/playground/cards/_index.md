@@ -1,7 +1,7 @@
 ---
 title: "Cards playground"
 url: "/en/playground/cards/"
-_build:
+build:
   list: never
   render: always
   publishResources: true

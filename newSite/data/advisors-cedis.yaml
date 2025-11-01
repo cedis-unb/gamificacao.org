@@ -35,7 +35,9 @@ advisors:
     areas: 
       - software_architecture
       - software_product_line
-
+      - ai
+      - machine_learning
+      
   george_marsicano:
     name: "George Marsicano"
     link: "/people/george_marsicano"
@@ -105,4 +107,16 @@ advisors:
     name: "Marilia Miranda Forte Gomes"
     link: "http://lattes.cnpq.br/9169095482512290"
     lattes: "http://lattes.cnpq.br/9169095482512290"
+    areas: []
+
+  claudia_ochoa:
+    name: "Claudia Patricia Ochoa Diaz"
+    link: "http://lattes.cnpq.br/9018876493386363"
+    lattes: "http://lattes.cnpq.br/9018876493386363"
+    areas: []
+
+  celia_higawa:
+    name: "Célia Kinuko Matsunaga Higawa"
+    link: "http://lattes.cnpq.br/2977168844333740"
+    lattes: "http://lattes.cnpq.br/2977168844333740"
     areas: []

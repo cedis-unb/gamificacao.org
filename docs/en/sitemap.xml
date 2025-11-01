@@ -3,204 +3,204 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</loc>
+    <loc>http://localhost:43047/en/posts/bruno-mello-andrade-preliminary-results/</loc>
     <lastmod>2025-09-10T09:00:00-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/posts/apresentacao-bruno-mello-andrade/"
+      href="http://localhost:43047/pt/posts/apresentacao-bruno-mello-andrade/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/"
+      href="http://localhost:43047/en/posts/bruno-mello-andrade-preliminary-results/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/</loc>
+    <loc>http://localhost:43047/en/</loc>
     <lastmod>2025-09-10T09:00:00-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/"
+      href="http://localhost:43047/pt/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/"
+      href="http://localhost:43047/en/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/posts/</loc>
+    <loc>http://localhost:43047/en/posts/</loc>
     <lastmod>2025-09-10T09:00:00-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/posts/"
+      href="http://localhost:43047/pt/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/posts/"
+      href="http://localhost:43047/en/posts/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/posts/bb-gamification-visit-2025/</loc>
+    <loc>http://localhost:43047/en/posts/bb-gamification-visit-2025/</loc>
     <lastmod>2025-09-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/posts/visita-bb-gamificacao-2025/"
+      href="http://localhost:43047/pt/posts/visita-bb-gamificacao-2025/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/posts/bb-gamification-visit-2025/"
+      href="http://localhost:43047/en/posts/bb-gamification-visit-2025/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/posts/cedis-news-post-019/</loc>
+    <loc>http://localhost:43047/en/posts/cedis-news-post-019/</loc>
     <lastmod>2025-08-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/posts/cedis-news-post-019/"
+      href="http://localhost:43047/pt/posts/cedis-news-post-019/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/posts/cedis-news-post-019/"
+      href="http://localhost:43047/en/posts/cedis-news-post-019/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/posts/gamified-chatbot-intellisys-2024/</loc>
+    <loc>http://localhost:43047/en/posts/gamified-chatbot-intellisys-2024/</loc>
     <lastmod>2024-09-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/posts/artigo-chatbot-gamificado-intellisys-2024/"
+      href="http://localhost:43047/pt/posts/artigo-chatbot-gamificado-intellisys-2024/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/posts/gamified-chatbot-intellisys-2024/"
+      href="http://localhost:43047/en/posts/gamified-chatbot-intellisys-2024/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/about/</loc>
+    <loc>http://localhost:43047/en/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/about/"
+      href="http://localhost:43047/pt/about/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/about/"
+      href="http://localhost:43047/en/about/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/meetings/</loc>
+    <loc>http://localhost:43047/en/meetings/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/reunioes/"
+      href="http://localhost:43047/pt/reunioes/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/meetings/"
+      href="http://localhost:43047/en/meetings/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/members/</loc>
+    <loc>http://localhost:43047/en/members/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/integrantes/"
+      href="http://localhost:43047/pt/integrantes/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/members/"
+      href="http://localhost:43047/en/members/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/partnerships/</loc>
+    <loc>http://localhost:43047/en/partnerships/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/parcerias/"
+      href="http://localhost:43047/pt/parcerias/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/partnerships/"
+      href="http://localhost:43047/en/partnerships/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/people/</loc>
+    <loc>http://localhost:43047/en/people/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/pessoas/"
+      href="http://localhost:43047/pt/pessoas/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/people/"
+      href="http://localhost:43047/en/people/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/playground/</loc>
+    <loc>http://localhost:43047/en/playground/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/playground/"
+      href="http://localhost:43047/pt/playground/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/playground/"
+      href="http://localhost:43047/en/playground/"
     />
   </url>
   <url>
-    <loc>https://gamificacao.org/en/productions/</loc>
+    <loc>http://localhost:43047/en/productions/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/producoes/"
+      href="http://localhost:43047/pt/producoes/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/productions/"
+      href="http://localhost:43047/en/productions/"
     />
   </url>
 </urlset>

@@ -1,3 +1,3 @@
 User-agent: *
-Allow: /
-Sitemap: https://gamificacao.org/sitemap.xml
+Disallow: /
+Sitemap: http://localhost:43047/sitemap.xml

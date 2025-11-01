@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Gamification ORG</title>
-    <link>http://localhost:43047/en/</link>
+    <link>https://gamificacao.org/en/</link>
     <description>Recent content in Home on Gamification ORG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Wed, 10 Sep 2025 09:00:00 -0300</lastBuildDate><atom:link href="http://localhost:43047/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Sep 2025 09:00:00 -0300</lastBuildDate><atom:link href="https://gamificacao.org/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bruno Mello Andrade presents preliminary master’s results</title>
-      <link>http://localhost:43047/en/posts/bruno-mello-andrade-preliminary-results/</link>
+      <link>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</link>
       <pubDate>Wed, 10 Sep 2025 09:00:00 -0300</pubDate>
       
-      <guid>http://localhost:43047/en/posts/bruno-mello-andrade-preliminary-results/</guid>
+      <guid>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>UnB’s Software Engineering Program hosts Gamification Team from Banco do Brasil</title>
-      <link>http://localhost:43047/en/posts/bb-gamification-visit-2025/</link>
+      <link>https://gamificacao.org/en/posts/bb-gamification-visit-2025/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:43047/en/posts/bb-gamification-visit-2025/</guid>
+      <guid>https://gamificacao.org/en/posts/bb-gamification-visit-2025/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Prof. Sergio Freitas receives Honorable Mention in DEG/UnB Teaching Innovation Award</title>
-      <link>http://localhost:43047/en/posts/cedis-news-post-019/</link>
+      <link>https://gamificacao.org/en/posts/cedis-news-post-019/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:43047/en/posts/cedis-news-post-019/</guid>
+      <guid>https://gamificacao.org/en/posts/cedis-news-post-019/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Article on gamified chatbot development process presented at international conference</title>
-      <link>http://localhost:43047/en/posts/gamified-chatbot-intellisys-2024/</link>
+      <link>https://gamificacao.org/en/posts/gamified-chatbot-intellisys-2024/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:43047/en/posts/gamified-chatbot-intellisys-2024/</guid>
+      <guid>https://gamificacao.org/en/posts/gamified-chatbot-intellisys-2024/</guid>
       <description></description>
       
     </item>

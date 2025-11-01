@@ -3,4 +3,4 @@
 extended = true
 min = "0.137.0"
 # Raised max to support current Hugo version in this repo
-max = "0.147.6"
+max = "0.200.0"

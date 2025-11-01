@@ -542,7 +542,7 @@ items:
     pt: "Agendamento de recursos acadêmicos em Instituições de Ensino Superior: Estudo de caso na Universidade de Brasília"
     en: "Scheduling of Academic Resources in Higher Education Institutions: A Case Study at the University of Brasília"
   summary:
-    pt: "O agendamento de recursos acadêmicos em instituições de ensino superior configura-se
+    pt: 'O agendamento de recursos acadêmicos em instituições de ensino superior configura-se
  como um problema de elevada complexidade, envolvendo a alocação de turmas, professores, horários e espaços físicos, de modo a atender a múltiplas restrições e preferências
  institucionais. Este trabalho apresenta o modelo SARA (Sistema de Agendamento de
  Recursos Acadêmicos), concebido para oferecer flexibilidade e adaptabilidade às particularidades das instituições de ensino superior.
@@ -558,7 +558,7 @@ items:
  específicas da instituição, evidenciando seu potencial de aplicação em diferentes contextos
  institucionais. A pesquisa contribui para o avanço teórico e prático no campo da gestão
  acadêmica, apresentando uma solução que combina rigor metodológico com aplicabilidade
- prática."
+ prática.'
     en: "The scheduling of academic resources in higher education institutions is a highly complex problem, involving the allocation of classes, professors, time slots, and physical spaces to meet multiple institutional constraints and preferences. This paper presents the SARA model (Academic Resource Scheduling System), designed to offer flexibility and adaptability to the specific needs of higher education institutions.
 The research was conducted in two main stages: a systematic literature review and the proposal of the SARA model. The systematic review enabled the mapping of widely used strategies, algorithms, and constraints in the literature, providing theoretical foundations for the model's development. The SARA proposal integrates features such as customization, integration with academic systems, and the application of optimization algorithms, promoting a comprehensive and adaptable approach to scheduling in university environments.
 The model was validated through a case study at the University of Brasília (UnB), in a large-scale and highly complex environment. Preliminary results demonstrated the model's feasibility and effectiveness in meeting the institution's specific demands, highlighting its potential applicability in various institutional contexts. The research contributes to theoretical and practical advancements in academic management, presenting a solution that combines methodological rigor with practical applicability."
@@ -578,6 +578,74 @@ The model was validated through a case study at the University of Brasília (UnB
   - sergio_freitas
   url: 'http://repositorio2.unb.br/handle/10482/52048'
   year: 2024
+
+- authors:
+  - Dione Ramos Canuto Moura 
+  title:
+    pt: "Usabilidade do SICAPEX: um estudo sobre a interação entre usuários e o sistema de cadastramento do Exército Brasileiro"
+    en: "Usability of SICAPEX: a study on the interaction between users and the Brazilian Army registration system"
+  summary:
+    pt: 'O SiCaPEx, Sistema de Cadastramento de Pessoal do Exército, desempenha um papel essencial 
+na gestão eficiente de informações para os processos de pessoal no Exército Brasileiro. 
+Entretanto, ao longo do tempo, observou-se um aumento nas dificuldades operacionais e no 
+desempenho do software, evidenciado pelo crescente número de pedidos de suporte 
+relacionados à usabilidade do sistema. Este trabalho tem como objetivo analisar a usabilidade 
+do SiCaPEx, examinando a interação entre os usuários e o sistema no período de 2019 a 2023, 
+e propor melhorias com base nos resultados obtidos, implementando-as de forma prática. A 
+gestão eficaz de pessoal no Exército depende diretamente da confiabilidade dos dados 
+processados pelo SiCaPEx. A metodologia adotada incluiu uma abordagem quanti-qualitativa, 
+que combinou pesquisa bibliográfica e análise documental para explorar os desafios de 
+usabilidade enfrentados. A avaliação da usabilidade foi realizada por meio do questionário SUS 
+(System Usability Scale) e da Avaliação Heurística de Nielsen, oferecendo uma visão 
+abrangente das percepções dos usuários. Os dados coletados foram analisados estatisticamente 
+com o uso de softwares especializados, como SPSS, R-Studio, Iramuteq e Excel. Os resultados 
+apontaram problemas significativos de usabilidade no SiCaPEx. A pontuação global do 
+questionário SUS ficou abaixo do esperado, evidenciando a necessidade de melhorias em áreas 
+como facilidade de aprendizado, eficiência, memorização, minimização de erros e satisfação 
+dos usuários. Esses problemas foram destacados pelos respondentes e validados pela análise 
+dos dados. Com base nas sugestões de melhoria identificadas, foi elaborado um Memorando 
+Interno e implementada uma FAQ (Frequency Answer the Question) para responder a dúvidas 
+frequentes sobre o sistema, iniciativa que foi bem avaliada pelos usuários. Espera-se que os 
+resultados desta pesquisa contribuam significativamente para uma gestão mais eficiente de 
+pessoal, impactando diretamente as atividades administrativas e operacionais do Exército 
+Brasileiro. '
+    en: "SiCaPEx, the Brazilian Army Personnel Registration System, plays an essential role in the 
+efficient management of information for personnel processes in the Brazilian Army. However, 
+over time, an increase in operational difficulties and software performance has been observed, 
+evidenced by the growing number of support requests related to the system's usability. This 
+work aims to analyze the usability of SiCaPEx, examining the interaction between users and 
+the system from 2019 to 2023, and propose improvements based on the results obtained, 
+implementing them in a practical way. Effective personnel management in the Army directly 
+depends on the reliability of the data processed by SiCaPEx. The methodology adopted included 
+a quantitative-qualitative approach, which combined bibliographic research and documentary 
+analysis to explore the usability challenges faced. The usability assessment was carried out 
+through the SUS (System Usability Scale) questionnaire and Nielsen's Heuristic Evaluation, 
+offering a comprehensive view of users' perceptions. The collected data were statistically 
+analyzed using specialized software, such as SPSS, R-Studio, Iramuteq and Excel. The results 
+indicated significant usability problems in SiCaPEx. The overall score of the SUS questionnaire 
+was below expectations, highlighting the need for improvements in areas such as ease of 
+learning, efficiency, memorization, error minimization and user satisfaction. These problems 
+were highlighted by the respondents and validated by data analysis. Based on the suggestions 
+for improvement identified, an Internal Memorandum was prepared and a FAQ (Frequency 
+Answer the Question) was implemented to answer frequently asked questions about the system, 
+an initiative that was well evaluated  by users. It is expected that the results of this research will 
+contribute significantly to more efficient personnel management, directly impacting the 
+administrative and operational activities of the Brazilian Army."
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: ''
+  tags:
+  - software_architecture
+  type: dissertation
+  program: curso_ppca
+  advisors:
+  - george_marsicano
+  url: 
+  year: 2025
 
 - authors:
   - Arthur Rocha Temporim de Lacerda

@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</loc>
-    <lastmod>2025-09-10T09:00:00-03:00</lastmod>
+    <loc>https://gamificacao.org/en/posts/cristiane-ramos-feedback-gamification/</loc>
+    <lastmod>2025-11-01T10:00:00-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://gamificacao.org/pt/posts/apresentacao-bruno-mello-andrade/"
+      href="https://gamificacao.org/pt/posts/cristiane-ramos-feedback-gamificacao/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/"
+      href="https://gamificacao.org/en/posts/cristiane-ramos-feedback-gamification/"
     />
   </url>
   <url>
     <loc>https://gamificacao.org/en/</loc>
-    <lastmod>2025-09-10T09:00:00-03:00</lastmod>
+    <lastmod>2025-11-01T10:00:00-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>https://gamificacao.org/en/posts/</loc>
-    <lastmod>2025-09-10T09:00:00-03:00</lastmod>
+    <lastmod>2025-11-01T10:00:00-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -48,6 +48,38 @@
       rel="alternate"
       hreflang="en"
       href="https://gamificacao.org/en/posts/"
+    />
+  </url>
+  <url>
+    <loc>https://gamificacao.org/en/posts/lucas-linard-gamification-development/</loc>
+    <lastmod>2025-10-20T14:00:00-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://gamificacao.org/pt/posts/lucas-linard-desenvolvimento-gamificado/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://gamificacao.org/en/posts/lucas-linard-gamification-development/"
+    />
+  </url>
+  <url>
+    <loc>https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/</loc>
+    <lastmod>2025-09-10T09:00:00-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://gamificacao.org/pt/posts/apresentacao-bruno-mello-andrade/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://gamificacao.org/en/posts/bruno-mello-andrade-preliminary-results/"
     />
   </url>
   <url>

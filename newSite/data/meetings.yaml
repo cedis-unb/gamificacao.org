@@ -1,4 +1,190 @@
 en:
+  - date: "2025-10-24"
+    title: "Meeting"
+    speaker: "Lucas Linard"
+    icon: "briefcase"
+    badge: "Case Study"
+    desc: "Gamification and software quality: systematic literature review and proposal for Banco do Brasil."
+    videoURL: ""
+    transcriptURL: ""
+    summary: |
+      ### Systematic Literature Review on Gamification for Software Quality Improvement
+
+      On October 24, 2025, Lucas Pereira Gomes Linard presented the methodology and progress of his master's research systematic literature review (SLR) on gamification applied to software development quality. His research focuses on understanding how gamification can stimulate developers to write higher-quality code at Banco do Brasil.
+
+      #### Research motivation and background
+
+      Lucas works as a programmer in the Software Quality area at Banco do Brasil. Through empirical observation validated with academic rigor by Professor Sérgio, he identified a critical behavior: developers improve code quality only up to the point where they don't need approval from their manager. Beyond that threshold, code quality improvements stagnate, regardless of the severity of issues.
+
+      The research explores whether gamification techniques can overcome this motivation barrier and incentivize developers to proactively improve code quality, particularly in addressing accumulated technical debt.
+
+      #### Systematic Literature Review methodology
+
+      Lucas shared his practical workflow for conducting the SLR:
+
+      - **Protocol and planning**: Developed a quality assessment checklist and study selection criteria
+      - **Study search and selection**: Searched multiple databases, retrieving 1,324 total articles (1,293 non-duplicated), with 1,149 rejected at title/abstract level and 82 accepted for full-text reading
+      - **Data extraction and organization**: Created a private repository with PDF storage, automated bibliography synchronization, and standardized extraction forms
+      - **Quality assessment**: Evaluated studies based on abstract and title during initial screening; plans to re-evaluate after full-text reading for potential reclassification
+      - **Snowballing technique**: Identified relevant references from included studies using structured tagging (yellow = general notes, green = gamification aspects, blue = relevant metrics, red = errors/disagreements)
+      - **Leveraging AI/LLMs**: Used tools like Claude to organize extracted data, search across 10+ initial articles, and identify patterns linking research findings to proposed gamification strategies
+
+      #### Key findings from research conducted so far
+
+      Among the first 11 articles analyzed:
+
+      - **Gamification techniques identified**: Various techniques including leaderboards, ranking systems, badges, and incentives for specific tasks
+      - **Metrics used**: Static code analysis metrics (SonarQube violations), vulnerability density, test coverage, compliance with standards, and technical debt measurements
+      - **Quality definition**: The research standardizes "quality" to focus on SonarQube static analysis rule violations, as these are directly actionable by developers and measurable. This aligns with Banco do Brasil's current quality framework using default SonarQube rules
+      - **Lead time concerns**: Despite being a key research question, Lucas found minimal evidence in literature about gamification's impact on development time. This remains an open gap—a concern expressed by business stakeholders: does improving code quality increase deployment time, thus negating business value?
+
+      #### Research proposal direction
+
+      The SLR findings inform Lucas's gamification proposal design for Banco do Brasil. Planned features include:
+
+      - **Refactoring missions**: Gamified missions to reduce code complexity or address technical debt without requiring new feature delivery (e.g., "Reduce method complexity from 8 to 5 and earn 5 coins")
+      - **Evidence-based technique selection**: Using SLR findings to choose gamification mechanics with documented effectiveness in similar contexts
+      - **Context-specific adaptation**: Applying gamification to quality improvements while maintaining business focus on lead time and delivery schedules
+      - **Simulation analysis**: Lucas previously conducted Monte Carlo simulations showing that 2 hours per sprint per developer dedicated to technical debt reduction could significantly improve code health without major productivity loss
+
+      #### Research organization strategy
+
+      Lucas demonstrated how he organizes extracted data to map research evidence to his proposal:
+
+      - **Single source of truth**: All data extraction centralized in one repository format for consistency and LLM processing
+      - **Evidence mapping**: Linking each research question to specific articles and their findings (e.g., articles S2, S3, S5, S8, S11 address "What gamification techniques are used?")
+      - **Concept normalization**: Planning to standardize synonymous terms across papers (e.g., "leaderboard" vs. "ranking") to get a comprehensive view of technique usage
+      - **Slide summaries for advisor**: Each article receives a one-page summary slide (in GammaApp) documenting the inclusion/exclusion rationale and relationship to research questions
+
+      #### Feedback from the community
+
+      - **Profa. Cristiane**: Emphasized the importance of clear research questions and how extracted evidence answers them; suggested maintaining a single authoritative source for data extraction
+      - **Luciana**: Noted the challenge of finding lead-time evidence in literature; recommended broadening the search to general software quality and maintenance literature to capture indirect evidence of time savings
+      - **Bruno**: Highlighted the importance of clearly defining "quality" to scope the work; praised the standardization of SonarQube rules as the quality benchmark
+      - **Prof. Sergio**: Congratulated Lucas on the rich presentation and encouraged completion of the SLR, proposal development, and qualification phases
+
+      #### Next steps
+
+      - Complete the systematic literature review (currently reading 82 selected articles; early results available from first 11)
+      - Normalize terminology across extracted data
+      - Finalize evidence mapping linking SLR findings to gamification proposal design
+      - Develop and test the gamification proposal with Banco do Brasil development teams
+      - Measure both quality improvements and lead-time impact to validate business viability
+
+      The research demonstrates rigorous academic methodology applied to a real-world software engineering challenge, combining literature evidence with practical industry context to inform innovation in developer motivation and code quality.
+    links:
+      - label: "Lucas Linard - CEDIS"
+        url: "https://cedis.unb.br/"
+
+  - date: "2025-10-03"
+    title: "Meeting"
+    speaker: "Bruno Mello Andrade"
+    icon: "graduation-cap"
+    badge: "Master's Research"
+    desc: "Gamification implementation in a software factory: evaluating engagement in IT teams."
+    videoURL: ""
+    transcriptURL: ""
+    summary: |
+      ### Gamification in Software Project Management: Implementation and Results
+
+      On October 3, 2025, Bruno Mello Andrade presented preliminary results of his master's dissertation to the Gamificação.ORG community. The work addresses gamification applied to IT management teams in a software factory context, evaluating impact on engagement and productivity.
+
+      #### Research context and motivation
+
+      Bruno works managing operations for a software factory in Brasília with over 8 contracts for the public sector (recently including Caixa Econômica). The company faces challenges typical of the sector: contracts awarded to lowest bidders, staff motivation constraints beyond salary increases, and the need to maintain productivity and code quality under competitive pressures.
+
+      The research investigates whether gamification techniques can address motivational barriers in professional software development, focusing initially on the management layer to create a cascade effect toward development teams.
+
+      #### Research methodology
+
+      **Timeline of activities:**
+      - Literature review on gamification
+      - Research proposal and qualification defense
+      - Team engagement survey (IMI questionnaire) with 12 management responses across 7 motivational subscales
+      - Mapping of gamification techniques using the Hexad model of player motivations
+      - Gamification implementation on Telebrás contract (pilot)
+      - Data collection and ongoing analysis (September-November 2025)
+
+      #### Gamification implementation strategy
+
+      Bruno implemented gamification integrated into existing tools (Jira for task management; Confluence for documentation) without requiring additional systems, ensuring adoption feasibility.
+
+      **Gamification techniques applied:**
+
+      1. **Narrative** (Epic Core – Utility Value): Crafted a project story using user story documentation, establishing game rules, achievements, and recognition wall.
+
+      2. **Unexpected Reward** (Empowerment & Creativity Core): Spontaneous peer recognition mechanism on a Confluence wall, with clear guidelines for acknowledgment.
+
+      3. **Elitism** (Empowerment & Creativity Core): Visual ranking of team members with highest task closures per sprint, recognized with badges.
+
+      4. **Hero of Humanity** (Empowerment & Creativity Core): Recognition badge for individuals receiving the most peer feedback.
+
+      5. **Sky of Brigadeiro** (Accomplishment Core): Dashboard displaying sprint progress, task status (open, in development, completed), and backlog metrics with visual feedback.
+
+      6. **Real-time Control** (Accomplishment Core): Graphical visualization of task closure progress and sprint health indicators.
+
+      7. **Achievements (Badges)** (Belongingness & Social Core): 6 distinct badges earned for:
+         - Completing 2+ sprints per month
+         - Maintaining error rate below 5%
+         - Meeting planned operational results
+         - Customer satisfaction ratings ≥ 8
+         - 2+ years tenure at company
+         - Zero billing disputes (premium badge)
+
+      8. **Special Missions** (Belongingness & Social Core): Gamified tasks outside daily workflow (e.g., process improvements, documentation updates, task maintenance) that contribute to company health and technical debt reduction.
+
+      **Evaluation and reward system:**
+      - Bi-weekly evaluation: 80%+ sprint closure = 1 point; 60%+ backlog completion = 1 point
+      - Monthly evaluation: 3+ peer recognitions = 1 point; mission completion = 1 point; badges earned = 1 point per badge
+      - Quality metrics: Max 10% defect items per sprint
+      - Final reward: Top 3 managers receive 3, 2, and 1 days of paid leave (decided by score ranking)
+
+      #### Results and findings
+
+      **Positive outcomes:**
+      - Improved data quality: fewer forgotten/unclosed tasks (previously tasks would languish for 40+ hours)
+      - Better task tracking and closure rates
+      - Team engagement: verbal feedback indicated satisfaction ("light, fun, engaging")
+      - Institutional impact: company requested implementation expansion to other contracts
+      - Increased awareness of process and productivity tracking (important for CMM-I maturity assessments)
+
+      **Challenges and limitations:**
+      - Recognition mechanisms (peer feedback wall, special missions) show low adoption—cultural resistance to activities perceived as "extra work"
+      - Limited improvement in motivational indices (IMI questionnaire) compared to behavioral metrics
+      - Interaction patterns between professionals did not visibly improve; feedback culture remains weak
+      - Task complexity not factored into scoring (potential for gaming: selecting easy tasks instead of challenging work)
+      - No direct measurement of impact on engineering team motivation (only management layer surveyed)
+      - Data collection still ongoing; final analysis pending
+
+      #### Community feedback and recommendations
+
+      **Professora Cristiane Ramos** highlighted the success of keeping gamification aligned with existing daily workflows rather than introducing extra steps. Key observations:
+      - Recognition wall and special missions diverge from daily practices; consider root cause analysis for low adoption
+      - Suggest incorporating task complexity/story points into scoring to prevent bias toward high-volume, low-difficulty tasks
+      - Recommend conducting interviews to understand reasons for non-participation
+      - Consider re-evaluating quality assessments after full-text review for accuracy
+
+      **Lucas Linard** shared parallel experience from Banco do Brasil's similar recognition system using coins/points and suggested using team grouping within contracts to prevent ranking disadvantages for small projects.
+
+      **Arthur Martins** questioned governance of incentives and how constraints work in client-managed contracts (different from Bruno's management context).
+
+      **Prof. Sérgio** praised Bruno's maturity in reporting both successful and unsuccessful indicators, noting this demonstrates research rigor and readiness for dissertation defense.
+
+      #### Next steps and future work
+
+      - Complete IMI questionnaire collection (September, October, November 2025)
+      - Finalize data analysis and validation
+      - Document findings on effectiveness of specific techniques
+      - Address adoption barriers through root cause analysis
+      - Scale implementation to other contracts with refined design (addressing complexity scoring, team grouping for fairness)
+      - Publish results in academic venues
+      - Complete dissertation and defend qualification
+
+      #### Key insights
+
+      The research demonstrates that gamification can improve operational metrics and behavioral engagement in professional settings without requiring major system overhauls. However, cultural factors and perception of "extra effort" remain barriers to adoption of certain mechanics. Success depends on aligning techniques with existing workflows and deeply understanding contextual motivational drivers—critical lessons for broader implementation across the company's eight contracts.
+    links: []
+
   - date: "2025-09-04"
     title: "Meeting"
     speaker: "Orc'estra"
@@ -431,6 +617,192 @@ en:
     summary: ""
 
 pt:
+  - date: "2025-10-24"
+    title: "Encontro"
+    speaker: "Lucas Linard"
+    icon: "briefcase"
+    badge: "Caso de Estudo"
+    desc: "Gamificação e qualidade de software: revisão sistemática de literatura e proposta para Banco do Brasil."
+    videoURL: ""
+    transcriptURL: ""
+    summary: |
+      ### Revisão Sistemática de Literatura sobre Gamificação para Melhoria de Qualidade de Software
+
+      Em 24 de outubro de 2025, Lucas Pereira Gomes Linard apresentou a metodologia e progresso de sua revisão sistemática de literatura (RSL) de mestrado sobre gamificação aplicada à qualidade no desenvolvimento de software. Sua pesquisa investiga como gamificação pode estimular desenvolvedores a escrever código de melhor qualidade no Banco do Brasil.
+
+      #### Motivação e contexto da pesquisa
+
+      Lucas trabalha como programador na área de Qualidade de Software do Banco do Brasil. Através de observação empírica validada academicamente com o Professor Sérgio, ele identificou um comportamento crítico: desenvolvedores melhoram a qualidade do código apenas até o ponto em que não precisam de aprovação do chefe. Além desse limiar, as melhorias de qualidade estagnam, independentemente da severidade dos problemas.
+
+      A pesquisa investiga se técnicas de gamificação podem superar essa barreira de motivação e incentivar desenvolvedores a melhorar proativamente a qualidade do código, especialmente no tratamento de dívida técnica acumulada.
+
+      #### Metodologia da Revisão Sistemática de Literatura
+
+      Lucas compartilhou seu fluxo de trabalho prático para condução da RSL:
+
+      - **Protocolo e planejamento**: Desenvolvimento de checklist de avaliação de qualidade e critérios de seleção de estudos
+      - **Busca e seleção de estudos**: Busca em múltiplas bases de dados, recuperando 1.324 artigos no total (1.293 não duplicados), com 1.149 rejeitados no nível título/resumo e 82 aceitos para leitura completa
+      - **Extração e organização de dados**: Repositório privado com armazenamento de PDFs, sincronização automatizada de bibliografia e formulários de extração padronizados
+      - **Avaliação de qualidade**: Estudos avaliados com base em resumo e título na triagem inicial; planos para reavaliação após leitura completa
+      - **Técnica de snowballing**: Identificação de referências relevantes de estudos inclusos com marcação estruturada (amarelo = anotações gerais, verde = aspectos de gamificação, azul = métricas relevantes, vermelho = erros/discordâncias)
+      - **Aproveitamento de IA/LLMs**: Uso de ferramentas como Claude para organizar dados extraídos, buscar em 10+ artigos iniciais e identificar padrões ligando achados de pesquisa à proposta de gamificação
+
+      #### Principais achados da pesquisa até o momento
+
+      Entre os 11 primeiros artigos analisados:
+
+      - **Técnicas de gamificação identificadas**: Diversas técnicas incluindo placar de pontuação (leaderboards), rankings, crachás (badges) e incentivos para tarefas específicas
+      - **Métricas utilizadas**: Métricas de análise estática de código (violações SonarQube), densidade de vulnerabilidades, cobertura de testes, conformidade com padrões e medições de dívida técnica
+      - **Definição de qualidade**: A pesquisa padroniza "qualidade" focando em violações de regras de análise estática SonarQube, pois são diretamente acionáveis por desenvolvedores e mensuráveis. Isso se alinha com a estrutura de qualidade atual do Banco do Brasil usando regras SonarQube padrão
+      - **Preocupações com lead time**: Apesar de ser uma questão de pesquisa fundamental, Lucas encontrou mínima evidência em literatura sobre o impacto de gamificação no tempo de desenvolvimento. Essa permanece como uma lacuna aberta — uma preocupação expressa por stakeholders de negócio: melhorar qualidade de código aumenta tempo de deploy, anulando valor de negócio?
+
+      #### Direção da proposta de pesquisa
+
+      Os achados da RSL informam o design da proposta de gamificação de Lucas para Banco do Brasil. Recursos planejados incluem:
+
+      - **Missões de refatoração**: Missões gamificadas para reduzir complexidade de código ou tratar dívida técnica sem exigir entrega de nova feature (ex: "Reduza a complexidade deste método de 8 para 5 e ganhe 5 moedas")
+      - **Seleção de técnicas baseada em evidências**: Uso de achados da RSL para escolher mecânicas de gamificação com efetividade documentada em contextos similares
+      - **Adaptação específica de contexto**: Aplicação de gamificação a melhorias de qualidade mantendo foco de negócio em lead time e cronogramas de entrega
+      - **Análise por simulação**: Lucas previamente conduziu simulações Monte Carlo mostrando que 2 horas por sprint por desenvolvedor dedicadas a redução de dívida técnica poderiam melhorar significativamente a saúde do código sem perda major de produtividade
+
+      #### Estratégia de organização da pesquisa
+
+      Lucas demonstrou como organiza dados extraídos para mapear evidências de pesquisa à sua proposta:
+
+      - **Fonte única de verdade**: Toda extração de dados centralizada em formato de repositório para consistência e processamento com LLMs
+      - **Mapeamento de evidências**: Ligação de cada questão de pesquisa a artigos específicos e seus achados (ex: artigos S2, S3, S5, S8, S11 abordam "Quais técnicas de gamificação são usadas?")
+      - **Normalização de conceitos**: Planejamento de padronizar termos sinônimos entre papers (ex: "leaderboard" vs. "ranking") para obter visão abrangente de uso de técnicas
+      - **Resumos em slides para orientador**: Cada artigo recebe resumo de uma página (em GammaApp) documentando lógica de inclusão/exclusão e relação com questões de pesquisa
+
+      #### Feedback da comunidade
+
+      - **Professora Cristiane**: Enfatizou importância de questões de pesquisa claras e como evidências extraídas as respondem; sugeriu manter fonte única e autoritária para extração de dados
+      - **Luciana**: Ressaltou desafio de encontrar evidências sobre lead time em literatura; recomendou ampliar busca a literatura geral de qualidade de software e manutenção para capturar evidências indiretas de economia de tempo
+      - **Bruno**: Destacou importância de definir claramente "qualidade" para escopiar o trabalho; elogiou a padronização de regras SonarQube como benchmark de qualidade
+      - **Sergio**: Congratulou Lucas pela apresentação rica e encorajou conclusão da RSL, desenvolvimento da proposta e fases de qualificação
+
+      #### Próximos passos
+
+      - Completar a revisão sistemática de literatura (atualmente lendo 82 artigos selecionados; resultados iniciais disponíveis dos 11 primeiros)
+      - Normalizar terminologia em dados extraídos
+      - Finalizar mapeamento de evidências ligando achados da RSL ao design da proposta de gamificação
+      - Desenvolver e testar proposta de gamificação com equipes de desenvolvimento do Banco do Brasil
+      - Medir tanto melhorias de qualidade quanto impacto em lead time para validar viabilidade de negócio
+
+      A pesquisa demonstra metodologia acadêmica rigorosa aplicada a desafio real de engenharia de software, combinando evidências de literatura com contexto prático de indústria para informar inovação em motivação de desenvolvedores e qualidade de código.
+    links:
+      - label: "Lucas Linard - CEDIS"
+        url: "https://cedis.unb.br/"
+
+  - date: "2025-10-03"
+    title: "Encontro"
+    speaker: "Bruno Mello Andrade"
+    icon: "graduation-cap"
+    badge: "Pesquisa de Mestrado"
+    desc: "Gamificação em fábrica de software: avaliação do engajamento em equipes de TI."
+    videoURL: ""
+    transcriptURL: ""
+    summary: |
+      ### Gamificação em Gestão de Projetos de Software: Implementação e Resultados
+
+      Em 3 de outubro de 2025, Bruno Mello Andrade apresentou resultados parciais de sua dissertação de mestrado à comunidade Gamificação.ORG. O trabalho aborda gamificação aplicada a equipes de gestão de TI em contexto de fábrica de software, avaliando impacto no engajamento e produtividade.
+
+      #### Contexto e motivação da pesquisa
+
+      Bruno atua na gestão de operações de uma fábrica de software em Brasília com mais de 8 contratos para o setor público (recentemente incluindo Caixa Econômica). A empresa enfrenta desafios típicos do setor: contratos adjudicados ao menor preço, limitações de motivação de pessoal além de aumentos salariais, e necessidade de manter produtividade e qualidade de código sob pressões competitivas.
+
+      A pesquisa investiga se técnicas de gamificação podem superar barreiras motivacionais em desenvolvimento profissional de software, focando inicialmente na camada de gestão para criar efeito cascata em direção às equipes de desenvolvimento.
+
+      #### Metodologia da pesquisa
+
+      **Cronograma de atividades:**
+      - Revisão de literatura sobre gamificação
+      - Proposta de pesquisa e defesa de qualificação
+      - Pesquisa de engajamento de equipe (questionário IMI) com 12 respostas de gestores nas 7 subescalas motivacionais
+      - Mapeamento de técnicas de gamificação usando o modelo Hexad de motivações de jogadores
+      - Implementação de gamificação em contrato Telebrás (piloto)
+      - Coleta de dados e análise em andamento (setembro-novembro 2025)
+
+      #### Estratégia de implementação da gamificação
+
+      Bruno implementou gamificação integrada em ferramentas existentes (Jira para gestão de tarefas; Confluence para documentação) sem exigir sistemas adicionais, assegurando viabilidade de adoção.
+
+      **Técnicas de gamificação aplicadas:**
+
+      1. **Narrativa** (Core Épico – Valor de Utilidade): Construída uma história do projeto usando documentação de histórias de usuários, estabelecendo regras do jogo, conquistas e mural de reconhecimento.
+
+      2. **Almoço Grátis** (Core Empoderamento & Criatividade): Mecanismo de reconhecimento espontâneo de colegas em mural no Confluence, com diretrizes claras para reconhecimento.
+
+      3. **Elitismo** (Core Empoderamento & Criatividade): Ranking visual de integrantes com maiores fechamentos de tarefas por sprint, reconhecidos com badges.
+
+      4. **Herói da Humanidade** (Core Empoderamento & Criatividade): Badge de reconhecimento para indivíduos com mais feedback de colegas.
+
+      5. **Céu de Brigadeiro** (Core Realização): Dashboard exibindo progresso de sprint, status de tarefas (abertas, em desenvolvimento, concluídas) e métricas de backlog com feedback visual.
+
+      6. **Controle em Tempo Real** (Core Realização): Visualização gráfica do progresso de fechamento de tarefas e indicadores de saúde de sprint.
+
+      7. **Conquistas (Badges)** (Core Pertencimento & Social): 6 badges distintas conquistadas por:
+         - Completar 2+ sprints por mês
+         - Manter taxa de erros abaixo de 5%
+         - Atingir resultados operacionais planejados
+         - Avaliações de satisfação de cliente ≥ 8
+         - 2+ anos de tempo na empresa
+         - Zero glosa (badge premium)
+
+      8. **Missões Especiais** (Core Pertencimento & Social): Tarefas gamificadas fora do fluxo diário (ex: melhorias de processo, atualizações de documentação, manutenção de tarefas) que contribuem à saúde da empresa e redução de dívida técnica.
+
+      **Sistema de avaliação e recompensa:**
+      - Avaliação quinzenal: 80%+ fechamento de sprint = 1 ponto; 60%+ conclusão de backlog = 1 ponto
+      - Avaliação mensal: 3+ reconhecimentos de colegas = 1 ponto; conclusão de missão = 1 ponto; badges conquistadas = 1 ponto por badge
+      - Métricas de qualidade: Máx 10% itens de defeito por sprint
+      - Recompensa final: Top 3 gestores recebem 3, 2 e 1 dias de folga remunerada (definidos por ranking de pontos)
+
+      #### Resultados e achados
+
+      **Resultados positivos:**
+      - Melhoria de qualidade de dados: menos tarefas esquecidas/não fechadas (anteriormente tarefas permaneciam por 40+ horas)
+      - Melhores taxas de rastreamento e fechamento de tarefas
+      - Engajamento de equipe: feedback verbal indicava satisfação ("leve, divertido, engajante")
+      - Impacto institucional: empresa solicitou expansão de implementação para outros contratos
+      - Maior conscientização de rastreamento de processo e produtividade (importante para avaliações de maturidade CMM-I)
+
+      **Desafios e limitações:**
+      - Mecanismos de reconhecimento (mural de feedback de colegas, missões especiais) mostram baixa adoção—resistência cultural a atividades percebidas como "trabalho extra"
+      - Melhoria limitada em índices motivacionais (questionário IMI) comparado a métricas comportamentais
+      - Padrões de interação entre profissionais não melhoraram visivelmente; cultura de feedback permanece fraca
+      - Complexidade de tarefas não fatorada em scoring (potencial para gaming: selecionar tarefas fáceis ao invés de desafiadoras)
+      - Nenhuma medição direta de impacto em motivação de equipe de engenharia (apenas camada de gestão pesquisada)
+      - Coleta de dados ainda em andamento; análise final pendente
+
+      #### Feedback da comunidade e recomendações
+
+      **Professora Cristiane Ramos** destacou sucesso de manter gamificação alinhada a fluxos de trabalho diários existentes ao invés de introduzir passos extras. Observações chave:
+      - Mural de reconhecimento e missões especiais divergem de práticas diárias; considere análise de causa raiz para baixa adoção
+      - Sugira incorporar complexidade de tarefas/story points em scoring para prevenir viés em tarefas de alto volume, baixa dificuldade
+      - Recomende realizar entrevistas para entender razões de não participação
+      - Considere reavaliar assessments de qualidade após revisão completa para precisão
+
+      **Lucas Linard** compartilhou experiência paralela do Banco do Brasil com sistema similar de reconhecimento usando moedas/pontos e sugeriu usar agrupamento de equipes dentro de contratos para prevenir desvantagens de ranking em projetos pequenos.
+
+      **Arthur Martins** questionou governança de incentivos e como restrições funcionam em contratos com gestão de cliente (diferente do contexto de gestão de Bruno).
+
+      **Professor Sérgio** elogiou maturidade de Bruno em reportar indicadores bem-sucedidos e mal-sucedidos, observando que isso demonstra rigor de pesquisa e prontidão para defesa de dissertação.
+
+      #### Próximos passos e trabalho futuro
+
+      - Completar coleta de questionário IMI (setembro, outubro, novembro 2025)
+      - Finalizar análise de dados e validação
+      - Documentar achados sobre efetividade de técnicas específicas
+      - Endereçar barreiras de adoção através de análise de causa raiz
+      - Escalar implementação para outros contratos com design refinado (endereçando scoring de complexidade, agrupamento de equipes para justiça)
+      - Publicar resultados em venues acadêmicas
+      - Completar dissertação e defender qualificação
+
+      #### Insights principais
+
+      A pesquisa demonstra que gamificação pode melhorar métricas operacionais e engajamento comportamental em ambientes profissionais sem exigir reformulações maiores de sistemas. Contudo, fatores culturais e percepção de "esforço extra" permanecem como barreiras à adoção de certos mecanismos. O sucesso depende de alinhar técnicas com fluxos de trabalho existentes e compreender profundamente drivers motivacionais contextuais—lições críticas para implementação mais ampla nos oito contratos da empresa.
+    links: []
+
   - date: "2025-09-04"
     title: "Encontro"
     speaker: "Orc'estra"

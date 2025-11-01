@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Gamification ORG</title>
+    <link>https://gamificacao.org/en/tags/development/</link>
+    <description>Recent content in Development on Gamification ORG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Mon, 20 Oct 2025 14:00:00 -0300</lastBuildDate><atom:link href="https://gamificacao.org/en/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lucas Linard presents gamification strategies for software development</title>
+      <link>https://gamificacao.org/en/posts/lucas-linard-gamification-development/</link>
+      <pubDate>Mon, 20 Oct 2025 14:00:00 -0300</pubDate>
+      
+      <guid>https://gamificacao.org/en/posts/lucas-linard-gamification-development/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>Redirecionando...</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      // Redirect to default language (pt) with relative URL for multi-domain support
+      (function() {
+        const lang = navigator.language || navigator.userLanguage;
+        const targetPath = lang.startsWith('en') ? '/en/' : '/pt/';
+        window.location.href = targetPath;
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecionando para o idioma preferido...</p>
+  </body>
+</html>

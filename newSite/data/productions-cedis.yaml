@@ -1,5 +1,648 @@
 items:
 - authors:
+  - Sergio Antônio Andrade de Freitas
+  - André Corrêa da Silva
+  - Milena de Faria Silva
+  - Renan Carneiro Batista
+  title:
+    pt: 'Certificado de registro de programa de computador: Contextus'
+    en: 'Computer program registration certificate: Contextus'
+  summary:
+    pt: 'Registro de programa de computador concedido pelo INPI sob o processo BR512026000889-1, com certificado expedido em 18 de fevereiro de 2026.'
+    en: 'Computer program registration granted by INPI under process BR512026000889-1, with the certificate issued on February 18, 2026.'
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: Brasília, DF, Brasil
+  pages: ''
+  publisher: Instituto Nacional da Propriedade Industrial (INPI)
+  tags:
+  - dfcris
+  - contextus
+  - ai
+  - machine_learning
+  - sergio_freitas
+  type: book
+  program: ''
+  advisors: []
+  url: /files/certificado_Contextus.pdf
+  spotify_podcast:
+    pt: ''
+    en: ''
+  github_repo:
+    pt: ''
+    en: ''
+  zenodo_record:
+    pt: ''
+    en: ''
+  year: 2026
+- authors:
+  - Amanda Jeniffer Pereira Nobre
+  - Ana Carolina Rodrigues Leite
+  title:
+    pt: 'Desafios Éticos Associados aos Vieses em Algoritmos de Inteligência Artificial : Um Mapeamento Sistemático da Literatura'
+    en: 'Ethical challenges associated with biases in artificial intelligence algorithms: a systematic mapping of the literature'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - ai
+  - machine_learning
+  type: tcc
+  program: curso_esw
+  advisors:
+  - andre_lanna
+  url: https://www.bdm.unb.br/handle/10483/42354
+  year: 2025
+- authors:
+  - Denniel William Roriz Lima
+  title:
+    pt: 'Explorando a gamificação no desenvolvimento ágil de software : Um estudo sobre desafios, abordagens e diretrizes para implementação'
+    en: 'Exploring gamification in agile software development: a study on challenges, approaches, and guidelines for implementation'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - gamification
+  - software_quality
+  type: tcc
+  program: curso_esw
+  advisors:
+  - cristiane_ramos
+  url: https://www.bdm.unb.br/handle/10483/42494
+  year: 2025
+- authors:
+  - Erick Giffoni Felicissimo
+  title:
+    pt: 'Projeto e Desenvolvimento do software TROPA : Teatro de Operações de Airsof'
+    en: 'Design and development of the TROPA software: airsoft operations theater'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  type: tcc
+  program: curso_esw
+  advisors:
+  - daniel_sundfeld
+  url: https://www.bdm.unb.br/handle/10483/42544
+  year: 2025
+- authors:
+  - João Pedro Elias de Moura
+  title:
+    pt: 'SmartPayment : Sistema de Automação de Contratos Inteligentes para Avaliação e Pagamento em Desenvolvimento de Software'
+    en: 'SmartPayment: smart contract automation system for assessment and payment in software development'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  type: tcc
+  program: curso_esw
+  advisors:
+  - daniel_sundfeld
+  url: https://www.bdm.unb.br/handle/10483/42614
+  year: 2025
+- authors:
+  - Leonardo Milomes Vitoriano
+  - Mateus de Almeida Dias
+  title:
+    pt: 'Three Filters : analisador de informações científicas'
+    en: 'Three Filters: analyzer of scientific information'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - ai
+  - machine_learning
+  type: tcc
+  program: curso_esw
+  advisors:
+  - andre_lanna
+  url: https://www.bdm.unb.br/handle/10483/42615
+  year: 2025
+- authors:
+  - Artur de Sousa Vieira
+  - Luíza Esteves dos Santos
+  title:
+    pt: 'OMA: organizador multimídia acadêmico para auxiliar no aprendizado de estudantes de graduação de engenharias da FCTE'
+    en: 'OMA: academic multimedia organizer to support the learning of undergraduate engineering students at FCTE'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - education
+  - software_architecture
+  type: tcc
+  program: curso_esw
+  advisors:
+  - ricardo_ajax
+  url: https://www.bdm.unb.br/handle/10483/43564
+  year: 2025
+- authors:
+  - Kalebe Lopes da Cunha
+  - Murilo Schiler Lopes Santana
+  title:
+    pt: 'Da análise à implementação: migração da infraestrutura de IaaS para FaaS com foco na redução de custos no AgroMart'
+    en: 'From analysis to implementation: migrating infrastructure from IaaS to FaaS with a focus on reducing costs in AgroMart'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - andre_lanna
+  url: https://www.bdm.unb.br/handle/10483/43566
+  year: 2025
+- authors:
+  - Geraldo Victor Alves Barbosa
+  - João Victor de Oliveira Matos
+  title:
+    pt: 'Investigação da utilização do ChatGPT-4o no processo de elicitação, descoberta e declaração de requisitos : um estudo de caso'
+    en: 'Investigation of the use of ChatGPT-4o in the process of eliciting, discovering, and specifying requirements: a case study'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_requirements
+  - ai
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: https://www.bdm.unb.br/handle/10483/43573
+  year: 2025
+- authors:
+  - Felipe Direito Corrieri de Macedo
+  title:
+    pt: 'FTV Scout: sistema para notação e análise de desempenho no futevôlei'
+    en: 'FTV Scout: system for notation and performance analysis in footvolley'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - ricardo_ajax
+  url: https://www.bdm.unb.br/handle/10483/43576
+  year: 2025
+- authors:
+  - Wander Cleber Maria Pereira da Silva
+  - CANEDO, EDNA DIAS
+  - MARSICANO, GEORGE
+  - FIGUEIREDO, REJANE
+  title:
+    pt: 'Fast Track for Collaborative Solutions: A Methodology for Public Service Design Workshops Supported by LLMs'
+    en: 'Fast Track for Collaborative Solutions: A Methodology for Public Service Design Workshops Supported by LLMs'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: '26th Annual International Conference on Digital Government Research (dg.o 2025)'
+  location: Porto Alegre
+  pages: ''
+  publisher: ''
+  tags:
+  - digital_transformation
+  - george_marsicano
+  type: conference
+  program: ''
+  advisors: []
+  url: ''
+  year: 2025
+- authors:
+  - Elaine VENSON
+  - SOUZA, J.
+  - CAMPOS, S.
+  - FIGUEIREDO, REJANE
+  - MARSICANO, GEORGE
+  - Wander Cleber Maria Pereira da Silva
+  title:
+    pt: 'Reflections on Collaborative Design: Lessons from Creating a Digital Public Service App'
+    en: 'Reflections on Collaborative Design: Lessons from Creating a Digital Public Service App'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: '26th Annual International Conference on Digital Government Research (dg.o 2025)'
+  location: Porto Alegre
+  pages: ''
+  publisher: ''
+  tags:
+  - digital_transformation
+  - george_marsicano
+  type: conference
+  program: ''
+  advisors: []
+  url: ''
+  year: 2025
+- authors:
+  - CANTO, FABIO LORENSI DO
+  - CARVALHO SEGUNDO, WASHINGTON LUÍS RIBEIRO DE
+  - PINTO, ADILSON LUIZ
+  - SUNDFELD, Daniel
+  title:
+    pt: 'Rede de atração entre periódicos brasileiros de Ciências da Saúde'
+    en: 'Attraction network among Brazilian Health Sciences journals'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: 'e005'
+  doi_isbn: ''
+  journal_event: BIBLIOS (LIMA)
+  location: ''
+  pages: '1-13'
+  publisher: ''
+  tags:
+  - hpc
+  - daniel_sundfeld
+  type: article
+  program: ''
+  advisors: []
+  url: ''
+  year: 2025
+- authors:
+  - Sundfeld, Daniel
+  - TEODORO, GEORGE
+  - Melo, Alba C. M. A.
+  title:
+    pt: 'PA-Star2: Fast Optimal Multiple Sequence Alignment for Asymmetric Multicore Processors'
+    en: 'PA-Star2: Fast Optimal Multiple Sequence Alignment for Asymmetric Multicore Processors'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: '2025 33rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP)'
+  location: Turin
+  pages: '146'
+  publisher: ''
+  tags:
+  - hpc
+  - daniel_sundfeld
+  type: conference
+  program: ''
+  advisors: []
+  url: ''
+  year: 2025
+- authors:
+  - ARAÚJO, MAURÍCIO FERREIRA DE
+  - HABL, LUI
+  - Sundfeld, Daniel
+  title:
+    pt: 'Aplicação multithread para a aceleração do método Particle-in-Cell (PIC)'
+    en: 'Multithread application for accelerating the Particle-in-Cell (PIC) method'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: 'Escola Regional de Informática de Goiás (ERI-GO 2025)'
+  location: Brasil
+  pages: '399'
+  publisher: ''
+  tags:
+  - hpc
+  - daniel_sundfeld
+  type: workshop
+  program: ''
+  advisors: []
+  url: ''
+  year: 2025
+- authors:
+  - KOSLOSKI, RICARDO AJAX DIAS
+  - MOURA, L.
+  - GOMES, M. M. F.
+  title:
+    pt: 'ASPÉCTOS DE QUALIDADE DE PRODUTO DE SOFTWARE NO USO DE E-GOV: UMA ANÁLISE BASEADA NAS PERSPECTIVAS DE PESSOAS IDOSAS EM UMA CIDADE NO BRASIL'
+    en: 'ASPÉCTOS DE QUALIDADE DE PRODUTO DE SOFTWARE NO USO DE E-GOV: UMA ANÁLISE BASEADA NAS PERSPECTIVAS DE PESSOAS IDOSAS EM UMA CIDADE NO BRASIL'
+  summary:
+    pt: Artigo aceito para publicação.
+    en: Article accepted for publication.
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: 'ARACÊ - DIREITOS HUMANOS EM REVISTA'
+  location: ''
+  pages: ''
+  publisher: ''
+  tags:
+  - digital_transformation
+  - software_quality
+  - ricardo_ajax
+  type: article
+  program: ''
+  advisors: []
+  url: ''
+  year: 2025
+- authors:
+  - Christian Fleury Alencar Siqueira
+  - Thiago Siqueira Gomes
+  title:
+    pt: 'Agromart : integração e publicação do aplicativo para agricultura familiar'
+    en: 'Agromart: integration and publication of the application for family farming'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - andre_lanna
+  url: https://www.bdm.unb.br/handle/10483/40098
+  year: 2024
+- authors:
+  - Daniel Barcelos Moreira
+  - Juliana Pereira Valle Gonçalves
+  title:
+    pt: 'Ferramentas de avaliação de acessibilidade de sites web utilizados por pessoas idosas : diretrizes de apoio à escolha'
+    en: 'Accessibility evaluation tools for websites used by older adults: guidelines to support selection'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_quality
+  - education
+  type: tcc
+  program: curso_esw
+  advisors:
+  - cristiane_ramos
+  url: https://www.bdm.unb.br/handle/10483/40116
+  year: 2024
+- authors:
+  - Guilherme Rogelin Vial
+  - Lucas Braun Vieira Xavier
+  title:
+    pt: Modelagem de fluxos de uma aplicação voltada para a educação jurídica
+    en: Modeling flows for an application aimed at legal education
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - andre_lanna
+  url: https://www.bdm.unb.br/handle/10483/40136
+  year: 2024
+- authors:
+  - João Pedro Alves Machado
+  - Júlio César Martins França
+  title:
+    pt: Renderização de Fluxos de uma Aplicação de Educação Jurídica em Dispositivos Mobile
+    en: Rendering flows of a legal education application on mobile devices
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - andre_lanna
+  url: https://www.bdm.unb.br/handle/10483/42301
+  year: 2024
+- authors:
+  - Daniela Soares de Oliveira
+  - Danilo Domingo Vitoriano Silva
+  title:
+    pt: Modelo de IA de tradução de Libras
+    en: AI model for Brazilian Sign Language translation
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - education
+  - machine_learning
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: https://www.bdm.unb.br/handle/10483/43572
+  year: 2024
+- authors:
+  - Francisco Heronildo Sousa Santos
+  - João Vitor Ferreira Alves
+  title:
+    pt: Avaliação e melhoria de aplicação web utilizando mecanismos de usabilidade
+    en: Evaluation and improvement of a web application using usability mechanisms
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_quality
+  type: tcc
+  program: curso_esw
+  advisors:
+  - fabiana_mendes
+  url: https://www.bdm.unb.br/handle/10483/39807
+  year: 2024
+- authors:
+  - PAULINO, GABRIEL R. SCHEIDT
+  - ARAÚJO, RAFAEL CARVALHO J.
+  - ROCHA, JOHAN M. G. DA
+  - LIMA, Daniel Sundfeld
+  title:
+    pt: 'Nimbus: uma arquitetura serverless em nuvem para correção automática de códigos'
+    en: 'Nimbus: a serverless cloud architecture for automatic code grading'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: 'Escola Regional de Alto Desempenho do Centro-Oeste'
+  location: Brasil
+  pages: 27
+  publisher: ''
+  tags:
+  - hpc
+  - daniel_sundfeld
+  type: workshop
+  program: ''
+  advisors: []
+  url: ''
+  year: 2024
+- authors:
+  - Rejane Maria da Costa Figueiredo
+  - PEDROSA, G. V.
+  - GARDENGHI, J. L. C.
+  - Elaine VENSON
+  - JUDICE, M.
+  - JUDICE, A. C. B.
+  - COSTA, F. F.
+  - Wander Cleber Maria Pereira da Silva
+  - MARSICANO, GEORGE
+  title:
+    pt: 'Reflections on Collaborative Design: Lessons from Creating a Digital Public Service App'
+    en: 'Reflections on Collaborative Design: Lessons from Creating a Digital Public Service App'
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: 'Workshop de Computação Aplicada em Governo Eletrônico (WCGE)'
+  location: Brasília
+  pages: ''
+  publisher: ''
+  tags:
+  - digital_transformation
+  - george_marsicano
+  type: workshop
+  program: ''
+  advisors: []
+  url: ''
+  year: 2024
+- authors:
+  - KOSLOSKI, RICARDO AJAX DIAS
+  - MOURA, L.
+  - GOMES, M. M. F.
+  title:
+    pt: 'INCLUSÃO PARTICIPATIVA DE PESSOAS IDOSAS USANDO E-GOV NO BRASIL: UM MAPEAMENTO SISTEMÁTICO DE LITERATURA'
+    en: 'INCLUSÃO PARTICIPATIVA DE PESSOAS IDOSAS USANDO E-GOV NO BRASIL: UM MAPEAMENTO SISTEMÁTICO DE LITERATURA'
+  summary:
+    pt: Artigo aceito para publicação.
+    en: Article accepted for publication.
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: 'REVISTA DO SERVICO PUBLICO (ONLINE)'
+  location: ''
+  pages: ''
+  publisher: ''
+  tags:
+  - digital_transformation
+  - ricardo_ajax
+  type: article
+  program: ''
+  advisors: []
+  url: ''
+  year: 2024
+- authors:
   - NEUBERT, PATRICIA DA SILVA
   - CANTO, FÁBIOLORENSI DO
   - PINTO, ADILSON LUIZ
@@ -582,8 +1225,8 @@ The model was validated through a case study at the University of Brasília (UnB
 - authors:
   - Dione Ramos Canuto Moura 
   title:
-    pt: "Usabilidade do SICAPEX: um estudo sobre a interação entre usuários e o sistema de cadastramento do Exército Brasileiro"
-    en: "Usability of SICAPEX: a study on the interaction between users and the Brazilian Army registration system"
+    pt: "Proposição de Melhoria de Usabilidade da Interação entre Usuário e Sistema Corporativo do Exército Brasileiro"
+    en: "Proposal for Improving the Usability of the Interaction Between User and Corporate System of the Brazilian Army"
   summary:
     pt: 'O SiCaPEx, Sistema de Cadastramento de Pessoal do Exército, desempenha um papel essencial 
 na gestão eficiente de informações para os processos de pessoal no Exército Brasileiro. 
@@ -856,12 +1499,130 @@ administrative and operational activities of the Brazilian Army."
   url: 'http://repositorio2.unb.br/handle/10482/47822'
   year: 2023
 - authors:
-  - Allan Nobre
+  - Abner Filipe Cunha Ribeiro
+  - Rafael Leão Teixeira de Magalhães
   title:
-    pt: Utilização de Learning Analytics e Educational Data Mining no apoio a decisões
-      pedagógicas durante a aplicação da metodologia TBL
-    en: Using Learning Analytics and Educational Data Mining to Support Pedagogical
-      Decisions During TBL Methodology Application
+    pt: Associação para aplicações Agromart de uma CSA em cloud
+    en: Association for Agromart applications of a CSA in cloud
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - andre_lanna
+  url: https://www.bdm.unb.br/handle/10483/39809
+  year: 2023
+- authors:
+  - Lucas Ganda Carvalho
+  - Wictor Bastos Girardi
+  title:
+    pt: Predição de Tempo de Execução de Código em Funções Lambda
+    en: Prediction of Code Execution Time in Lambda Functions
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - hpc
+  type: tcc
+  program: curso_tsi_ifb
+  advisors:
+  - daniel_sundfeld
+  url: https://www.bdm.unb.br/handle/10483/39151
+  year: 2022
+- authors:
+  - Lucas Lopes Xavier
+  title:
+    pt: Implementação de requisitos de privacidade da LGPD e ISO 29100 em aplicativos de saúde
+    en: Implementation of LGPD and ISO 29100 privacy requirements in health applications
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_quality
+  type: tcc
+  program: curso_esw
+  advisors:
+  - fabiana_mendes
+  url: https://www.bdm.unb.br/handle/10483/39153
+  year: 2023
+- authors:
+  - Felipe Boccardi Silva Agustini
+  - Giovanna Borges Bottino
+  title:
+    pt: Módulo de integração de pagamento e manutenção do software Agromart
+    en: Payment integration module and maintenance for the Agromart software
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - andre_lanna
+  url: https://www.bdm.unb.br/handle/10483/39189
+  year: 2023
+- authors:
+  - Nathalia Lorena Cardoso Dias
+  title:
+    pt: '"Por que processos de melhoria de software já definidos não estão sendo utilizados pelas empresas? : uma revisão da literatura'
+    en: Why are already defined software improvement processes not being used by companies? A literature review
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_quality
+  type: tcc
+  program: curso_esw
+  advisors:
+  - fabiana_mendes
+  url: https://www.bdm.unb.br/handle/10483/38582
+  year: 2023
+- authors:
+  - Allan Jefrey Pereira Nobre
+  title:
+    pt: Utilização de Learning Analytics e Educational Data Mining no apoio a decisões pedagógicas durante a aplicação da metodologia TBL
+    en: Using Learning Analytics and Educational Data Mining to Support Pedagogical Decisions During TBL Methodology Application
   summary:
     pt: ''
     en: ''
@@ -880,13 +1641,12 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - cristiane_ramos
   url: https://www.bdm.unb.br/handle/10483/33678
-  year: 2023
+  year: 2021
 - authors:
-  - Fabiana Ribas
+  - Fabiana Luiza Vasconcelos Pfeilsticker Ribas
   title:
-    pt: Análise da acessibilidade para pessoas idosas em serviços e-Gov - um estudo
-      de caso
-    en: Accessibility Analysis for Elderly People in e-Gov Services - A Case Study
+    pt: Análise da acessibilidade para pessoas idosas em serviços e-Gov - um estudo de caso
+    en: Accessibility analysis for older adults in e-Gov services - a case study
   summary:
     pt: ''
     en: ''
@@ -904,14 +1664,12 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - ricardo_ajax
   url: https://www.bdm.unb.br/handle/10483/33852
-  year: 2023
+  year: 2022
 - authors:
-  - Gabriel Carvalho
+  - Gabriel de Jesus Carvalho
   title:
-    pt: IA-QVT - ferramenta para coleta e tratamento de dados sobre qualidade de vida
-      no trabalho, com foco em usabilidade e acessibilidade
-    en: IA-QVT - A Tool for Collecting and Processing Data on Work-Life Quality, Focusing
-      on Usability and Accessibility
+    pt: IA-QVT - ferramenta para coleta e tratamento de dados sobre qualidade de vida no trabalho, com foco em usabilidade e acessibilidade
+    en: IA-QVT - a tool for collecting and processing work-life quality data focused on usability and accessibility
   summary:
     pt: ''
     en: ''
@@ -929,14 +1687,13 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - fabiana_mendes
   url: https://www.bdm.unb.br/handle/10483/33935
-  year: 2023
+  year: 2022
 - authors:
-  - Gabriel Silva Helena Gourlat
+  - Gabriel Batista Albino Silva
+  - Helena Bretas Goulart
   title:
-    pt: Requisitos não-funcionais no desenvolvimento de jogos sérios para pessoas
-      com TDAH
-    en: Non-Functional Requirements in the Development of Serious Games for People
-      with ADHD
+    pt: Identificação de requisitos não-funcionais para jogos sérios com foco nas necessidades especiais das crianças com TDAH
+    en: Identification of non-functional requirements for serious games focused on the special needs of children with ADHD
   summary:
     pt: ''
     en: ''
@@ -955,14 +1712,13 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - cristiane_ramos
   url: https://www.bdm.unb.br/handle/10483/33941
-  year: 2023
+  year: 2022
 - authors:
-  - Igor Veludo Byron Corrêa
+  - Byron Kamal Barreto Correa
+  - Igor Guimaraes Veludo
   title:
-    pt: Uma evolução do projeto Agromart - open source, meios de pagamento e gestão
-      de co-agricultores
-    en: An Evolution of the Agromart Project - Open Source, Payment Methods, and Co-Farmers
-      Management
+    pt: Uma evolução do projeto Agromart - open source, meios de pagamento e gestão de co-agricultores
+    en: An evolution of the Agromart project - open source, payment methods, and co-farmer management
   summary:
     pt: ''
     en: ''
@@ -981,16 +1737,13 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - andre_lanna
   url: https://www.bdm.unb.br/handle/10483/33850
-  year: 2023
+  year: 2022
 - authors:
-  - João Rossi Paulo Rocha
+  - João Gabriel Rossi
+  - Paulo Vitor Coelho da Rocha
   title:
-    pt: Promoção da qualidade de vida no trabalho no setor público - proposta de uma
-      ferramenta web para apoiar a coleta de dados do inventário de avaliação de qualidade
-      de vida no trabalho (IA_QVT)
-    en: Promoting Quality of Life at Work in the Public Sector - Proposal of a Web
-      Tool to Support Data Collection for the Work-Life Quality Assessment Inventory
-      (IA_QVT)
+    pt: Promoção da qualidade de vida no trabalho no setor público - proposta de uma ferramenta web para apoiar a coleta de dados do inventário de avaliação de qualidade de vida no trabalho (IA_QVT)
+    en: Promoting quality of work life in the public sector - proposal of a web tool to support data collection for the quality of work life assessment inventory (IA_QVT)
   summary:
     pt: ''
     en: ''
@@ -1008,7 +1761,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - fabiana_mendes
   url: https://www.bdm.unb.br/handle/10483/34027
-  year: 2023
+  year: 2022
 - authors:
   - João Vitor Lopes de Farias
   title:
@@ -1061,11 +1814,11 @@ administrative and operational activities of the Brazilian Army."
   url: https://www.bdm.unb.br/handle/10483/36942
   year: 2023
 - authors:
-  - Lucas Naves Cauê Oliveira
+  - Cauê Mateus Oliveira
+  - Lucas Midlhey Cardoso Naves
   title:
-    pt: Universidade das Heurísticas - um jogo para o apoio a aprendizagem das heurísticas
-      de Nielsen
-    en: University of Heuristics - A Game to Support Learning Nielsen's Heuristics
+    pt: Universidade das Heurísticas - um jogo para o apoio a aprendizagem das heurísticas de Nielsen
+    en: University of Heuristics - a game to support learning Nielsen's heuristics
   summary:
     pt: ''
     en: ''
@@ -1084,9 +1837,10 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - fabiana_mendes
   url: https://www.bdm.unb.br/handle/10483/33859
-  year: 2023
+  year: 2022
 - authors:
   - Marcelo Victor de Sousa Silva
+  - Washington Bispo Arishita Júnior
   title:
     pt: FormsGeo - um aplicativo para pesquisas sociais com geolocalização
     en: FormsGeo - A Geolocation-Based App for Social Surveys
@@ -1110,12 +1864,11 @@ administrative and operational activities of the Brazilian Army."
   url: ''
   year: 2023
 - authors:
-  - Pedro Cella André Freitas
+  - André Aben-Athar de Freitas
+  - Pedro Vitor de Salles Cella
   title:
-    pt: Uma evolução do projeto Agromart - implantação individualizada e automatizada
-      de um ambiente de CSA
-    en: An Evolution of the Agromart Project - Individualized and Automated Deployment
-      of a CSA Environment
+    pt: Uma evolução do projeto Agromart - implantação individualizada e automatizada de um ambiente de CSA
+    en: An evolution of the Agromart project - individualized and automated deployment of a CSA environment
   summary:
     pt: ''
     en: ''
@@ -1136,12 +1889,10 @@ administrative and operational activities of the Brazilian Army."
   url: https://www.bdm.unb.br/handle/10483/35945
   year: 2023
 - authors:
-  - Renan Pinheiro
+  - Renan Cristyan Araujo Pinheiro
   title:
-    pt: Estudo de caso da melhoria do processo de verificação e validação de software
-      em um órgão do setor público
-    en: Case Study on the Improvement of the Software Verification and Validation
-      Process in a Public Sector Entity
+    pt: Estudo de caso da melhoria do processo de verificação e validação de software em um órgão do setor público
+    en: Case study on the improvement of the software verification and validation process in a public sector agency
   summary:
     pt: ''
     en: ''
@@ -1159,13 +1910,13 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - fabiana_mendes
   url: https://www.bdm.unb.br/handle/10483/34509
-  year: 2023
+  year: 2022
 - authors:
-  - Ícaro Oliveira Augusto Silva
+  - Augusto Moreno Vilarins Cardoso da Silva
+  - Ícaro Pereira de Oliveira
   title:
-    pt: Extração de informações sobre usabilidade a partir de comentários dos aplicativos
-      feitos na Play Store
-    en: Usability Information Extraction from App Comments on the Play Store
+    pt: Extração de informações sobre usabilidade a partir de comentários dos aplicativos feitos na Play Store
+    en: Usability information extraction from app comments on the Play Store
   summary:
     pt: ''
     en: ''
@@ -1184,7 +1935,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - cristiane_ramos
   url: https://www.bdm.unb.br/handle/10483/36164
-  year: 2023
+  year: 2021
 - authors:
   - Ítalo Alves Guimarães
   title:
@@ -1592,10 +2343,10 @@ administrative and operational activities of the Brazilian Army."
   url: ''
   year: 2022
 - authors:
-  - Ateldy Brasil Filho
+  - Ateldy Borges Brasil Filho
   title:
-    pt: Avaliação de gamificação - uma aplicação prática em uma empresa júnior
-    en: Gamification Evaluation - A Practical Application in a Junior Company
+    pt: 'Avaliação de gamificação : uma aplicação prática em uma empresa júnior'
+    en: 'Gamification evaluation: a practical application in a junior enterprise'
   summary:
     pt: ''
     en: ''
@@ -1614,12 +2365,12 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - cristiane_ramos
   url: https://www.bdm.unb.br/handle/10483/30633
-  year: 2022
+  year: 2021
 - authors:
-  - Caio Beleza
+  - Caio César de Almeida Beleza
   title:
     pt: Problemas em interfaces de software que induzem usuários ao erro e como evitá-los
-    en: Issues in Software Interfaces that Lead Users to Errors and How to Avoid Them
+    en: Issues in software interfaces that lead users to errors and how to avoid them
   summary:
     pt: ''
     en: ''
@@ -1637,13 +2388,12 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - fabiana_mendes
   url: https://www.bdm.unb.br/handle/10483/30367
-  year: 2022
+  year: 2021
 - authors:
-  - Filipe Silva
+  - Filipe Toyoshima Silva
   title:
-    pt: Estado da prática da manutenção de software no contexto de startups de software
-      em early stage
-    en: The State of Software Maintenance Practice in Early Stage Software Startups
+    pt: Estado da prática da manutenção de software no contexto de startups de software em early stage
+    en: State of practice of software maintenance in the context of early-stage software startups
   summary:
     pt: ''
     en: ''
@@ -1662,12 +2412,12 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - cristiane_ramos
   url: https://www.bdm.unb.br/handle/10483/30701
-  year: 2022
+  year: 2021
 - authors:
-  - Iolane Andrade
+  - Iolane Caroline Alves de Andrade
   title:
     pt: O uso de testes exploratórios - uma aplicação prática
-    en: The Use of Exploratory Testing - A Practical Application
+    en: The use of exploratory testing - a practical application
   summary:
     pt: ''
     en: ''
@@ -1686,7 +2436,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - ricardo_ajax
   url: https://www.bdm.unb.br/handle/10483/30378
-  year: 2022
+  year: 2020
 - authors:
   - Letícia Karla Soares Rodrigues de Araújo
   title:
@@ -1740,10 +2490,11 @@ administrative and operational activities of the Brazilian Army."
   url: ''
   year: 2022
 - authors:
-  - Lucas Macêdo Lucas Rodrigues
+  - Lucas Pereira de Andrade Macêdo
+  - Lucas Siqueira Rodrigues
   title:
     pt: Inovações tecnológicas na agricultura familiar - Agromart
-    en: Technological Innovations in Family Farming - Agromart
+    en: Technological innovations in family farming - Agromart
   summary:
     pt: ''
     en: ''
@@ -1762,12 +2513,13 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - andre_lanna
   url: https://www.bdm.unb.br/handle/10483/30718
-  year: 2022
+  year: 2021
 - authors:
   - Luiz Henrique Fernandes Zamprogno
+  - Victor Eduardo Araújo Ribeiro
   title:
-    pt: Chatbot gamificado para consulta de informações acadêmicas
-    en: Gamified Chatbot for Academic Information Inquiry
+    pt: "Latte - Um Chatbot Gamificado para Apoio na Produção de Artigos Científicos"
+    en: "Latte - A Gamified Chatbot to Support Scientific Article Writing"
   summary:
     pt: ''
     en: ''
@@ -1777,23 +2529,22 @@ administrative and operational activities of the Brazilian Army."
   journal_event: ''
   location: ''
   pages: ''
-  publisher: ''
+  publisher: Biblioteca Central da Universidade de Brasília
   tags:
   - gamification
   - ai
+  - nlp
   type: tcc
   program: curso_esw
   advisors:
   - sergio_freitas
-  url: ''
-  year: 2022
+  url: https://bdm.unb.br/handle/10483/43473
+  year: 2023
 - authors:
-  - Rafael Pinheiro
+  - Rafael Contessotto Bragança Pinheiro
   title:
-    pt: Uma abordagem para apoiar a inicialização de programas de melhoria de processo
-      de software a partir da priorização das expectativas de benefícios
-    en: An Approach to Support the Initiation of Software Process Improvement Programs
-      through the Prioritization of Benefit Expectations
+    pt: Uma abordagem para apoiar a inicialização de programas de melhoria de processo de software a partir da priorização das expectativas de benefícios
+    en: An approach to support the initiation of software process improvement programs through the prioritization of benefit expectations
   summary:
     pt: ''
     en: ''
@@ -1811,7 +2562,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - ricardo_ajax
   url: https://www.bdm.unb.br/handle/10483/30373
-  year: 2022
+  year: 2020
 - authors:
   - Rafael Santos Teodosio
   title:
@@ -1858,10 +2609,10 @@ administrative and operational activities of the Brazilian Army."
   url: https://www.bdm.unb.br/handle/10483/34017
   year: 2022
 - authors:
-  - Sannya Arvelos
+  - Sannya Santana de Arvelos
   title:
     pt: Planejamento de melhoria de processo de software baseado em análise de issues
-    en: Software Process Improvement Planning Based on Issue Analysis
+    en: Planning software process improvement based on issue analysis
   summary:
     pt: ''
     en: ''
@@ -1880,12 +2631,12 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - cristiane_ramos
   url: https://www.bdm.unb.br/handle/10483/30204
-  year: 2022
+  year: 2020
 - authors:
-  - Victor Eduardo Araujo Ribeiro
+  - Victor Eduardo Araújo Ribeiro
   title:
     pt: Chatbot gamificado para consulta de informações acadêmicas
-    en: Gamified Chatbot for Academic Information Inquiry
+    en: Gamified chatbot for academic information inquiry
   summary:
     pt: ''
     en: ''
@@ -1906,11 +2657,10 @@ administrative and operational activities of the Brazilian Army."
   url: ''
   year: 2022
 - authors:
-  - Vítor Xoteslem
+  - Vítor Cardoso Xoteslem
   title:
-    pt: Elaboração de estratégia de testes em equipe de voluntários geograficamente
-      distribuída
-    en: Developing a Testing Strategy in a Geographically Distributed Volunteer Team
+    pt: Elaboração de estratégia de testes em equipe de voluntários geograficamente distribuída
+    en: Elaboration of a testing strategy in a geographically distributed volunteer team
   summary:
     pt: ''
     en: ''
@@ -1929,7 +2679,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - fabiana_mendes
   url: https://www.bdm.unb.br/handle/10483/30626
-  year: 2022
+  year: 2021
 - authors:
   - Érico Maximiano Bandeira
   title:
@@ -2382,11 +3132,10 @@ administrative and operational activities of the Brazilian Army."
   url: ''
   year: 2021
 - authors:
-  - Ronyell Santos
+  - Ronyell Henrique dos Santos
   title:
-    pt: Utilização de operações de refatoração para aprimoramento de variabilidade
-      em sistemas de software
-    en: Using Refactoring Operations to Improve Variability in Software Systems
+    pt: Utilização de operações de refatoração para aprimoramento de variabilidade em sistemas de software
+    en: Using refactoring operations to improve variability in software systems
   summary:
     pt: ''
     en: ''
@@ -2405,7 +3154,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - andre_lanna
   url: https://www.bdm.unb.br/handle/10483/26362
-  year: 2021
+  year: 2020
 - authors:
   - Weiller Fernandes Pereira
   title:
@@ -2661,10 +3410,10 @@ administrative and operational activities of the Brazilian Army."
   url: http://repositorio2.unb.br/jspui/handle/10482/38687
   year: 2020
 - authors:
-  - Laércio Sousa Júnior
+  - Laércio Silva de Sousa Júnior
   title:
     pt: Determinando a taxa de autoria dentro de um projeto usando Git
-    en: Determining the Authorship Rate Within a Project Using Git
+    en: Determining the authorship rate within a project using Git
   summary:
     pt: ''
     en: ''
@@ -2683,12 +3432,12 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - andre_lanna
   url: https://www.bdm.unb.br/handle/10483/23055
-  year: 2020
+  year: 2018
 - authors:
-  - Victor Deon
+  - Victor Hugo Arnaud Deon
   title:
     pt: PGTBL - plataforma de gerenciamento de Team-Based Learning
-    en: PGTBL - Team-Based Learning Management Platform
+    en: PGTBL - Team-Based Learning management platform
   summary:
     pt: ''
     en: ''
@@ -2707,7 +3456,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - cristiane_ramos
   url: https://www.bdm.unb.br/handle/10483/23047
-  year: 2020
+  year: 2019
 - authors:
   - MOTA, V. F. S.
   - GOMES, R. L.
@@ -3001,19 +3750,18 @@ administrative and operational activities of the Brazilian Army."
   publisher: ''
   tags:
   - gamification
+  - software_architecture
   type: tcc
   program: curso_esw
   advisors:
-  - gamification
-  - software_architecture
   - sergio_freitas
   url: ''
   year: 2019
 - authors:
-  - aigo Gonçalves
+  - Iago Rodrigues Gonçalves
   title:
     pt: Apoio a promoção da visibilidade da dívida técnica
-    en: Support for Promoting Technical Debt Visibility
+    en: Support for promoting the visibility of technical debt
   summary:
     pt: ''
     en: ''
@@ -3032,13 +3780,13 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - andre_lanna
   url: https://www.bdm.unb.br/handle/10483/21579
-  year: 2019
+  year: 2018
 - authors:
-  - Luis Guimarães Jonathan Paiva
+  - Jonathan Nogueira Rufino Batista Paiva
+  - Luis Henrique Nunes Guimarães
   title:
-    pt: NotifiCar - aplicativo para monitoramento da situação dos automóveis de uma
-      cidade
-    en: NotifiCar - App for Monitoring the Status of Cars in a City
+    pt: NotifiCar - aplicativo para monitoramento da situação dos automóveis de uma cidade
+    en: NotifiCar - app for monitoring the status of cars in a city
   summary:
     pt: ''
     en: ''
@@ -3057,7 +3805,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - andre_lanna
   url: https://www.bdm.unb.br/handle/10483/21590
-  year: 2019
+  year: 2018
 - authors:
   - Nogueira, Teresinha de Jesus Araújo Magalhães
   - Melo, Lívia Veleda de Sousa e
@@ -4060,7 +4808,7 @@ administrative and operational activities of the Brazilian Army."
   - Yeltsin Suares Gama
   title:
     pt: Sistema de apoio ao aprendizado.
-    en: Learning Support System.
+    en: Learning support system.
   summary:
     pt: ''
     en: ''
@@ -4918,12 +5666,10 @@ administrative and operational activities of the Brazilian Army."
   url: ''
   year: 2015
 - authors:
-  - Igor Ramos
+  - Igor de Araújo Ramos
   title:
-    pt: Proposta de metodologia para criação de mapas em estudos de mapeamento sistemático
-      baseada em conhecimentos relacionados à ontologias
-    en: Proposal of a Methodology for Map Creation in Systematic Mapping Studies Based
-      on Knowledge Related to Ontologies
+    pt: Proposta de metodologia para criação de mapas em estudos de mapeamento sistemático baseada em conhecimentos relacionados à ontologias
+    en: Proposal of a methodology for creating maps in systematic mapping studies based on knowledge related to ontologies
   summary:
     pt: ''
     en: ''
@@ -4944,12 +5690,10 @@ administrative and operational activities of the Brazilian Army."
   url: https://www.bdm.unb.br/handle/10483/11334
   year: 2015
 - authors:
-  - Luciano Endo
+  - Luciano Hideaky de Macedo Endo
   title:
-    pt: Métricas de apoio a estimativa de esforço para o desenvolvimento de sistemas
-      de Business Intelligence
-    en: Support Metrics for Effort Estimation in the Development of Business Intelligence
-      Systems
+    pt: Métricas de apoio a estimativa de esforço para o desenvolvimento de sistemas de Business Intelligence
+    en: Support metrics for effort estimation in the development of Business Intelligence systems
   summary:
     pt: ''
     en: ''
@@ -4967,12 +5711,12 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - fabiana_mendes
   url: https://www.bdm.unb.br/handle/10483/9489
-  year: 2015
+  year: 2014
 - authors:
-  - Thiago Honorato
+  - Thiago Silveira Honorato
   title:
     pt: Uma proposta de método de escolha para sistemas CMSs
-    en: A Proposal for a Selection Method for CMS Systems
+    en: A proposal for a selection method for CMS systems
   summary:
     pt: ''
     en: ''
@@ -5017,12 +5761,10 @@ administrative and operational activities of the Brazilian Army."
   url: https://www.bdm.unb.br/handle/10483/9547
   year: 2015
 - authors:
-  - Victor Carvalho
+  - Victor Hugo Alves de Carvalho
   title:
-    pt: Análise de impacto do uso de técnicas de programação no desempenho de aplicações
-      AndroidTM
-    en: Impact Analysis of Programming Techniques on the Performance of AndroidTM
-      Applications
+    pt: Análise de impacto do uso de técnicas de programação no desempenho de aplicações AndroidTM
+    en: Impact analysis of programming techniques on the performance of AndroidTM applications
   summary:
     pt: ''
     en: ''
@@ -5070,12 +5812,10 @@ administrative and operational activities of the Brazilian Army."
   url: ''
   year: 2015
 - authors:
-  - Breno Cruz
+  - Breno Dantas Cruz
   title:
-    pt: Um mapeamento sistemático de métricas para metodologias ágeis Scrum, Kanban
-      e XP
-    en: A Systematic Mapping of Metrics for Agile Methodologies Scrum, Kanban, and
-      XP
+    pt: Um mapeamento sistemático de métricas para metodologias ágeis Scrum, Kanban e XP
+    en: A systematic mapping of metrics for agile methodologies Scrum, Kanban, and XP
   summary:
     pt: ''
     en: ''
@@ -5093,7 +5833,7 @@ administrative and operational activities of the Brazilian Army."
   advisors:
   - fabiana_mendes
   url: https://www.bdm.unb.br/handle/10483/7027
-  year: 2014
+  year: 2013
 - authors:
   - Giancarllo Soares
   title:
@@ -5219,10 +5959,10 @@ administrative and operational activities of the Brazilian Army."
   url: https://www.bdm.unb.br/handle/10483/7965
   year: 2014
 - authors:
-  - Ramaiane Silva
+  - Ramaiane Medeiros da Silva
   title:
     pt: Qualidade na modelagem de processos de software
-    en: Quality in Software Process Modeling
+    en: Quality in software process modeling
   summary:
     pt: ''
     en: ''
@@ -5266,12 +6006,10 @@ administrative and operational activities of the Brazilian Army."
   url: https://www.bdm.unb.br/handle/10483/7964
   year: 2014
 - authors:
-  - Antonio Silva Júnior
+  - Antonio Bezerra da Silva Júnior
   title:
-    pt: "Apoio ferramental ao processo de garantia da qualidade - QUASAR \x96 Qualidade\
-      \ de Software e Avaliação de Resultados"
-    en: "Tool Support for the Quality Assurance Process - QUASAR \x96 Software Quality\
-      \ and Results Evaluation"
+    pt: 'Apoio ferramental ao processo de garantia da qualidade : QUASAR - Qualidade de Software e Avaliação de Resultados'
+    en: 'Tool support for the quality assurance process: QUASAR - Software Quality and Results Assessment'
   summary:
     pt: ''
     en: ''
@@ -6081,8 +6819,8 @@ administrative and operational activities of the Brazilian Army."
 - authors:
   - Júlia Farias Sousa
   title:
-    pt: 'Análise sobre a percepção dos discentes quanto a utilização de EaD no curso de Engenharia de Software, FGA/UnB'
-    en: 'Analysis of Students Perceptions on the Use of Distance Learning in the Software Engineering Course, FGA/UnB'
+    pt: Análise sobre a percepção dos discentes quanto a utilização de EaD no curso de Engenharia de Software, FGA/UnB
+    en: Analysis of students perceptions on the use of distance learning in the Software Engineering course, FGA/UnB
   summary:
     pt: ''
     en: ''
@@ -6097,17 +6835,16 @@ administrative and operational activities of the Brazilian Army."
   - education
   - esw
   type: tcc
-  program: curso_esw2
+  program: curso_esw
   advisors:
   - george_marsicano
-  url: 
+  url: ''
   year: 2023
-
 - authors:
   - Rafael Berto Pereira
   title:
     pt: 'Da definição de orientações de engenharia de software ao uso complementar do ChatGPT: um Estudo de Caso das startups no Governo Federal'
-    en: 'From Defining Software Engineering Guidelines to the Complementary Use of ChatGPT: A Case Study of Startups in the Federal Government'
+    en: 'From defining software engineering guidelines to the complementary use of ChatGPT: a case study of startups in the Federal Government'
   summary:
     pt: ''
     en: ''
@@ -6122,17 +6859,16 @@ administrative and operational activities of the Brazilian Army."
   - digital_transformation
   - esw
   type: tcc
-  program: curso_esw2
+  program: curso_esw
   advisors:
   - george_marsicano
-  url: 
+  url: ''
   year: 2023
-
 - authors:
   - Luis Bruno Fidelis Gomes
   title:
     pt: 'Business Intelligence aplicada à saúde: painéis de monitoramento para profissionais de saúde da Rede de Atenção Psicossocial'
-    en: 'Business Intelligence Applied to Health: Monitoring Dashboards for Health Professionals in the Psychosocial Care Network'
+    en: 'Business Intelligence applied to health: monitoring dashboards for professionals in the Psychosocial Care Network'
   summary:
     pt: ''
     en: ''
@@ -6146,12 +6882,11 @@ administrative and operational activities of the Brazilian Army."
   tags:
   - ai
   type: tcc
-  program: curso_esw2
+  program: curso_esw
   advisors:
   - george_marsicano
-  url: 
+  url: ''
   year: 2023
-
 - authors:
   - José Augusto da Fonseca
   title:
@@ -6728,14 +7463,14 @@ administrative and operational activities of the Brazilian Army."
   url: https://bdm.unb.br/handle/10483/9273
   year: 2014
 - authors:
-  - Álvaro Henrique de S. Gouvea
-  - Luís Guilherme G. Lins
+  - Álvaro Henrique de Sousa Gouvea
+  - Luís Guilherme Gaboardi Lins
   title:
-    pt: "Utilização de Large Language Models no desenvolvimento de um chatbot multimodal para consultoria jurídico-trabalhista"
-    en: "Use of Large Language Models in the development of a multimodal chatbot for labor law consultancy"
+    pt: Utilização de Large Language Models no desenvolvimento de um chatbot multimodal para consultoria jurídico-trabalhista
+    en: Use of Large Language Models in the development of a multimodal chatbot for labor law consultancy
   summary:
-    pt: "O objetivo principal desse projeto é o desenvolvimento de um chatbot multimodal especializado em consultoria jurídico-trabalhista via aplicação web."
-    en: "The main objective of this project is the development of a multimodal chatbot specialized in labor law consultancy through a web application."
+    pt: O objetivo principal desse projeto é o desenvolvimento de um chatbot multimodal especializado em consultoria jurídico-trabalhista via aplicação web.
+    en: The main objective of this project is the development of a multimodal chatbot specialized in labor law consultancy through a web application.
   book_title: ''
   volume: ''
   doi_isbn: ''
@@ -6744,8 +7479,8 @@ administrative and operational activities of the Brazilian Army."
   pages: ''
   publisher: Biblioteca Central da Universidade de Brasília
   tags:
-  - ia
-  - pln
+  - ai
+  - nlp
   - machine_learning
   type: tcc
   program: curso_esw
@@ -6753,6 +7488,83 @@ administrative and operational activities of the Brazilian Army."
   - sergio_freitas
   url: https://bdm.unb.br/handle/10483/40493
   year: 2024
+- authors:
+  - Antonio Rangel Chaves
+  - Vitor Diniz Pagani Vieira Ribeiro
+  title:
+    pt: "Gamificação no ambiente virtual de aprendizagem Moodle: guia e ferramenta para criadores de conteúdo"
+    en: "Gamification in the Moodle virtual learning environment: guide and tool for content creators"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - gamification
+  - education
+  - active_learning
+  type: tcc
+  program: curso_esw
+  advisors:
+  - sergio_freitas
+  url: https://bdm.unb.br/handle/10483/43543
+  year: 2024
+- authors:
+  - Alexia Naara da Silva Cardoso
+  title:
+    pt: "Aplicativo tradutor de línguas indígenas: Munduruku"
+    en: "Indigenous Language Translator App: Munduruku"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - nlp
+  - ai
+  - social_software
+  type: tcc
+  program: curso_esw
+  advisors:
+  - sergio_freitas
+  - celia_higawa
+  url: ''
+  year: '2025/2'
+- authors:
+  - Miguel Matos Costa de Frias Barbosa
+  title:
+    pt: "Sistema de apoio à análise de processos organizacionais: Uma abordagem com inteligência artificial e controle de contexto"
+    en: "Support System for Organizational Process Analysis: An Approach with Artificial Intelligence and Context Control"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - ai
+  - machine_learning
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - sergio_freitas
+  url: ''
+  year: '2025/2'
 - authors:
   - Ana Júlia Mendes Santos
   - Maria Clara Oleari de Araújo
@@ -6781,3 +7593,1345 @@ administrative and operational activities of the Brazilian Army."
   advisors: []
   url: ''
   year: 2025
+- authors:
+  - Marcus Vinicius P. Martins
+  title:
+    pt: "OpenBatch: serviço de processamento em lote para nuvem privada"
+    en: "OpenBatch: batch processing service for private cloud"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  type: tcc
+  program: curso_esw
+  advisors:
+  - daniel_sundfeld
+  url: ''
+  year: 2025
+
+- authors:
+  - Sandro Leite Furtado
+  title:
+    pt: "Identificação de fatores adicionais de segurança e sua aplicabilidade na identidade gov.br"
+    en: "Identification of additional security factors and their applicability in the gov.br identity"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade de Brasília
+  tags:
+  - security
+  - digital_transformation
+  type: dissertation
+  program: curso_ppca
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2025
+
+- authors:
+  - Brenno Oliveira Silva
+  - Paulo Vitor Silva Abi Acl
+  title:
+    pt: "SUPER-R: Desenvolvimento de uma Solução Gamificada para a Disciplina de Engenharia de Requisitos"
+    en: "SUPER-R: Development of a Gamified Solution for the Requirements Engineering Course"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - gamification
+  - software_requirements
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2025
+
+- authors:
+  - Yuri Alves Bacarias
+  title:
+    pt: "Processo de Validação e Verificação de requisitos suportados por Modelos de Linguagem de Grande Escala"
+    en: "Requirements Validation and Verification Process Supported by Large Language Models"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_requirements
+  - ai
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2025
+
+- authors:
+  - Luana Souza Silva Torres
+  title:
+    pt: "Processo de desenvolvimento para projetos colaborativos: a experiência do Agromart"
+    en: "Development process for collaborative projects: the Agromart experience"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - social_software
+  - teamwork
+  type: tcc
+  program: curso_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2025
+
+- authors:
+  - Caio César Oliveira
+  title:
+    pt: "Desenvolvimento de uma Inteligência Artificial para Aprimoramento da Avaliação Individual em Disciplinas de Software na Universidade de Brasília"
+    en: "Development of an Artificial Intelligence for the Improvement of Individual Assessment in Software Courses at the University of Brasília"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - ai
+  - education
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2024
+
+- authors:
+  - Eduardo Miranda Roriz
+  - Ian Pereira de Souza Rocha
+  title:
+    pt: "Qualidade de dados em ambiente de big data: um mapeamento sistemático"
+    en: "Data quality in a big data environment: a systematic mapping"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_quality
+  - machine_learning
+  type: tcc
+  program: curso_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2024
+
+- authors:
+  - Itallo Cavalcante Gravina
+  title:
+    pt: "Portal de visualização e análise de dados de produção científica pela OpenAlex"
+    en: "Portal for visualization and analysis of scientific production data via OpenAlex"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - learning_analytics
+  type: tcc
+  program: curso_esw
+  advisors:
+  - daniel_sundfeld
+  url: ''
+  year: 2024
+
+- authors:
+  - Francisca de Fátima Araújo Lucena
+  - Mariana Guedes da Silva
+  title:
+    pt: "Detecção de fake news relacionadas à COVID-19 no Brasil"
+    en: "Detection of fake news related to COVID-19 in Brazil"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Instituto Federal de Brasília
+  tags:
+  - ai
+  type: tcc
+  program: curso_tsi_ifb
+  advisors:
+  - daniel_sundfeld
+  url: ''
+  year: 2023
+
+- authors:
+  - Almir José Malheiros Franco
+  - Guilherme Jesus Nunes
+  title:
+    pt: "Sistema para apoio e acompanhamento de trabalhos de conclusão de curso"
+    en: "System to support and track final course projects"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Instituto Federal de Brasília
+  tags:
+  - software_architecture
+  type: tcc
+  program: curso_tsi_ifb
+  advisors:
+  - daniel_sundfeld
+  url: ''
+  year: 2022
+
+- authors:
+  - Fabiana Luiza Vasconcelos Pfeilsticker Ribas
+  title:
+    pt: "Análise de acessibilidade para idosos em serviços e-Gov"
+    en: "Accessibility analysis for older adults in e-Gov services"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_quality
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2022
+
+- authors:
+  - Letícia Karla Soares Rodrigues de Araújo
+  - Amanda Emily M. de Menezes
+  title:
+    pt: "Previsão de evasão no ensino superior"
+    en: "Prediction of dropout in higher education"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - education
+  - learning_analytics
+  type: tcc
+  program: curso_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2022
+
+- authors:
+  - Levi Alves de Freitas Júnior
+  title:
+    pt: "Sistema de notificação de quedas através da computação em nuvem"
+    en: "Fall notification system through cloud computing"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Instituto Federal de Brasília
+  tags:
+  - software_architecture
+  type: tcc
+  program: curso_tsi_ifb
+  advisors:
+  - daniel_sundfeld
+  url: ''
+  year: 2021
+
+- authors:
+  - Gustavo Vieira Braz Gonçalves
+  - Luiz Guilherme S da Silva
+  title:
+    pt: "Desenvolvimento de uma solução de software para gestão de frotas, uma aplicação prática"
+    en: "Development of a software solution for fleet management, a practical application"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  type: tcc
+  program: curso_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2020
+
+- authors:
+  - Lucas Gomes Pereira
+  title:
+    pt: "Aplicação de Técnicas de Gamificação na Metodologia Team-Based Learning: Aplicando o Octalysis na Fase 1 do TBL"
+    en: "Applying Gamification Techniques to the Team-Based Learning Methodology: Applying Octalysis in TBL Phase 1"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - gamification
+  - active_learning
+  type: tcc
+  program: curso_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2020
+
+- authors:
+  - Rodrigo Rocha Gomes
+  title:
+    pt: "CUDA-Sankoff-Web: Uma ferramenta web para cálculo do alinhamento secundário estrutural"
+    en: "CUDA-Sankoff-Web: a web tool for structural secondary alignment calculation"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Instituto Federal de Brasília
+  tags:
+  - hpc
+  type: tcc
+  program: curso_tsi_ifb
+  advisors:
+  - daniel_sundfeld
+  url: ''
+  year: 2020
+
+- authors:
+  - Eneias Paulo de Oliveira
+  title:
+    pt: "PA-Star-Web: uma arquitetura em nuvem para obtenção do alinhamento múltiplo ótimo de sequências biológicas"
+    en: "PA-Star-Web: a cloud architecture for obtaining optimal multiple alignment of biological sequences"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Instituto Federal de Brasília
+  tags:
+  - hpc
+  type: tcc
+  program: curso_tsi_ifb
+  advisors:
+  - daniel_sundfeld
+  url: ''
+  year: 2020
+
+- authors:
+  - Vinícius Maia de Brito
+  title:
+    pt: "Proposta de um conjunto de competências para o Product Owner"
+    en: "Proposal of a Set of Competencies for the Product Owner"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_requirements
+  - teamwork
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2014
+
+- authors:
+  - Giancarllo Helion Frota Soares
+  title:
+    pt: "Proposta de um conjunto de competências para o Time Ágil"
+    en: "Proposal of a Set of Competencies for the Agile Team"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - teamwork
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2014
+
+- authors:
+  - Tiago dos Santos Querubim
+  title:
+    pt: "Proposta de um conjunto de competências para um Scrum Master"
+    en: "Proposal of a Set of Competencies for a Scrum Master"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - teamwork
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2014
+
+- authors:
+  - Maylon Feliz Brito
+  title:
+    pt: "Transferência de conhecimento em processos de software nas contratações de fábricas pelo governo federal brasileiro"
+    en: "Knowledge Transfer in Software Processes in Software Factory Contracting by the Brazilian Federal Government"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2013
+
+- authors:
+  - Artur Potiguara Carvalho
+  title:
+    pt: "Inovação Organizacional em Engenharia de Software, no Contexto de Empresas Públicas"
+    en: "Organizational Innovation in Software Engineering in the Context of Public Companies"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - digital_transformation
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2013
+
+- authors:
+  - Tiago Gomes Pereira
+  title:
+    pt: "Definição de Critérios de Aceite Baseados em Métricas de Qualidade de Produto para um Processo Ágil de Gestão de Demandas de Desenvolvimento de Software"
+    en: "Definition of Acceptance Criteria Based on Product Quality Metrics for an Agile Software Development Demand Management Process"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_quality
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2013
+
+- authors:
+  - Eduardo Pinto Barbosa
+  title:
+    pt: "Validade em Processos de Contratação de Fábrica de Software Baseado em Princípios Ágeis"
+    en: "Validity in Software Factory Contracting Processes Based on Agile Principles"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - digital_transformation
+  - software_quality
+  type: tcc
+  program: curso_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2013
+
+- authors:
+  - Caio Appelt Resende
+  title:
+    pt: "Re-estruturação da Ferramenta Eficiente visando a adequação à notação BPMN"
+    en: "Restructuring the Eficiente Tool Aiming at Adapting It to BPMN Notation"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Biblioteca Central da Universidade de Brasília
+  tags:
+  - software_architecture
+  - digital_transformation
+  type: tcc
+  program: curso_cc_unb
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2012
+
+- authors:
+  - Kleiber Damian de Souza
+  title:
+    pt: "Avaliação da Maturidade em Gestão da Segurança da Informação de uma Organização da Administração Pública Federal"
+    en: "Assessment of Information Security Management Maturity in a Federal Public Administration Organization"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade de Brasília
+  tags:
+  - security
+  type: specialization
+  program: curso_espunb3
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2014
+
+- authors:
+  - Maurício de Almeida Silva
+  title:
+    pt: "Proposta de Implantação de Melhores Práticas de Segurança de Informação na Metodologia de Desenvolvimento de Sistemas, em Órgão da Administração Pública Federal"
+    en: "Proposal for Implementing Information Security Best Practices in a Systems Development Methodology in a Federal Public Administration Agency"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade de Brasília
+  tags:
+  - security
+  type: specialization
+  program: curso_espunb3
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2014
+
+- authors:
+  - Larissa de Medeiros Torres Santos
+  title:
+    pt: "Como Comunicar Erros de Segurança da Informação e Comunicações de um Software Crítico em uma Instituição Pública Federal de Ensino Superior"
+    en: "How to Communicate Information and Communications Security Errors in Critical Software at a Federal Public Higher Education Institution"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade de Brasília
+  tags:
+  - security
+  type: specialization
+  program: curso_espunb3
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2014
+
+- authors:
+  - Eduardo de Oliveira e Soares
+  title:
+    pt: "Proposta de uso de técnicas de persuasão no tratamento de resistências no processo de engenharia de requisitos de um software"
+    en: "Proposal for Using Persuasion Techniques to Address Resistance in the Software Requirements Engineering Process"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_requirements
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2010
+
+- authors:
+  - Otávio Gomes Lumba de Oliveira
+  title:
+    pt: "Processo de Gerenciamento de Projetos: uma abordagem utilizando PMBOK e Scrum, alinhado à realidade da Empresa Giro Novo"
+    en: "Project Management Process: an approach using PMBOK and Scrum aligned with the reality of Giro Novo Company"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_architecture
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2010
+
+- authors:
+  - Bruno Henrique dos Santos Rebello
+  title:
+    pt: "Uma proposta de princípios fundamentais da Engenharia de Requisitos aplicáveis a Métodos Ágeis"
+    en: "A Proposal of Fundamental Requirements Engineering Principles Applicable to Agile Methods"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_requirements
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2010
+
+- authors:
+  - Caroline Berta
+  title:
+    pt: "Uma proposta de garantia da qualidade de software através da verificação de roteiros de teste"
+    en: "A Proposal for Software Quality Assurance Through the Verification of Test Scripts"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  - verification_validation_testing
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2010
+
+- authors:
+  - Hígor Estevan do Carmo Rodrigues
+  title:
+    pt: "Proposta de Processo de Teste Baseado no CMMI Maturity Level 3"
+    en: "Proposal for a Test Process Based on CMMI Maturity Level 3"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  - verification_validation_testing
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2010
+
+- authors:
+  - Jairo Nóbrega Martínez
+  title:
+    pt: "Barreiras que dificultam o uso de processos de desenvolvimento de software, em Empresas conservadoras"
+    en: "Barriers That Hinder the Use of Software Development Processes in Conservative Companies"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2010
+
+- authors:
+  - Jeysel de Paula Martins
+  title:
+    pt: "Proposta de atividades, baseadas no RUP, para solução de problemas atuais da fábrica de software da UCB"
+    en: "Proposal of RUP-Based Activities to Solve Current Problems in the UCB Software Factory"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_requirements
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2010
+
+- authors:
+  - Alexander Estevão S. Campos
+  title:
+    pt: "Uso de wikis como ferramenta colaborativa na Gestão do Conhecimento"
+    en: "Use of Wikis as a Collaborative Tool in Knowledge Management"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - soft_skills
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2009
+
+- authors:
+  - Renata Braz Ferraz
+  title:
+    pt: "A utilização de estratégias conversacionais durante a elicitação de requisitos"
+    en: "The Use of Conversational Strategies During Requirements Elicitation"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_requirements
+  - soft_skills
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2009
+
+- authors:
+  - Élcio Gomes P. Martins
+  title:
+    pt: "Comunicação como fator primordial no gerenciamento de projetos"
+    en: "Communication as a Primary Factor in Project Management"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - soft_skills
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2009
+
+- authors:
+  - Gustavo Brito dos Santos
+  title:
+    pt: "Comparativo do MPS.BR com a metodologia e acompanhamento de projetos da ACTI"
+    en: "Comparison of MPS.BR with the ACTI Project Methodology and Monitoring"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2009
+
+- authors:
+  - Célia dos Santos de Oliveira
+  title:
+    pt: "Proposta de Melhoria no Desenvolvimento de Requisitos com base no modelo MPS.Br"
+    en: "Proposal for Improvement in Requirements Development Based on the MPS.Br Model"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_requirements
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2008
+
+- authors:
+  - Gleisse Amalia Nogueira
+  title:
+    pt: "Proposta para a melhoria da Gerência de Requisitos de uma Coordenação de Desenvolvimento de Sistemas"
+    en: "Proposal to Improve Requirements Management in a Systems Development Coordination"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_requirements
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - george_marsicano
+  url: ''
+  year: 2008
+
+- authors:
+  - Antônio Henrique Braz Filho
+  title:
+    pt: "Proposta de melhoria de um produto de software apoiada na avaliação de características de qualidade"
+    en: "Proposal for Improving a Software Product Supported by the Evaluation of Quality Characteristics"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2010
+
+- authors:
+  - Igor Marrocos
+  title:
+    pt: "Análise e resolução de causas de problemas: propondo melhorias de processos de software"
+    en: "Analysis and Resolution of Problem Causes: Proposing Improvements to Software Processes"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2010
+
+- authors:
+  - Maria Eva Macedo
+  title:
+    pt: "Proposta de melhoria do processo de gerência de projetos para uma fábrica de software"
+    en: "Proposal for Improving the Project Management Process for a Software Factory"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2010
+
+- authors:
+  - Diogo Alves Miranda
+  title:
+    pt: "Proposta de melhoria de um processo de manutenção"
+    en: "Proposal for Improving a Maintenance Process"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2010
+
+- authors:
+  - Nívia C. Queiroz
+  title:
+    pt: "Aplicação de um método para Engenharia Reversa em sistemas legados"
+    en: "Application of a Method for Reverse Engineering in Legacy Systems"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_architecture
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2010
+
+- authors:
+  - Diego J. Macêdo
+  title:
+    pt: "Uso do GQM para Avaliar a Complexidade de Manutenção de Sistemas Legados"
+    en: "Using GQM to Evaluate the Maintenance Complexity of Legacy Systems"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2009
+
+- authors:
+  - Leonardo Lima de Menezes
+  title:
+    pt: "Uma Pesquisa Sobre a Prática da Atividade de Validação dos Requisitos nas Empresas"
+    en: "A Study on the Practice of the Requirements Validation Activity in Companies"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_requirements
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2009
+
+- authors:
+  - Pauliane Alves de Paula
+  title:
+    pt: "Proposta de associação de um Processo de Desenvolvimento Ágil ao uso de Ferramenta CASE"
+    en: "Proposal for Associating an Agile Development Process with the Use of a CASE Tool"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_architecture
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2009
+
+- authors:
+  - Rafael Sermenho Pedroso
+  title:
+    pt: "Avaliação de sistemas legados em Delphi"
+    en: "Evaluation of Legacy Systems in Delphi"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2009
+
+- authors:
+  - Renato de Oliveira Silva
+  title:
+    pt: "Mapeamento e proposta de melhoria para um processo de manutenção de software"
+    en: "Mapping and Proposal for Improvement of a Software Maintenance Process"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2009
+
+- authors:
+  - Tiago Souza Fraga
+  title:
+    pt: "Proposta de um processo de desenvolvimento de software para pequenas equipes"
+    en: "Proposal of a Software Development Process for Small Teams"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Universidade Católica de Brasília
+  tags:
+  - software_architecture
+  type: specialization
+  program: curso_espucb_esw
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2008
+
+- authors:
+  - Márcios Messias Fernandes da Silva
+  title:
+    pt: "Uso da APF para medição de tamanho de sistemas do tipo workflow"
+    en: "Use of Function Point Analysis to Measure the Size of Workflow Systems"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Faculdades Integradas do UniCESP
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espunicesp_psi
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2007
+
+- authors:
+  - Carlos Renato dos Santos Ramos
+  title:
+    pt: "Estimativa de esforço para manutenção de software: uma investigação preliminar"
+    en: "Effort Estimation for Software Maintenance: A Preliminary Investigation"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Faculdades Integradas do UniCESP
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espunicesp_psi
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2006
+
+- authors:
+  - Lúcia Freire Vieira
+  - Janaína Almeida de Deus
+  title:
+    pt: "Documentação essencial para avaliação de sistemas legados: um estudo preliminar"
+    en: "Essential Documentation for Evaluating Legacy Systems: A Preliminary Study"
+  summary:
+    pt: ''
+    en: ''
+  book_title: ''
+  volume: ''
+  doi_isbn: ''
+  journal_event: ''
+  location: ''
+  pages: ''
+  publisher: Faculdades Integradas do UniCESP
+  tags:
+  - software_quality
+  type: specialization
+  program: curso_espunicesp_psi
+  advisors:
+  - cristiane_ramos
+  url: ''
+  year: 2006
